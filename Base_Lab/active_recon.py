@@ -15,7 +15,13 @@ import time
 import requests
 import os
 
-
+# UIX
+from alive_progress.styles import showtime
+from about_time import about_time
+import tqdm
+from tqdm import tqdm
+from tqdm.notebook import tqdm as nt
+from alive_progress import alive_bar
 
 # gnome-terminal <- cmd for opening new terminal
 
@@ -102,7 +108,8 @@ class Active_Recon_():
                 print("[THIS MIGHT TAKE SOME TIME, PATIENCE IS KEY..]")
                 t_1 = time.time()
                 ports_ = ""
-                ports_ = self.NM.og_scan(typ_, target_, prof_dir, flags_, "params_")
+                with alive_bar(1000) as bar:
+                    ports_ = self.NM.og_scan(typ_, target_, prof_dir, flags_, "params_")
                 t_2 = time.time()
                 tot_ = t_2 - t_1
                 tot_i = int(tot_)

@@ -18,6 +18,7 @@ import os
 from alive_progress.styles import showtime
 from about_time import about_time
 import tqdm
+from tqdm import tqdm
 
 
 
@@ -77,7 +78,10 @@ class TestCase_0():
     def start_target_creation(self, f_name):
         try:
             set_tar_type = "_"
-            print("\n----------------------------\n[Let's Get Some Basic Details on Your Target]\n----------------------------\n")
+            print("\n\
+                --------------------------------------------\n\
+                [Let's Get Some Basic Details on Your Target]\n\
+                --------------------------------------------\n")
             while True:
                 #f_name  = input("[FOLDER_NAME]: ")
                 print(">> First, We need to know if your target is a URL or an IPv4.. \n (This will help with the order of operations)\n[.     ]")

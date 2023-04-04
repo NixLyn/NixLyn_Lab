@@ -1,6 +1,6 @@
 # TO BE CORRECTED
 
-# ─$ gnome-terminal -- bash -c "python3 da_bust.py l_1.com,l_2.net,l_3.what  file_; exec bash"
+# ─$ gnome-terminal -- bash -c "python3 da_bust.py profiles_/test_2/subs_.txt profiles_/test_2  file_; exec bash"
 
 
 import sys
@@ -21,14 +21,7 @@ def buster_uri(uri_, prof_dir):
 
 
         try:
-            loc_ = prof_dir+f"/busts_{uri_}/sub_busts/"
-            os.mkdir(loc_)
-        except Exception as e:
-            print(f"[DIR READY]:[{loc_}]:[{str(e)}]")
-            pass
-
-        try:
-            local_ = prof_dir+f"/busts_{uri_}/sub_busts/subs.txt"
+            local_ = prof_dir+f"/busts_{uri_}/sub_bust.txt"
             os.mknod(local_)
         except Exception as e:
             print(f"[DIR READY]:[{local_}]:[{str(e)}]")
@@ -52,7 +45,9 @@ def buster_uri(uri_, prof_dir):
 def da_subs_buster(sub_list, prof_dir):
     try:
         if len(sub_list) > 1:
-            for i, p_ in enumerate(sub_list):
+            for i, ps_ in enumerate(sub_list):
+                # ? REMOVE UNWANTED CHARACTERS FROM STRING
+                p_ = ps_.translate( { ord(i): None for i in "['']\n"} )
                 print(f"[BUSTING]:[{str(i)}]:[{str(p_)}]")
                 buster_uri(str(p_), prof_dir)
             # ? SAVE THE PROBED SUB DOMAINS
@@ -64,13 +59,6 @@ def da_subs_buster(sub_list, prof_dir):
 
 
 # ? RETRIEVE LIST
-def clean_data(data, delim):
-    data = data.replace("'", "")
-    data = data.replace("\n", "")
-    n_data = data[2:-2]
-    n_list = n_data.split(str(delim))
-    return n_list
-
 def read_file(file_name, delim):
     if file_name:
         try:
@@ -80,14 +68,11 @@ def read_file(file_name, delim):
                 print("[FILE_READ]")
                 time.sleep(2)
                 print(f"{data}")
-
-                time.sleep(2)
-                return (clean_data(str(data), delim))
+                time.sleep(4)
+                return str(data).split(delim)
         except Exception as e:
             print("ERROR_READING_FILE", str(e))
-            return "ERROR_READING_FILE"
-
-
+            return "E"
 
 
 print("\n")
@@ -99,25 +84,23 @@ print("[(this terminal will NOT exit on it's own..)]")
 
 
 time.sleep(1.5)
+time.sleep(1.5)
+dir_ = str(sys.argv[1])
+print(f"[PROF_DIR]:[{dir_}]")
 
 # MUST BE STR -> seperated by ','
-sub_file = str(sys.argv[1])
-print(f"[SUB_FILE]:[{sub_file}]")
-
-
-
+sub_file = dir_+"/subs_.txt"
 sub_list = read_file(sub_file, ",")
 
 print("[SUB_LIST]:")
 for i, val_ in enumerate(sub_list):
     print(f"~[{str(i)}]:[{str(val_)}]")
 
-time.sleep(3)
 
-print(f"[PROF_DIR]:[{str(sys.argv[2])}]")
+time.sleep(1.5)
+print(f"[LEN_lIST]:[{str(len(sub_list))}]")
 
-prof_dir = str(sys.argv[2])
-da_subs_buster(sub_list, prof_dir)
+da_subs_buster(sub_list, dir_)
 
 
 

@@ -65,7 +65,7 @@ class NetMap():
                 print(f"[FLAGS]:[{flags_}]")
             to_run      = "nmap -A "+flags_+" "+host_
             print(f"[RUNNING]:[> {to_run} <]")
-            nmap_return = subprocess.getoutput(to_run, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            nmap_return = subprocess.getoutput(to_run)
             self.FM.save_scan(file_dir, f"nmap_scan_{type_}.csv", nmap_return)
             print("[NET_MAP]:[SAVED]")
             tcp_ = self.get_tcp(nmap_return)

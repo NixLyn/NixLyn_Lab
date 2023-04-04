@@ -13,6 +13,15 @@ import textwrap
 import requests
 import os
 
+# UIX
+from alive_progress import alive_bar
+from alive_progress.styles import showtime
+from about_time import about_time
+import tqdm
+from tqdm import tqdm
+from tqdm.notebook import tqdm as nt
+
+
 
 # ! USES:
 # ! ~ AMASS
@@ -22,8 +31,6 @@ class The_Doms_():
     def __init__(self, **kw):
         super(The_Doms_, self).__init__(**kw)
         self.FM             = File_Man()
-
-
 
     # ? OBSOLETE, BUT EDUCATIONAL
     def mass_thread_(self, to_run):
@@ -38,8 +45,7 @@ class The_Doms_():
         except Exception as e:
             print(f"[E]:[THE_DOMS]:[AMASS_THREAD]:[{str(e)}]")
 
-
-    # @ CHANGE IP FOR EACH PROBE
+    # @ CHANGE IP FOR EACH PROBE .. for future things
     def set_tor_(self,  uri_):
         try:
             with TorRequest() as tr:
@@ -58,11 +64,7 @@ class The_Doms_():
             print(f"[E]:[{str(e)}]")
             return "ERROR"
 
-
-
-
     # TODO 
-        # @ GoBuster [URL] Clean Up
         # @ GoBuster [IP] 
 
     # ? GoBuster -> IP_
@@ -86,12 +88,29 @@ class The_Doms_():
             print(f"[E]:[THE_DOMS]:[BUSTER_]:[{str(e)}]")
 
 
-
-
-
-
-# ! TESTING TQDM PROGRESS BARR
-
+    # ? TEST IF SUB_DOMAIN IS ACTIVE
+    def clear_subs_(self, sub_list):
+        try:
+            ret_list = []
+            with alive_bar as bar:
+                for j, sub_ in enumerate(sub_list):
+                    to_req = "https://"+str(sub_)
+                    print(f"\n~[{j}]:[{to_req}]")
+                    # ? DO A GET REQUEST TO TEST ACTIVITY
+                    try:
+                        r = requests.get(to_req, timeout=5)
+                        if r:
+                            if "404" not in str(r):
+                                print(f"[+]:[{sub_}]")
+                                ret_list.append(str(sub_))
+                            else:
+                                print("[NOT_ACTIVE]")
+                    except Exception as e:
+                        print(f"[-]:[REQUEST_FAILED]:[FOR]:[{str(sub_)}]")
+                    bar()
+            return ret_list
+        except Exception as e:
+            print(f"[E]:[THE_DOMS]:[CLEAR_SUBS]:[{str(e)}]")
 
     # ? CHECK ACTIVE SUBS - URL_
     def check_sub_act(self, sub_list):
@@ -99,7 +118,8 @@ class The_Doms_():
             ret_list = []
             for j, sub_ in enumerate(sub_list):
                 print(f"~[{j}]:[{str(sub_)}]")
-                time.sleep(0.05)
+                time.sleep(0.01)
+            print(f"[TOTAL_SUBS]:[{str(len(sub_list))}]")
             time.sleep(0.8)
             print("[SO NOW WE HAVE THIS LIST..]")
             time.sleep(0.8)
@@ -121,23 +141,7 @@ class The_Doms_():
             time.sleep(1.5)
             re_ = input("[CONTINUE..?]")
 
-
-
-            for j, sub_ in enumerate(sub_list):
-                to_req = "https://"+str(sub_)
-                print(f"\n~[{j}]:[{to_req}]")
-                # ? DO A GET REQUEST TO TEST ACTIVITY
-                try:
-                    r = requests.get(to_req, timeout=5)
-                    if r:
-                        print(f"~[RET_]:[{str(r)}]")
-                        if "404" not in str(r):
-                            print(f"[ADDING]:[{sub_}]:[TO ACTIVE LIST]")
-                            ret_list.append(str(sub_))
-                        else:
-                            print("[NOT_ACTIVE]")
-                except Exception as e:
-                    print(f"[-]:[REQUEST_FAILED]:[{str(e)}]")
+            ret_list = self.clear_subs_(sub_list)
 
             time.sleep(0.5)
             print(f"\n[TOTAL ACTIVE SUBS FOUND]:[{str(len(ret_list))}]\n")
@@ -182,10 +186,13 @@ class The_Doms_():
             print(">> subfinder -d <url> -silent")
             to_run_ = f"subfinder -d {tar_} -silent"
             print(f"[RUNNING]:[>{to_run_}<]")
+            print("[THIS MIGHT TAKE A MINUTE OR 2...]")
             t_1 = time.time()
             try:
-                da_subs = ""
-                da_subs = subprocess.getoutput(to_run_)
+                with alive_bar(1000) as bar:
+                    da_subs = ""
+                    da_subs = subprocess.getoutput(to_run_)
+                    bar()
             except Exception as e:
                 print(f"[E]:[SUBFINDER]:[SUB_PROCESS]:[>{str(e)}<]")
                 time.sleep(5)
@@ -193,6 +200,7 @@ class The_Doms_():
             tot_ = t_2 - t_1
             tot_i = int(tot_)
             print(f"[THAT TOOK]:[{str(tot_i)} seconds]")
+            time.sleep(1.5)
             if da_subs:
                 print("[LET'S SEE WHAT WE FOUND]:")
                 subs_list = da_subs.split("\n")
@@ -206,9 +214,8 @@ class The_Doms_():
                 print("[(The terminal will NOT close by itself... but the code will terminate once completed)]")
                 print("[(ToDo: add loading bar using alive-progress)]")
                 cont_ = input("[CONTINUE..?]")
-                sub_file = prof_dir+"/subs_.csv"
                 try:
-                    to_term = f"gnome-terminal -- bash -c 'python3 da_bust.py {sub_file}  {prof_dir}; exec bash'"
+                    to_term = f"gnome-terminal -- bash -c 'python3 da_bust.py {prof_dir}; exec bash'"
                     print("[(to open a seperate terminal and run a cmd we use: )]")
                     print(to_term)
                     os.system(to_term)
@@ -235,9 +242,9 @@ class The_Doms_():
         try:
             os.system('cls||clear')
             print("\n")
-            print("@ ! @ @ @ @ @ @ @ ! @ ")
+            print("@ ! @/@/@/@/@/@/@ ! @ ")
             print("@ !  SUBS & DIRS  ! @ ")
-            print("@ ! @ @ @ @ @ @ @ ! @ ")
+            print("@ ! @/@/@/@/@/@/@ ! @ ")
             print("\n")
 
             if "URL" in typ_:
@@ -246,7 +253,6 @@ class The_Doms_():
                 ret_ = sub_list = self.da_mass(prof_dir, target_, typ_)
                 if "DONE" in ret_:
                     print("[Back to ReconRoom]")
-
                 t_2 = time.time()
                 tot_ = t_2 - t_1
                 tot_i = int(tot_)
@@ -259,7 +265,6 @@ class The_Doms_():
                 tot_ = t_2 - t_1
                 tot_i = int(tot_)
                 print(f"[THAT TOOK]:[{str(tot_i)} seconds]")
-
             return "DONE"
         except Exception as e:
             print(f"[E]:[THE_DOMS]:[START_FUNC]:[{str(e)}]")
