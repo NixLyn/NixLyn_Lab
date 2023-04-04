@@ -1,0 +1,11 @@
+   0   nop/aarch64/simple      Simple
+   1   nop/armle/simple        Simple
+   2   nop/cmd/generic         Generic Command Nop Generator
+   3   nop/mipsbe/better       Better
+   4   nop/php/generic         PHP Nop Generator
+   5   nop/ppc/simple          Simple
+   6   nop/sparc/random        SPARC NOP Generator
+   7   nop/tty/generic         TTY Nop Generator
+   8   nop/x64/simple          Simple
+   9   nop/x86/opty2           Opty2
+   10  nop/x86/single_byte     Single Byte

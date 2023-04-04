@@ -1,0 +1,45 @@
+encoder/x86/add_sub                         Add/Sub Encoder
+encoder/x86/alpha_mixed                     Alpha2 Alphanumeric Mixedcase Encoder
+encoder/x86/unicode_mixed                   Alpha2 Alphanumeric Unicode Mixedcase Encoder
+encoder/x86/unicode_upper                   Alpha2 Alphanumeric Unicode Uppercase Encoder
+encoder/x86/alpha_upper                     Alpha2 Alphanumeric Uppercase Encoder
+encoder/x86/avoid_utf8_tolower              Avoid UTF8/tolower
+encoder/x86/avoid_underscore_tolower        Avoid underscore/tolower
+encoder/x86/bmp_polyglot                    BMP Polyglot
+encoder/cmd/brace                           Bash Brace Expansion Command Encoder
+encoder/x86/bloxor                          BloXor - A Metamorphic Block Based XOR Encoder
+encoder/cmd/ifs                             Bourne ${IFS} Substitution Command Encoder
+encoder/mipsbe/byte_xori                    Byte XORi Encoder
+encoder/mipsle/byte_xori                    Byte XORi Encoder
+encoder/x86/context_cpuid                   CPUID-based Context Keyed Payload Encoder
+encoder/x86/call4_dword_xor                 Call+4 Dword XOR Encoder
+encoder/x64/xor_dynamic                     Dynamic key XOR Encoder
+encoder/x86/xor_dynamic                     Dynamic key XOR Encoder
+encoder/cmd/echo                            Echo Command Encoder
+encoder/cmd/generic_sh                      Generic Shell Variable Substitution Command Encoder
+encoder/x64/xor_context                     Hostname-based Context Keyed Payload Encoder
+encoder/x86/jmp_call_additive               Jump/Call XOR Additive Feedback Encoder
+encoder/x86/nonalpha                        Non-Alpha Encoder
+encoder/x86/nonupper                        Non-Upper Encoder
+encoder/php/base64                          PHP Base64 Encoder
+encoder/ppc/longxor                         PPC LongXOR Encoder
+encoder/ppc/longxor_tag                     PPC LongXOR Encoder
+encoder/cmd/perl                            Perl Command Encoder
+encoder/x86/shikata_ga_nai                  Polymorphic XOR Additive Feedback Encoder
+encoder/cmd/powershell_base64               Powershell Base64 Command Encoder
+encoder/x86/service                         Register Service
+encoder/ruby/base64                         Ruby Base64 Encoder
+encoder/sparc/longxor_tag                   SPARC DWORD XOR Encoder
+encoder/x86/single_static_bit               Single Static Bit
+encoder/x86/countdown                       Single-byte XOR Countdown Encoder
+encoder/x86/opt_sub                         Sub Encoder (optimised)
+encoder/generic/none                        The "none" Encoder
+encoder/generic/eicar                       The EICAR Encoder
+encoder/x86/fnstenv_mov                     Variable-length Fnstenv/mov Dword XOR Encoder
+encoder/mipsbe/longxor                      XOR Encoder
+encoder/mipsle/longxor                      XOR Encoder
+encoder/x64/xor                             XOR Encoder
+encoder/x64/zutto_dekiru                    Zutto Dekiru
+encoder/cmd/printf_php_mq                   printf(1) via PHP magic_quotes Utility Command Encoder
+encoder/x86/context_stat                    stat(2)-based Context Keyed Payload Encoder
+encoder/x86/context_time                    time(2)-based Context Keyed Payload Encoder

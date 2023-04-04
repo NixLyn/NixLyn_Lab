@@ -1,0 +1,1206 @@
+auxiliary/dos/http/cable_haunt_websocket_dos                            "Cablehaunt" Cable Modem WebSocket DoS
+auxiliary/admin/2wire/xslt_password_reset                               2Wire Cross-Site Request Forgery Password Reset Vulnerability
+auxiliary/dos/http/3com_superstack_switch                               3Com SuperStack Switch Denial of Service
+auxiliary/dos/scada/igss9_dataserver                                    7-Technologies IGSS 9 IGSSdataServer.exe DoS
+auxiliary/scanner/http/a10networks_ax_directory_traversal               A10 Networks AX Loadbalancer Directory Traversal
+auxiliary/scanner/snmp/aix_version                                      AIX SNMP Scanner Auxiliary Module
+auxiliary/spoof/arp/arp_poisoning                                       ARP Spoof
+auxiliary/scanner/discovery/arp_sweep                                   ARP Sweep Local Network Discovery
+auxiliary/scanner/snmp/sbg6580_enum                                     ARRIS / Motorola SBG6580 Cable Modem SNMP Enumeration Module
+auxiliary/gather/avtech744_dvr_accounts                                 AVTECH 744 DVR Account Information Retrieval
+auxiliary/scanner/http/wp_abandoned_cart_sqli                           Abandoned Cart for WooCommerce SQLi Scanner
+auxiliary/scanner/http/accellion_fta_statecode_file_read                Accellion FTA 'statecode' Cookie Arbitrary File Read
+auxiliary/admin/dcerpc/cve_2022_26923_certifried                        Active Directory Certificate Services (ADCS) privilege escalation (Certifried)
+auxiliary/scanner/http/adobe_xml_inject                                 Adobe XML External Entity Injection
+auxiliary/gather/advantech_webaccess_creds                              Advantech WebAccess 8.1 Post Authentication Credential Collector
+auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli                Advantech WebAccess DBVisitor.dll ChartThemeConfig SQL Injection
+auxiliary/scanner/http/advantech_webaccess_login                        Advantech WebAccess Login
+auxiliary/gather/alienvault_iso27001_sqli                               AlienVault Authenticated SQL Injection Arbitrary File Read
+auxiliary/gather/alienvault_newpolicyform_sqli                          AlienVault Authenticated SQL Injection Arbitrary File Read
+auxiliary/admin/http/allegro_rompager_auth_bypass                       Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Authentication Bypass
+auxiliary/scanner/http/allegro_rompager_misfortune_cookie               Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Scanner
+auxiliary/admin/scada/multi_cip_command                                 Allen-Bradley/Rockwell Automation EtherNet/IP CIP Commands
+auxiliary/admin/firetv/firetv_youtube                                   Amazon Fire TV YouTube Remote Control
+auxiliary/cloud/aws/enum_ec2                                            Amazon Web Services EC2 instance enumeration
+auxiliary/cloud/aws/enum_iam                                            Amazon Web Services IAM credential enumeration
+auxiliary/cloud/aws/enum_s3                                             Amazon Web Services S3 instance enumeration
+auxiliary/gather/android_browser_new_tab_cookie_theft                   Android Browser "Open in New Tab" Cookie Theft
+auxiliary/gather/android_browser_file_theft                             Android Browser File Theft
+auxiliary/admin/android/google_play_store_uxss_xframe_rce               Android Browser RCE Through Google Play Store XFO
+auxiliary/gather/android_htmlfileprovider                               Android Content Provider File Disclosure
+auxiliary/server/android_mercury_parseuri                               Android Mercury Browser Intent URI Scheme and Directory Traversal Vulnerability
+auxiliary/server/android_browsable_msf_launch                           Android Meterpreter Browsable Launcher
+auxiliary/gather/android_object_tag_webview_uxss                        Android Open Source Platform (AOSP) Browser UXSS
+auxiliary/gather/android_stock_browser_uxss                             Android Open Source Platform (AOSP) Browser UXSS
+auxiliary/dos/android/android_stock_browser_iframe                      Android Stock Browser Iframe DOS
+auxiliary/scanner/ftp/anonymous                                         Anonymous FTP Access Detection
+auxiliary/scanner/http/apache_userdir_enum                              Apache "mod_userdir" User Enumeration
+auxiliary/scanner/http/apache_normalize_path                            Apache 2.4.49/2.4.50 Traversal RCE scanner
+auxiliary/scanner/http/apache_activemq_traversal                        Apache ActiveMQ Directory Traversal
+auxiliary/scanner/http/apache_activemq_source_disclosure                Apache ActiveMQ JSP Files Source Disclosure
+auxiliary/scanner/http/axis_login                                       Apache Axis2 Brute Force Utility
+auxiliary/scanner/http/axis_local_file_include                          Apache Axis2 v1.4.1 Local File Inclusion
+auxiliary/dos/http/apache_commons_fileupload_dos                        Apache Commons FileUpload and Apache Tomcat DoS
+auxiliary/scanner/http/apache_flink_jobmanager_traversal                Apache Flink JobManager Traversal
+auxiliary/scanner/http/mod_negotiation_brute                            Apache HTTPD mod_negotiation Filename Bruter
+auxiliary/scanner/http/mod_negotiation_scanner                          Apache HTTPD mod_negotiation Scanner
+auxiliary/scanner/ssh/apache_karaf_command_execution                    Apache Karaf Default Credentials Command Execution
+auxiliary/scanner/ssh/karaf_login                                       Apache Karaf Login Utility
+auxiliary/scanner/http/apache_optionsbleed                              Apache Optionsbleed Scanner
+auxiliary/dos/http/apache_range_dos                                     Apache Range Header DoS (Apache Killer)
+auxiliary/gather/apache_rave_creds                                      Apache Rave User Information Disclosure
+auxiliary/scanner/http/rewrite_proxy_bypass                             Apache Reverse Proxy Bypass Vulnerability Scanner
+auxiliary/gather/cve_2021_27850_apache_tapestry_hmac_key                Apache Tapestry HMAC secret key leak
+auxiliary/admin/http/tomcat_ghostcat                                    Apache Tomcat AJP File Read
+auxiliary/dos/http/apache_tomcat_transfer_encoding                      Apache Tomcat Transfer-Encoding Information Disclosure and DoS
+auxiliary/scanner/http/tomcat_enum                                      Apache Tomcat User Enumeration
+auxiliary/gather/zookeeper_info_disclosure                              Apache ZooKeeper Information Disclosure
+auxiliary/scanner/http/apache_mod_cgi_bash_env                          Apache mod_cgi Bash Environment Variable Injection (Shellshock) Scanner
+auxiliary/dos/http/apache_mod_isapi                                     Apache mod_isapi Dangling Pointer
+auxiliary/dos/windows/appian/appian_bpm                                 Appian Enterprise Business Suite 5.6 SP1 DoS
+auxiliary/scanner/acpp/login                                            Apple Airport ACPP Authentication Scanner
+auxiliary/admin/vxworks/apple_airport_extreme_password                  Apple Airport Extreme Password Extraction (WDBRPC)
+auxiliary/scanner/afp/afp_server_info                                   Apple Filing Protocol Info Enumerator
+auxiliary/scanner/afp/afp_login                                         Apple Filing Protocol Login Utility
+auxiliary/gather/apple_safari_ftp_url_cookie_theft                      Apple OSX/iOS/Windows Safari Non-HTTPOnly Cookie Theft
+auxiliary/scanner/vnc/ard_root_pw                                       Apple Remote Desktop Root Vulnerability
+auxiliary/admin/appletv/appletv_display_image                           Apple TV Image Remote Control
+auxiliary/admin/appletv/appletv_display_video                           Apple TV Video Remote Control
+auxiliary/scanner/http/appletv_login                                    AppleTV AirPlay Login Utility
+auxiliary/analyze/apply_pot                                             Apply Pot File To Hashes
+auxiliary/scanner/http/enum_wayback                                     Archive.org Stored Domain URLs
+auxiliary/admin/networking/arista_config                                Arista Configuration Importer
+auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss              Arris / Motorola Surfboard SBG6580 Web Interface Takeover
+auxiliary/scanner/snmp/arris_dg950                                      Arris DG950A Cable Modem Wifi Enumeration
+auxiliary/gather/asterisk_creds                                         Asterisk Gather Credentials
+auxiliary/voip/asterisk_login                                           Asterisk Manager Login Utility
+auxiliary/scanner/http/atlassian_crowd_fileaccess                       Atlassian Crowd XML Entity Expansion Remote File Access
+auxiliary/server/capture/drda                                           Authentication Capture: DRDA (DB2, Informix, Derby)
+auxiliary/server/capture/ftp                                            Authentication Capture: FTP
+auxiliary/server/capture/http                                           Authentication Capture: HTTP
+auxiliary/server/capture/imap                                           Authentication Capture: IMAP
+auxiliary/server/capture/mssql                                          Authentication Capture: MSSQL
+auxiliary/server/capture/mysql                                          Authentication Capture: MySQL
+auxiliary/server/capture/pop3                                           Authentication Capture: POP3
+auxiliary/server/capture/postgresql                                     Authentication Capture: PostgreSQL
+auxiliary/server/capture/sip                                            Authentication Capture: SIP
+auxiliary/server/capture/smb                                            Authentication Capture: SMB
+auxiliary/server/capture/smtp                                           Authentication Capture: SMTP
+auxiliary/server/capture/telnet                                         Authentication Capture: Telnet
+auxiliary/server/capture/vnc                                            Authentication Capture: VNC
+auxiliary/parser/unattend                                               Auxilliary Parser Windows Unattend Passwords
+auxiliary/dos/mdns/avahi_portzero                                       Avahi Source Port 0 DoS
+auxiliary/admin/http/axigen_file_access                                 Axigen Arbitrary File Read and Delete
+auxiliary/scanner/scada/bacnet_l3                                       BACnet Scanner
+auxiliary/fileformat/badpdf                                             BADPDF Malicious PDF Creator
+auxiliary/scanner/http/bavision_cam_login                               BAVision IP Camera Web Server Login
+auxiliary/dos/dns/bind_tkey                                             BIND TKEY Query Denial of Service
+auxiliary/dos/dns/bind_tsig_badtime                                     BIND TSIG Badtime Query Denial of Service
+auxiliary/dos/dns/bind_tsig                                             BIND TSIG Query Denial of Service
+auxiliary/gather/trackit_sql_domain_creds                               BMC / Numara Track-It! Domain Administrator and SQL Server User Password Disclosure
+auxiliary/scanner/http/bmc_trackit_passwd_reset                         BMC TrackIt! Unauthenticated Arbitrary User Password Change
+auxiliary/bnat/bnat_router                                              BNAT Router
+auxiliary/bnat/bnat_scan                                                BNAT Scanner
+auxiliary/scanner/http/barracuda_directory_traversal                    Barracuda Multiple Product "locale" Directory Traversal
+auxiliary/dos/scada/beckhoff_twincat                                    Beckhoff TwinCAT SCADA PLC 2.11.0.2004 DoS
+auxiliary/admin/wemo/crockpot                                           Belkin Wemo-Enabled Crock-Pot Remote Control
+auxiliary/gather/billquick_txtid_sqli                                   BillQuick Web Suite txtID SQLi
+auxiliary/scanner/http/binom3_login_config_pass_dump                    Binom3 Web Management Login Scanner, Config and Password File Dump
+auxiliary/scanner/ftp/bison_ftp_traversal                               BisonWare BisonFTP Server 3.5 Directory Traversal Information Disclosure
+auxiliary/scanner/http/bitweaver_overlay_type_traversal                 Bitweaver overlay_type Directory Traversal
+auxiliary/scanner/misc/ib_service_mgr_info                              Borland InterBase Services Manager Information
+auxiliary/admin/networking/brocade_config                               Brocade Configuration Importer
+auxiliary/scanner/telnet/brocade_enable_login                           Brocade Enable Login Check Scanner
+auxiliary/scanner/snmp/brocade_enumhash                                 Brocade Password Hash Enumeration
+auxiliary/dos/http/brother_debut_dos                                    Brother Debut http Denial Of Service
+auxiliary/scanner/http/buffalo_login                                    Buffalo NAS Login Utility
+auxiliary/gather/c2s_dvr_password_disclosure                            C2S DVR Management Password Disclosure
+auxiliary/scanner/misc/cctv_dvr_login                                   CCTV DVR Login Scanning Utility
+auxiliary/scanner/rdp/cve_2019_0708_bluekeep                            CVE-2019-0708 BlueKeep Microsoft Remote Desktop RCE Check
+auxiliary/admin/http/cnpilot_r_cmd_exec                                 Cambium cnPilot r200/r201 Command Execution as 'root'
+auxiliary/admin/http/cnpilot_r_fpt                                      Cambium cnPilot r200/r201 File Path Traversal
+auxiliary/scanner/http/cnpilot_r_web_login_loot                         Cambium cnPilot r200/r201 Login Scanner and Config Dump
+auxiliary/scanner/snmp/cnpilot_r_snmp_loot                              Cambium cnPilot r200/r201 SNMP Enumeration
+auxiliary/scanner/http/epmp1000_get_chart_cmd_exec                      Cambium ePMP 1000 'get_chart' Command Injection (v3.1-3.5-RC7)
+auxiliary/scanner/http/epmp1000_ping_cmd_exec                           Cambium ePMP 1000 'ping' Command Injection (up to v2.5)
+auxiliary/scanner/http/epmp1000_dump_hashes                             Cambium ePMP 1000 'ping' Password Hash Extractor (up to v2.5)
+auxiliary/scanner/http/epmp1000_reset_pass                              Cambium ePMP 1000 Account Password Reset
+auxiliary/scanner/http/epmp1000_dump_config                             Cambium ePMP 1000 Dump Device Config
+auxiliary/scanner/http/epmp1000_web_login                               Cambium ePMP 1000 Login Scanner
+auxiliary/scanner/snmp/epmp1000_snmp_loot                               Cambium ePMP 1000 SNMP Enumeration
+auxiliary/scanner/printer/canon_iradv_pwd_extract                       Canon IR-Adv Password Extractor
+auxiliary/scanner/http/canon_wireless                                   Canon Printer Wireless Configuration Disclosure
+auxiliary/dos/http/canon_wireless_printer                               Canon Wireless Printer Denial Of Service
+auxiliary/server/capture/http_javascript_keylogger                      Capture: HTTP JavaScript Keylogger
+auxiliary/scanner/http/gavazzi_em_login_loot                            Carlo Gavazzi Energy Meters - Login Brute Force, Extract Info and Dump Plant Database
+auxiliary/scanner/http/cassandra_web_file_read                          Cassandra Web File Read Vulnerability
+auxiliary/gather/censys_search                                          Censys Search
+auxiliary/scanner/ssh/cerberus_sftp_enumusers                           Cerberus FTP Server SFTP Username Enumeration
+auxiliary/gather/cerberus_helpdesk_hash_disclosure                      Cerberus Helpdesk User Hash Disclosure
+auxiliary/scanner/chargen/chargen_probe                                 Chargen Probe Utility
+auxiliary/gather/checkpoint_hostname                                    CheckPoint Firewall-1 SecuRemote Topology Service Hostname Disclosure
+auxiliary/scanner/http/chef_webui_login                                 Chef Web UI Brute Force Utility
+auxiliary/scanner/http/caidao_bruteforce_login                          Chinese Caidao Backdoor Bruteforce
+auxiliary/gather/chrome_debugger                                        Chrome Debugger Arbitrary File Read / Arbitrary Web Request
+auxiliary/admin/chromecast/chromecast_reset                             Chromecast Factory Reset DoS
+auxiliary/scanner/http/chromecast_webserver                             Chromecast Web Server Scanner
+auxiliary/scanner/http/chromecast_wifi                                  Chromecast Wifi Enumeration
+auxiliary/admin/chromecast/chromecast_youtube                           Chromecast YouTube Remote Control
+auxiliary/dos/cisco/cisco_7937g_dos                                     Cisco 7937G Denial-of-Service Attack
+auxiliary/dos/cisco/cisco_7937g_dos_reboot                              Cisco 7937G Denial-of-Service Reboot Attack
+auxiliary/admin/http/cisco_7937g_ssh_privesc                            Cisco 7937G SSH Privilege Escalation
+auxiliary/scanner/http/cisco_asa_asdm_bruteforce                        Cisco ASA ASDM Brute-force Login
+auxiliary/admin/networking/cisco_asa_extrabacon                         Cisco ASA Authentication Bypass (EXTRABACON)
+auxiliary/scanner/http/cisco_asa_clientless_vpn                         Cisco ASA Clientless SSL VPN (WebVPN) Brute-force Login Utility
+auxiliary/scanner/http/cisco_directory_traversal                        Cisco ASA Directory Traversal
+auxiliary/scanner/http/cisco_ssl_vpn_priv_esc                           Cisco ASA SSL VPN Privilege Escalation Vulnerability
+auxiliary/admin/networking/cisco_config                                 Cisco Configuration Importer
+auxiliary/admin/networking/cisco_dcnm_auth_bypass                       Cisco DCNM auth bypass
+auxiliary/scanner/dlsw/dlsw_leak_capture                                Cisco DLSw Information Disclosure Scanner
+auxiliary/admin/networking/cisco_dcnm_download                          Cisco Data Center Network Manager Unauthenticated File Download
+auxiliary/scanner/http/cisco_device_manager                             Cisco Device HTTP Device Manager Access
+auxiliary/scanner/http/cisco_firepower_login                            Cisco Firepower Management Console 6.0 Login
+auxiliary/scanner/http/cisco_firepower_download                         Cisco Firepower Management Console 6.0 Post Auth Report Download Directory Traversal
+auxiliary/scanner/ike/cisco_ike_benigncertain                           Cisco IKE Information Disclosure
+auxiliary/dos/cisco/ios_http_percentpercent                             Cisco IOS HTTP GET /%% Request Denial of Service
+auxiliary/scanner/http/cisco_ios_auth_bypass                            Cisco IOS HTTP Unauthorized Administrative Access
+auxiliary/scanner/snmp/cisco_config_tftp                                Cisco IOS SNMP Configuration Grabber (TFTP)
+auxiliary/scanner/snmp/cisco_upload_file                                Cisco IOS SNMP File Upload (TFTP)
+auxiliary/dos/cisco/ios_telnet_rocem                                    Cisco IOS Telnet Denial of Service
+auxiliary/scanner/http/cisco_ironport_enum                              Cisco Ironport Bruteforce Login Utility
+auxiliary/scanner/http/cisco_nac_manager_traversal                      Cisco Network Access Manager Directory Traversal Vulnerability
+auxiliary/gather/cisco_pvc2300_download_config                          Cisco PVC2300 POE Video Camera configuration download
+auxiliary/gather/cisco_rv320_config                                     Cisco RV320/RV326 Configuration Disclosure
+auxiliary/scanner/http/cisco_ssl_vpn                                    Cisco SSL VPN Bruteforce Login Utility
+auxiliary/admin/networking/cisco_secure_acs_bypass                      Cisco Secure ACS Unauthorized Password Change
+auxiliary/admin/networking/cisco_vpn_3000_ftp_bypass                    Cisco VPN Concentrator 3000 FTP Unauthorized Administrative Access
+auxiliary/scanner/http/citrix_dir_traversal                             Citrix ADC (NetScaler) Directory Traversal Scanner
+auxiliary/gather/citrix_published_bruteforce                            Citrix MetaFrame ICA Published Applications Bruteforcer
+auxiliary/gather/citrix_published_applications                          Citrix MetaFrame ICA Published Applications Scanner
+auxiliary/scanner/misc/clamav_control                                   ClamAV Remote Command Transmitter
+auxiliary/scanner/http/clansphere_traversal                             ClanSphere 2011.3 Local File Inclusion Vulnerability
+auxiliary/dos/tcp/claymore_dos                                          Claymore Dual GPU Miner  Format String dos attack
+auxiliary/gather/cloud_lookup                                           Cloud Lookup (and Bypass)
+auxiliary/gather/coldfusion_pwd_props                                   ColdFusion 'password.properties' Hash Extraction
+auxiliary/scanner/http/coldfusion_locale_traversal                      ColdFusion Server Check
+auxiliary/scanner/http/coldfusion_version                               ColdFusion Version Scanner
+auxiliary/scanner/ftp/colorado_ftp_traversal                            ColoradoFTP Server 1.3 Build 8 Directory Traversal Information Disclosure
+auxiliary/scanner/http/concrete5_member_list                            Concrete5 Member List Enumeration
+auxiliary/admin/http/contentkeeper_fileaccess                           ContentKeeper Web Appliance mimencode File Access
+auxiliary/gather/corpwatch_lookup_id                                    CorpWatch Company ID Information Search
+auxiliary/gather/corpwatch_lookup_name                                  CorpWatch Company Name Information Search
+auxiliary/scanner/couchdb/couchdb_enum                                  CouchDB Enum Utility
+auxiliary/scanner/couchdb/couchdb_login                                 CouchDB Login Utility
+auxiliary/server/webkit_xslt_dropper                                    Cross Platform Webkit File Dropper
+auxiliary/sqli/dlink/dlink_central_wifimanager_sqli                     D-Link Central WiFiManager SQL injection
+auxiliary/admin/http/dlink_dir_645_password_extractor                   D-Link DIR 645 Password Extractor
+auxiliary/scanner/http/dlink_dir_300_615_http_login                     D-Link DIR-300A / DIR-320 / DIR-615D HTTP Login Utility
+auxiliary/scanner/http/dlink_dir_session_cgi_http_login                 D-Link DIR-300B / DIR-600B / DIR-815 / DIR-645 HTTP Login Utility
+auxiliary/admin/http/dlink_dir_300_600_exec_noauth                      D-Link DIR-600 / DIR-300 Unauthenticated Remote Command Execution
+auxiliary/scanner/http/dlink_dir_615h_http_login                        D-Link DIR-615H HTTP Login Utility
+auxiliary/admin/http/dlink_dsl320b_password_extractor                   D-Link DSL 320B Password Extractor
+auxiliary/scanner/http/dlink_user_agent_backdoor                        D-Link User-Agent Backdoor Scanner
+auxiliary/admin/vxworks/dlink_i2eye_autoanswer                          D-Link i2eye Video Conference AutoAnswer (WDBRPC)
+auxiliary/scanner/db2/db2_auth                                          DB2 Authentication Brute Force Utility
+auxiliary/scanner/db2/discovery                                         DB2 Discovery Service Detection
+auxiliary/scanner/db2/db2_version                                       DB2 Probe Utility
+auxiliary/scanner/dcerpc/tcp_dcerpc_auditor                             DCERPC TCP Service Auditor
+auxiliary/scanner/smb/impacket/dcomexec                                 DCOM Exec
+auxiliary/scanner/smb/impacket/secretsdump                              DCOM Exec
+auxiliary/scanner/dect/station_scanner                                  DECT Base Station Scanner
+auxiliary/scanner/dect/call_scanner                                     DECT Call Scanner
+auxiliary/scanner/dcerpc/dfscoerce                                      DFSCoerce
+auxiliary/server/dhclient_bash_env                                      DHCP Client Bash Environment Variable Code Injection (Shellshock)
+auxiliary/server/dhcp                                                   DHCP Server
+auxiliary/scanner/dns/dns_amp                                           DNS Amplification Scanner
+auxiliary/spoof/dns/bailiwicked_domain                                  DNS BailiWicked Domain Attack
+auxiliary/spoof/dns/bailiwicked_host                                    DNS BailiWicked Host Attack
+auxiliary/spoof/dns/compare_results                                     DNS Lookup Result Comparison
+auxiliary/gather/enum_dns                                               DNS Record Scanner and Enumerator
+auxiliary/admin/dns/dyn_dns_update                                      DNS Server Dynamic Update Record Injection
+auxiliary/server/dns/spoofhelper                                        DNS Spoofing Helper Service
+auxiliary/fuzzers/dns/dns_fuzzer                                        DNS and DNSSEC Fuzzer
+auxiliary/scanner/misc/dahua_dvr_auth_bypass                            Dahua DVR Auth Bypass Scanner
+auxiliary/gather/darkcomet_filedownloader                               DarkComet Server Remote File Download Exploit
+auxiliary/admin/citrix/citrix_netscaler_config_decrypt                  Decrypt Citrix NetScaler Config Secrets
+auxiliary/dos/http/dell_openmanage_post                                 Dell OpenManage POST Request Heap Overflow (win32)
+auxiliary/scanner/http/dell_idrac                                       Dell iDRAC Default Login
+auxiliary/scanner/http/dicoogle_traversal                               Dicoogle PACS Web Server Directory Traversal
+auxiliary/scanner/scada/digi_addp_version                               Digi ADDP Information Discovery
+auxiliary/scanner/scada/digi_addp_reboot                                Digi ADDP Remote Reboot Initiator
+auxiliary/scanner/scada/digi_realport_serialport_scan                   Digi RealPort Serial Server Port Scanner
+auxiliary/scanner/scada/digi_realport_version                           Digi RealPort Serial Server Version
+auxiliary/scanner/http/directadmin_login                                DirectAdmin Web Control Panel Login Utility
+auxiliary/scanner/http/springcloud_directory_traversal                  Directory Traversal in Spring Cloud Config Server
+auxiliary/gather/external_ip                                            Discover External IP via Ifconfig.me
+auxiliary/scanner/http/dnalims_file_retrieve                            DnaLIMS Directory Traversal
+auxiliary/dos/scada/allen_bradley_pccc                                  DoS Exploitation of Allen-Bradley's Legacy Protocol (PCCC)
+auxiliary/scanner/http/docker_version                                   Docker Server Version Scanner
+auxiliary/gather/doliwamp_traversal_creds                               DoliWamp 'jqueryFileTree.php' Traversal Gather Credentials
+auxiliary/scanner/http/dolibarr_login                                   Dolibarr ERP/CRM Login Utility
+auxiliary/gather/dolibarr_creds_sqli                                    Dolibarr Gather Credentials via SQL Injection
+auxiliary/dos/misc/dopewars                                             Dopewars Denial of Service
+auxiliary/gather/drupal_openid_xxe                                      Drupal OpenID External Entity Injection
+auxiliary/scanner/http/drupal_views_user_enum                           Drupal Views Module Users Enumeration
+auxiliary/admin/emc/alphastor_devicemanager_exec                        EMC AlphaStor Device Manager Arbitrary Command Execution
+auxiliary/scanner/emc/alphastor_devicemanager                           EMC AlphaStor Device Manager Service
+auxiliary/admin/emc/alphastor_librarymanager_exec                       EMC AlphaStor Library Manager Arbitrary Command Execution
+auxiliary/scanner/emc/alphastor_librarymanager                          EMC AlphaStor Library Manager Service
+auxiliary/gather/emc_cta_xxe                                            EMC CTA v10.0 Unauthenticated XXE Arbitrary File Read
+auxiliary/scanner/http/es_file_explorer_open_port                       ES File Explorer Open Port
+auxiliary/scanner/ftp/easy_file_sharing_ftp                             Easy File Sharing FTP Server 3.6 Directory Traversal
+auxiliary/scanner/misc/easycafe_server_fileaccess                       EasyCafe Server Remote File Access
+auxiliary/scanner/ssh/eaton_xpert_backdoor                              Eaton Xpert Meter SSH Private Key Exposure Scanner
+auxiliary/scanner/http/ektron_cms400net                                 Ektron CMS400.NET Default Password Scanner
+auxiliary/scanner/elasticsearch/indices_enum                            ElasticSearch Indices Enumeration Utility
+auxiliary/scanner/http/elasticsearch_traversal                          ElasticSearch Snapshot API Directory Traversal
+auxiliary/scanner/http/goahead_traversal                                Embedthis GoAhead Embedded Web Server Directory Traversal
+auxiliary/scanner/http/emby_ssrf_scanner                                Emby SSRF HTTP Scanner
+auxiliary/scanner/http/emby_version_ssrf                                Emby Version Scanner
+auxiliary/scanner/dcerpc/endpoint_mapper                                Endpoint Mapper Service Discovery
+auxiliary/scanner/backdoor/energizer_duo_detect                         Energizer DUO Trojan Scanner
+auxiliary/scanner/etcd/open_key_scanner                                 Etcd Keys API Information Gathering
+auxiliary/scanner/etcd/version                                          Etcd Version Scanner
+auxiliary/scanner/http/etherpad_duo_login                               EtherPAD Duo Login Bruteforce Utility
+auxiliary/scanner/msmail/exchange_enum                                  Exchange email enumeration
+auxiliary/analyze/modbus_zip                                            Extract zip from Modbus communication
+auxiliary/gather/f5_bigip_cookie_disclosure                             F5 BIG-IP Backend Cookie Disclosure
+auxiliary/dos/http/f5_bigip_apm_max_sessions                            F5 BigIP Access Policy Manager Session Exhaustion Denial of Service
+auxiliary/scanner/http/f5_bigip_virtual_server                          F5 BigIP HTTP Virtual Server Scanner
+auxiliary/admin/networking/f5_config                                    F5 Configuration Importer
+auxiliary/scanner/http/f5_mgmt_scanner                                  F5 Networks Devices Management Interface Scanner
+auxiliary/scanner/ftp/ftp_login                                         FTP Authentication Scanner
+auxiliary/scanner/portscan/ftpbounce                                    FTP Bounce Port Scanner
+auxiliary/server/ftp                                                    FTP File Server
+auxiliary/scanner/ftp/ftp_version                                       FTP Version Scanner
+auxiliary/server/fakedns                                                Fake DNS Service
+auxiliary/dos/windows/ftp/filezilla_admin_user                          FileZilla FTP Server Admin Interface Denial of Service
+auxiliary/dos/windows/ftp/filezilla_server_port                         FileZilla FTP Server Malformed PORT Denial of Service
+auxiliary/scanner/finger/finger_users                                   Finger Service User Enumerator
+auxiliary/gather/firefox_pdfjs_file_theft                               Firefox PDF.js Browser File Theft
+auxiliary/gather/flash_rosetta_jsonp_url_disclosure                     Flash "Rosetta" JSONP GET/POST Response Disclosure
+auxiliary/dos/http/flexense_http_server_dos                             Flexense HTTP Server Denial Of Service
+auxiliary/admin/http/foreman_openstack_satellite_priv_esc               Foreman (Red Hat OpenStack/Satellite) users/create Mass Assignment
+auxiliary/spoof/cisco/dtp                                               Forge Cisco DTP Packets
+auxiliary/scanner/http/fortimail_login_bypass_detection                 FortiMail Unauthenticated Login Bypass Scanner
+auxiliary/gather/fortios_vpnssl_traversal_creds_leak                    FortiOS Path Traversal Credential Gatherer
+auxiliary/scanner/ssh/fortinet_backdoor                                 Fortinet SSH Backdoor Scanner
+auxiliary/scanner/http/fortinet_ssl_vpn                                 Fortinet SSL VPN Bruteforce Login Utility
+auxiliary/pdf/foxit/authbypass                                          Foxit Reader Authorization Bypass
+auxiliary/dos/freebsd/nfsd/nfsd_mount                                   FreeBSD Remote NFS RPC Request Denial of Service
+auxiliary/scanner/misc/freeswitch_event_socket_login                    FreeSWITCH Event Socket Login
+auxiliary/scanner/http/frontpage_credential_dump                        FrontPage .pwd File Credential Dump
+auxiliary/scanner/http/frontpage_login                                  FrontPage Server Extensions Anonymous Login Scanner
+auxiliary/admin/scada/ge_proficy_substitute_traversal                   GE Proficy Cimplicity WebView substitute.bcl Directory Traversal
+auxiliary/server/wget_symlink_file_write                                GNU Wget FTP Symlink Arbitrary Filesystem Access
+auxiliary/scanner/gprs/gtp_echo                                         GTP Echo Scanner
+auxiliary/scanner/http/joomla_gallerywd_sqli_scanner                    Gallery WD for Joomla! Unauthenticated SQL Injection Scanner
+auxiliary/scanner/kademlia/server_info                                  Gather Kademlia Server Information
+auxiliary/gather/http_pdf_authors                                       Gather PDF Authors
+auxiliary/scanner/quake/server_info                                     Gather Quake Server Information
+auxiliary/scanner/steam/server_info                                     Gather Steam Server Information
+auxiliary/gather/get_user_spns                                          Gather Ticket Granting Service (TGS) tickets for User Service Principal Names (SPN)
+auxiliary/gather/d20pass                                                General Electric D20 Password Recovery
+auxiliary/dos/scada/d20_tftp_overflow                                   General Electric D20ME TFTP Server Buffer Overflow DoS
+auxiliary/client/smtp/emailer                                           Generic Emailer (SMTP)
+auxiliary/scanner/http/http_traversal                                   Generic HTTP Directory Traversal Utility
+auxiliary/scanner/http/gitlab_graphql_user_enum                         GitLab GraphQL API User Enumeration
+auxiliary/scanner/http/gitlab_login                                     GitLab Login Utility
+auxiliary/scanner/http/gitlab_user_enum                                 GitLab User Enumeration
+auxiliary/admin/http/gitstack_rest                                      GitStack Unauthenticated REST API Requests
+auxiliary/scanner/http/glassfish_login                                  GlassFish Brute Force Utility
+auxiliary/scanner/gopher/gopher_gophermap                               Gopher gophermap Scanner
+auxiliary/admin/http/grafana_auth_bypass                                Grafana 2.0 through 5.2.2 authentication bypass for LDAP and OAuth
+auxiliary/scanner/http/grafana_plugin_traversal                         Grafana Plugin Path Traversal
+auxiliary/gather/grandstream_ucm62xx_sql_account_guess                  Grandstream UCM62xx IP PBX WebSocket Blind SQL Injection Credential Dump
+auxiliary/dos/windows/ftp/guildftp_cwdlist                              Guild FTPd 0.999.8.11/0.999.14 Heap Corruption
+auxiliary/dos/http/gzip_bomb_dos                                        Gzip Memory Bomb Denial Of Service
+auxiliary/scanner/h323/h323_version                                     H.323 Version Scanner
+auxiliary/admin/hp/hp_data_protector_cmd                                HP Data Protector 6.1 EXEC_CMD Command Execution
+auxiliary/dos/hp/data_protector_rds                                     HP Data Protector Manager RDS DOS
+auxiliary/scanner/http/hp_imc_bims_downloadservlet_traversal            HP Intelligent Management BIMS DownloadServlet Directory Traversal
+auxiliary/scanner/http/hp_imc_faultdownloadservlet_traversal            HP Intelligent Management FaultDownloadServlet Directory Traversal
+auxiliary/scanner/http/hp_imc_ictdownloadservlet_traversal              HP Intelligent Management IctDownloadServlet Directory Traversal
+auxiliary/scanner/http/hp_imc_reportimgservlt_traversal                 HP Intelligent Management ReportImgServlt Directory Traversal
+auxiliary/admin/hp/hp_imc_som_create_account                            HP Intelligent Management SOM Account Creation
+auxiliary/scanner/http/hp_imc_som_file_download                         HP Intelligent Management SOM FileDownloadServlet Arbitrary Download
+auxiliary/scanner/snmp/snmp_enum_hp_laserjet                            HP LaserJet Printer SNMP Enumeration
+auxiliary/gather/hp_enum_perfd                                          HP Operations Manager Perfd Environment Scanner
+auxiliary/gather/hp_snac_domain_creds                                   HP ProCurve SNAC Domain Controller Credential Dumper
+auxiliary/scanner/http/hp_sitescope_getfileinternal_fileaccess          HP SiteScope SOAP Call getFileInternal Remote File Access
+auxiliary/scanner/http/hp_sitescope_getsitescopeconfiguration           HP SiteScope SOAP Call getSiteScopeConfiguration Configuration Access
+auxiliary/scanner/http/hp_sitescope_loadfilecontent_fileaccess          HP SiteScope SOAP Call loadFileContent Remote File Access
+auxiliary/scanner/http/hp_sys_mgmt_login                                HP System Management Homepage Login Utility
+auxiliary/admin/http/hp_web_jetadmin_exec                               HP Web JetAdmin 6.5 Server Arbitrary Command Execution
+auxiliary/admin/hp/hp_ilo_create_admin_account                          HP iLO 4 1.00-2.50 Authentication Bypass Administrator Account Creation
+auxiliary/scanner/http/backup_file                                      HTTP Backup File Scanner
+auxiliary/scanner/http/blind_sql_query                                  HTTP Blind SQL Injection Scanner
+auxiliary/scanner/http/xpath                                            HTTP Blind XPATH 1.0 Injector
+auxiliary/server/browser_autopwn                                        HTTP Client Automatic Exploiter
+auxiliary/server/browser_autopwn2                                       HTTP Client Automatic Exploiter 2 (Browser Autopwn)
+auxiliary/server/capture/http_basic                                     HTTP Client Basic Authentication Credential Collector
+auxiliary/gather/browser_info                                           HTTP Client Information Gather
+auxiliary/gather/browser_lanipleak                                      HTTP Client LAN IP Address Gather
+auxiliary/server/capture/http_ntlm                                      HTTP Client MS Credential Catcher
+auxiliary/server/http_ntlmrelay                                         HTTP Client MS Credential Relayer
+auxiliary/scanner/http/copy_of_file                                     HTTP Copy File Scanner
+auxiliary/scanner/http/trace                                            HTTP Cross-Site Tracing Detection
+auxiliary/scanner/http/brute_dirs                                       HTTP Directory Brute Force Scanner
+auxiliary/scanner/http/dir_listing                                      HTTP Directory Listing Scanner
+auxiliary/scanner/http/dir_scanner                                      HTTP Directory Scanner
+auxiliary/scanner/http/error_sql_injection                              HTTP Error Based SQL Injection Scanner
+auxiliary/scanner/http/replace_ext                                      HTTP File Extension Scanner
+auxiliary/scanner/http/file_same_name_dir                               HTTP File Same Name Directory Scanner
+auxiliary/fuzzers/http/http_form_field                                  HTTP Form Field Fuzzer
+auxiliary/fuzzers/http/http_get_uri_strings                             HTTP GET Request URI Fuzzer (Fuzzer Strings)
+auxiliary/fuzzers/http/http_get_uri_long                                HTTP GET Request URI Fuzzer (Incrementing Lengths)
+auxiliary/scanner/http/git_scanner                                      HTTP Git Scanner
+auxiliary/scanner/http/title                                            HTTP HTML Title Tag Content Grabber
+auxiliary/scanner/http/http_header                                      HTTP Header Detection
+auxiliary/scanner/http/host_header_injection                            HTTP Host Header Injection Detection
+auxiliary/scanner/http/files_dir                                        HTTP Interesting File Scanner
+auxiliary/scanner/http/http_login                                       HTTP Login Utility
+auxiliary/scanner/http/lucky_punch                                      HTTP Microsoft SQL Injection Table XSS Infection
+auxiliary/scanner/http/open_proxy                                       HTTP Open Proxy Detection
+auxiliary/scanner/http/options                                          HTTP Options Detection
+auxiliary/scanner/http/scraper                                          HTTP Page Scraper
+auxiliary/scanner/http/prev_dir_same_name_file                          HTTP Previous Directory File Scanner
+auxiliary/scanner/http/robots_txt                                       HTTP Robots.txt Content Scanner
+auxiliary/scanner/http/soap_xml                                         HTTP SOAP Verb/Noun Brute Force Scanner
+auxiliary/scanner/http/cert                                             HTTP SSL Certificate Checker
+auxiliary/gather/impersonate_ssl                                        HTTP SSL Certificate Impersonation
+auxiliary/scanner/http/http_sickrage_password_leak                      HTTP SickRage Password Leak
+auxiliary/scanner/http/http_hsts                                        HTTP Strict Transport Security (HSTS) Detection
+auxiliary/scanner/http/svn_scanner                                      HTTP Subversion Scanner
+auxiliary/scanner/http/verb_auth_bypass                                 HTTP Verb Authentication Bypass Scanner
+auxiliary/scanner/http/http_version                                     HTTP Version Detection
+auxiliary/scanner/http/vhost_scanner                                    HTTP Virtual Host Brute Force Scanner
+auxiliary/scanner/http/web_vulndb                                       HTTP Vuln Scanner
+auxiliary/scanner/http/webdav_internal_ip                               HTTP WebDAV Internal IP Scanner
+auxiliary/scanner/http/webdav_scanner                                   HTTP WebDAV Scanner
+auxiliary/scanner/http/webdav_website_content                           HTTP WebDAV Website Content Scanner
+auxiliary/scanner/http/http_put                                         HTTP Writable Path PUT/DELETE File Access
+auxiliary/scanner/http/trace_axd                                        HTTP trace.axd Content Scanner
+auxiliary/server/local_hwbridge                                         Hardware Bridge Server
+auxiliary/client/hwbridge/connect                                       Hardware Bridge Session Connector
+auxiliary/dos/http/hashcollision_dos                                    Hashtable Collisions
+auxiliary/scanner/dcerpc/hidden                                         Hidden DCERPC Service Discovery
+auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921           Hikvision IP Camera Unauthenticated Password Change Via Improper Authentication Logic
+auxiliary/scanner/http/ntlm_info_enumeration                            Host Information Enumeration via NTLM Authentication
+auxiliary/scanner/http/httpbl_lookup                                    Http:BL Lookup
+auxiliary/scanner/http/httpdasm_directory_traversal                     Httpdasm Directory Traversal
+auxiliary/gather/huawei_wifi_info                                       Huawei Datacard Information Disclosure Vulnerability
+auxiliary/gather/ibm_bigfix_sites_packages_enum                         IBM BigFix Relay Server Sites and Package Enum
+auxiliary/admin/db2/db2rcmd                                             IBM DB2 db2rcmd.exe Command Execution Vulnerability
+auxiliary/admin/http/ibm_drm_download                                   IBM Data Risk Manager Arbitrary File Download
+auxiliary/gather/ibm_sametime_room_brute                                IBM Lotus Notes Sametime Room Name Bruteforce
+auxiliary/gather/ibm_sametime_enumerate_users                           IBM Lotus Notes Sametime User Enumeration
+auxiliary/gather/ibm_sametime_version                                   IBM Lotus Sametime Version Enumeration
+auxiliary/dos/misc/ibm_sametime_webplayer_dos                           IBM Lotus Sametime WebPlayer DoS
+auxiliary/dos/http/ibm_lotus_notes2                                     IBM Notes Denial Of Service
+auxiliary/dos/http/ibm_lotus_notes                                      IBM Notes encodeURI DOS
+auxiliary/dos/misc/ibm_tsm_dos                                          IBM Tivoli Storage Manager FastBack Server Opcode 0x534 Denial of Service
+auxiliary/scanner/misc/ibm_mq_channel_brute                             IBM WebSphere MQ Channel Name Bruteforce
+auxiliary/scanner/misc/ibm_mq_login                                     IBM WebSphere MQ Login Check
+auxiliary/server/icmp_exfil                                             ICMP Exfiltration Service
+auxiliary/admin/dcerpc/icpr_cert                                        ICPR Certificate Management
+auxiliary/client/iec104/iec104                                          IEC104 Client Utility
+auxiliary/scanner/imap/imap_version                                     IMAP4 Banner Grabber
+auxiliary/scanner/http/ipboard_login                                    IP Board Login Auxiliary Module
+auxiliary/scanner/ip/ipidseq                                            IPID Sequence Scanner
+auxiliary/scanner/ipmi/ipmi_cipher_zero                                 IPMI 2.0 Cipher Zero Authentication Bypass Scanner
+auxiliary/scanner/ipmi/ipmi_dumphashes                                  IPMI 2.0 RAKP Remote SHA1 Password Hash Retrieval
+auxiliary/scanner/ipmi/ipmi_version                                     IPMI Information Discovery
+auxiliary/scanner/discovery/ipv6_multicast_ping                         IPv6 Link Local/Node Local Ping Discovery
+auxiliary/scanner/discovery/ipv6_neighbor                               IPv6 Local Neighbor Discovery
+auxiliary/scanner/discovery/ipv6_neighbor_router_advertisement          IPv6 Local Neighbor Discovery Using Router Advertisement
+auxiliary/dos/dhcp/isc_dhcpd_clientid                                   ISC DHCP Zero Length ClientID Denial of Service Module
+auxiliary/scanner/misc/cisco_smart_install                              Identify Cisco Smart Install endpoints
+auxiliary/scanner/misc/ibm_mq_enum                                      Identify Queue Manager Name and MQ Version
+auxiliary/scanner/rdp/rdp_scanner                                       Identify endpoints speaking the Remote Desktop Protocol (RDP)
+auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess                 Indusoft WebStudio NTWebServer Remote File Access
+auxiliary/scanner/http/buildmaster_login                                Inedo BuildMaster Login Scanner
+auxiliary/scanner/http/influxdb_enum                                    InfluxDB Enum Utility
+auxiliary/scanner/http/infovista_enum                                   InfoVista VistaPortal Application Bruteforce Login Utility
+auxiliary/scanner/http/intel_amt_digest_bypass                          Intel AMT Digest Authentication Bypass Scanner
+auxiliary/gather/ie_sandbox_findfiles                                   Internet Explorer Iframe Sandbox File Name Disclosure Vulnerability
+auxiliary/admin/http/intersil_pass_reset                                Intersil (Boa) HTTPd Basic Authentication Password Reset
+auxiliary/admin/http/iomega_storcenterpro_sessionid                     Iomega StorCenter Pro NAS Web Authentication Bypass
+auxiliary/scanner/tftp/ipswitch_whatsupgold_tftp                        IpSwitch WhatsUp Gold TFTP Directory Traversal
+auxiliary/admin/http/jboss_bshdeployer                                  JBoss JMX Console Beanshell Deployer WAR Upload and Deployment
+auxiliary/admin/http/jboss_deploymentfilerepository                     JBoss JMX Console DeploymentFileRepository WAR Upload and Deployment
+auxiliary/admin/http/jboss_seam_exec                                    JBoss Seam 2 Remote Command Execution
+auxiliary/scanner/http/jboss_status                                     JBoss Status Servlet Information Gathering
+auxiliary/scanner/http/jboss_vulnscan                                   JBoss Vulnerability Scanner
+auxiliary/gather/ipcamera_password_disclosure                           JVC/Siemens/Vanderbilt IP-Camera Readfile Password Disclosure
+auxiliary/scanner/misc/java_jmx_server                                  Java JMX Server Insecure Endpoint Code Execution Scanner
+auxiliary/gather/java_rmi_registry                                      Java RMI Registry Interfaces Enumeration
+auxiliary/scanner/misc/java_rmi_server                                  Java RMI Server Insecure Endpoint Code Execution Scanner
+auxiliary/server/jsse_skiptls_mitm_proxy                                Java Secure Socket Extension (JSSE) SKIP-TLS MITM Proxy
+auxiliary/gather/jenkins_cred_recovery                                  Jenkins Domain Credential Recovery
+auxiliary/scanner/jenkins/jenkins_udp_broadcast_enum                    Jenkins Server Broadcast Enumeration
+auxiliary/scanner/http/jenkins_enum                                     Jenkins-CI Enumeration
+auxiliary/scanner/http/jenkins_login                                    Jenkins-CI Login Utility
+auxiliary/scanner/http/jenkins_command                                  Jenkins-CI Unauthenticated Script-Console Scanner
+auxiliary/gather/jetty_web_inf_disclosure                               Jetty WEB-INF File Disclosure
+auxiliary/scanner/http/jira_user_enum                                   Jira Users Enumeration
+auxiliary/admin/http/joomla_registration_privesc                        Joomla Account Creation and Privilege Escalation
+auxiliary/scanner/http/joomla_bruteforce_login                          Joomla Bruteforce Login Utility
+auxiliary/scanner/http/joomla_pages                                     Joomla Page Scanner
+auxiliary/scanner/http/joomla_plugins                                   Joomla Plugins Scanner
+auxiliary/gather/joomla_com_realestatemanager_sqli                      Joomla Real Estate Manager Component Error-Based SQL Injection
+auxiliary/scanner/http/joomla_version                                   Joomla Version Scanner
+auxiliary/gather/joomla_contenthistory_sqli                             Joomla com_contenthistory Error-Based SQL Injection
+auxiliary/gather/joomla_weblinks_sqli                                   Joomla weblinks-categories Unauthenticated SQL Injection Arbitrary File Read
+auxiliary/admin/networking/juniper_config                               Juniper Configuration Importer
+auxiliary/dos/tcp/junos_tcp_opt                                         Juniper JunOS Malformed TCP Option
+auxiliary/scanner/ssh/juniper_backdoor                                  Juniper SSH Backdoor Scanner
+auxiliary/scanner/http/jupyter_login                                    Jupyter Login Utility
+auxiliary/dos/windows/games/kaillera                                    Kaillera 0.86 Server Denial of Service
+auxiliary/admin/http/kaseya_master_admin                                Kaseya VSA Master Administrator Account Creation
+auxiliary/admin/http/katello_satellite_priv_esc                         Katello (Red Hat Satellite) users/update_roles Missing Authorization
+auxiliary/scanner/kerberos/kerberos_login                               Kerberos Authentication Check Scanner
+auxiliary/gather/kerberos_enumusers                                     Kerberos Domain User Enumeration
+auxiliary/admin/kerberos/forge_ticket                                   Kerberos Silver/Golden Ticket Forging
+auxiliary/admin/kerberos/get_ticket                                     Kerberos TGT/TGS Ticket Requester
+auxiliary/admin/kerberos/inspect_ticket                                 Kerberos Ticket Inspecting
+auxiliary/admin/kerberos/keytab                                         Kerberos keytab utilities
+auxiliary/admin/kerberos/ticket_converter                               Kerberos ticket converter
+auxiliary/scanner/ssh/detect_kippo                                      Kippo SSH Honeypot Detector
+auxiliary/scanner/http/kodi_traversal                                   Kodi 17.0 Local File Inclusion Vulnerability
+auxiliary/scanner/ftp/konica_ftp_traversal                              Konica Minolta FTP Utility 1.00 Directory Traversal Information Disclosure
+auxiliary/gather/konica_minolta_pwd_extract                             Konica Minolta Password Extractor
+auxiliary/scanner/scada/koyo_login                                      Koyo DirectLogic PLC Password Brute Force Utility
+auxiliary/cloud/kubernetes/enum_kubernetes                              Kubernetes Enumeration
+auxiliary/gather/ldap_hashdump                                          LDAP Information Disclosure
+auxiliary/gather/ldap_query                                             LDAP Query and Enumeration Module
+auxiliary/scanner/llmnr/query                                           LLMNR Query
+auxiliary/spoof/llmnr/llmnr_response                                    LLMNR Spoofer
+auxiliary/gather/lansweeper_collector                                   Lansweeper Credential Collector
+auxiliary/scanner/telnet/lantronix_telnet_password                      Lantronix Telnet Password Recovery
+auxiliary/scanner/telnet/lantronix_telnet_version                       Lantronix Telnet Service Banner Detection
+auxiliary/admin/aws/aws_launch_instances                                Launches Hosts in AWS
+auxiliary/fileformat/odt_badodt                                         LibreOffice 6.03 /Apache OpenOffice 4.1.5 Malicious ODT File Generator
+auxiliary/scanner/http/limesurvey_zip_traversals                        LimeSurvey Zip Path Traversals
+auxiliary/admin/http/limesurvey_file_download                           Limesurvey Unauthenticated File Download
+auxiliary/scanner/http/linknat_vos_traversal                            Linknat Vos Manager Traversal
+auxiliary/scanner/http/linksys_e1500_traversal                          Linksys E1500 Directory Traversal Vulnerability
+auxiliary/admin/http/linksys_e1500_e2500_exec                           Linksys E1500/E2500 Remote Command Execution
+auxiliary/admin/http/linksys_tmunblock_admin_reset_bof                  Linksys WRT120N tmUnblock Stack Buffer Overflow
+auxiliary/admin/http/linksys_wrt54gl_exec                               Linksys WRT54GL Remote Command Execution
+auxiliary/scanner/rsync/modules_list                                    List Rsync Modules
+auxiliary/scanner/http/litespeed_source_disclosure                      LiteSpeed Source Code Disclosure/Download
+auxiliary/scanner/http/log4shell_scanner                                Log4Shell HTTP Scanner
+auxiliary/scanner/lotus/lotus_domino_login                              Lotus Domino Brute Force Utility
+auxiliary/scanner/lotus/lotus_domino_hashes                             Lotus Domino Password Hash Collector
+auxiliary/scanner/lotus/lotus_domino_version                            Lotus Domino Version
+auxiliary/client/mms/send_mms                                           MMS Client
+auxiliary/scanner/mqtt/connect                                          MQTT Authentication Scanner
+auxiliary/dos/pptp/ms02_063_pptp_dos                                    MS02-063 PPTP Malformed Control Data Kernel Denial of Service
+auxiliary/dos/windows/smtp/ms06_019_exchange                            MS06-019 Exchange MODPROP Heap Overflow
+auxiliary/scanner/http/dir_webdav_unicode_bypass                        MS09-020 IIS6 WebDAV Unicode Auth Bypass Directory Scanner
+auxiliary/scanner/http/ms09_020_webdav_unicode_bypass                   MS09-020 IIS6 WebDAV Unicode Authentication Bypass
+auxiliary/admin/http/iis_auth_bypass                                    MS10-065 Microsoft IIS 5 NTFS Stream Authentication Bypass
+auxiliary/scanner/rdp/ms12_020_check                                    MS12-020 Microsoft Remote Desktop Checker
+auxiliary/dos/windows/rdp/ms12_020_maxchannelids                        MS12-020 Microsoft Remote Desktop Use-After-Free DoS
+auxiliary/gather/ms14_052_xmldom                                        MS14-052 Microsoft Internet Explorer XMLDOM Filename Disclosure
+auxiliary/admin/kerberos/ms14_068_kerberos_checksum                     MS14-068 Microsoft Kerberos Checksum Validation Vulnerability
+auxiliary/gather/ie_uxss_injection                                      MS15-018 Microsoft Internet Explorer 10 and 11 Cross-Domain JavaScript Injection
+auxiliary/dos/http/ms15_034_ulonglongadd                                MS15-034 HTTP Protocol Stack Request Handling Denial-of-Service
+auxiliary/scanner/http/ms15_034_http_sys_memory_dump                    MS15-034 HTTP Protocol Stack Request Handling HTTP.SYS Memory Information Disclosure
+auxiliary/server/ms15_134_mcl_leak                                      MS15-134 Microsoft Windows Media Center MCL Information Disclosure
+auxiliary/admin/smb/ms17_010_command                                    MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Command Execution
+auxiliary/scanner/smb/smb_ms17_010                                      MS17-010 SMB RCE Detection
+auxiliary/scanner/mssql/mssql_login                                     MSSQL Login Utility
+auxiliary/scanner/mssql/mssql_hashdump                                  MSSQL Password Hashdump
+auxiliary/scanner/mssql/mssql_ping                                      MSSQL Ping Utility
+auxiliary/scanner/mssql/mssql_schemadump                                MSSQL Schema Dump
+auxiliary/scanner/mysql/mysql_writable_dirs                             MYSQL Directory Write Test
+auxiliary/scanner/mysql/mysql_file_enum                                 MYSQL File/Directory Enumerator
+auxiliary/scanner/mysql/mysql_hashdump                                  MYSQL Password Hashdump
+auxiliary/scanner/mysql/mysql_schemadump                                MYSQL Schema Dump
+auxiliary/gather/apple_safari_webarchive_uxss                           Mac OS X Safari .webarchive File Format UXSS
+auxiliary/gather/safari_file_url_navigation                             Mac OS X Safari file:// Redirection Sandbox Escape
+auxiliary/scanner/http/majordomo2_directory_traversal                   Majordomo2 _list_file_get() Directory Traversal
+auxiliary/gather/manageengine_adaudit_plus_xnode_enum                   ManageEngine ADAudit Plus Xnode Enumeration
+auxiliary/gather/manageengine_datasecurity_plus_xnode_enum              ManageEngine DataSecurity Plus Xnode Enumeration
+auxiliary/admin/http/manage_engine_dc_create_admin                      ManageEngine Desktop Central Administrator Account Creation
+auxiliary/scanner/http/manageengine_desktop_central_login               ManageEngine Desktop Central Login Utility
+auxiliary/scanner/http/manageengine_deviceexpert_traversal              ManageEngine DeviceExpert 5.6 ScheduleResultViewer FileName Traversal
+auxiliary/scanner/http/manageengine_deviceexpert_user_creds             ManageEngine DeviceExpert User Credentials
+auxiliary/gather/eventlog_cred_disclosure                               ManageEngine Eventlog Analyzer Managed Hosts Administrator Credential Disclosure
+auxiliary/admin/http/manageengine_dir_listing                           ManageEngine Multiple Products Arbitrary Directory Listing
+auxiliary/admin/http/manageengine_file_download                         ManageEngine Multiple Products Arbitrary File Download
+auxiliary/admin/http/netflow_file_download                              ManageEngine NetFlow Analyzer Arbitrary File Download
+auxiliary/admin/http/manageengine_pmp_privesc                           ManageEngine Password Manager SQLAdvancedALSearchResult.cc Pro SQL Injection
+auxiliary/scanner/http/manageengine_securitymanager_traversal           ManageEngine SecurityManager Plus 5.5 Directory Traversal
+auxiliary/scanner/http/servicedesk_plus_traversal                       ManageEngine ServiceDesk Plus Path Traversal
+auxiliary/scanner/http/support_center_plus_directory_traversal          ManageEngine Support Center Plus Directory Traversal
+auxiliary/gather/mantisbt_admin_sqli                                    MantisBT Admin SQL Injection Arbitrary File Read
+auxiliary/admin/http/mantisbt_password_reset                            MantisBT password reset
+auxiliary/gather/mcafee_epo_xxe                                         McAfee ePolicy Orchestrator Authenticated XXE Credentials Exposure
+auxiliary/scanner/http/mediawiki_svg_fileaccess                         MediaWiki SVG XML Entity Expansion Remote File Access
+auxiliary/gather/memcached_extractor                                    Memcached Extractor
+auxiliary/dos/misc/memcached                                            Memcached Remote Denial of Service
+auxiliary/scanner/memcached/memcached_amp                               Memcached Stats Amplification Scanner
+auxiliary/scanner/memcached/memcached_udp_version                       Memcached UDP Version Scanner
+auxiliary/dos/http/metasploit_httphandler_dos                           Metasploit HTTP(S) handler DoS
+auxiliary/scanner/msf/msf_rpc_login                                     Metasploit RPC Interface Login Utility
+auxiliary/crawler/msfcrawler                                            Metasploit Web Crawler
+auxiliary/scanner/msf/msf_web_login                                     Metasploit Web Interface Login Utility
+auxiliary/scanner/http/meteocontrol_weblog_extractadmin                 Meteocontrol WEBlog Password Extractor
+auxiliary/scanner/http/azure_ad_login                                   Microsoft Azure Active Directory Login Enumeration
+auxiliary/scanner/http/exchange_web_server_pushsubscription             Microsoft Exchange Privilege Escalation Exploit
+auxiliary/gather/exchange_proxylogon_collector                          Microsoft Exchange ProxyLogon Collector
+auxiliary/scanner/http/exchange_proxylogon                              Microsoft Exchange ProxyLogon Scanner
+auxiliary/admin/ms/ms08_059_his2006                                     Microsoft Host Integration Server 2006 Command Execution Vulnerability
+auxiliary/dos/windows/http/ms10_065_ii6_asp_dos                         Microsoft IIS 6.0 ASP Stack Exhaustion Denial of Service
+auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof                            Microsoft IIS FTP Server Encoded Response Overflow Trigger
+auxiliary/dos/windows/ftp/iis_list_exhaustion                           Microsoft IIS FTP Server LIST Stack Exhaustion
+auxiliary/scanner/http/iis_internal_ip                                  Microsoft IIS HTTP Internal IP Disclosure
+auxiliary/scanner/http/iis_shortname_scanner                            Microsoft IIS shortname vulnerability scanner
+auxiliary/dos/windows/smb/ms05_047_pnp                                  Microsoft Plug and Play Service Registry Overflow
+auxiliary/scanner/http/rdp_web_login                                    Microsoft RDP Web Client Login Enumeration
+auxiliary/dos/windows/smb/rras_vls_null_deref                           Microsoft RRAS InterfaceAdjustVLSPointers NULL Dereference
+auxiliary/admin/mssql/mssql_exec                                        Microsoft SQL Server Command Execution
+auxiliary/admin/mssql/mssql_enum                                        Microsoft SQL Server Configuration Enumerator
+auxiliary/admin/mssql/mssql_escalate_dbowner                            Microsoft SQL Server Escalate Db_Owner
+auxiliary/admin/mssql/mssql_escalate_execute_as                         Microsoft SQL Server Escalate EXECUTE AS
+auxiliary/admin/mssql/mssql_findandsampledata                           Microsoft SQL Server Find and Sample Data
+auxiliary/admin/mssql/mssql_sql                                         Microsoft SQL Server Generic Query
+auxiliary/admin/mssql/mssql_sql_file                                    Microsoft SQL Server Generic Query from File
+auxiliary/admin/mssql/mssql_idf                                         Microsoft SQL Server Interesting Data Finder
+auxiliary/admin/mssql/mssql_ntlm_stealer                                Microsoft SQL Server NTLM Stealer
+auxiliary/admin/mssql/mssql_escalate_dbowner_sqli                       Microsoft SQL Server SQLi Escalate Db_Owner
+auxiliary/admin/mssql/mssql_escalate_execute_as_sqli                    Microsoft SQL Server SQLi Escalate Execute AS
+auxiliary/admin/mssql/mssql_ntlm_stealer_sqli                           Microsoft SQL Server SQLi NTLM Stealer
+auxiliary/admin/mssql/mssql_enum_domain_accounts_sqli                   Microsoft SQL Server SQLi SUSER_SNAME Windows Domain Account Enumeration
+auxiliary/admin/mssql/mssql_enum_sql_logins                             Microsoft SQL Server SUSER_SNAME SQL Logins Enumeration
+auxiliary/admin/mssql/mssql_enum_domain_accounts                        Microsoft SQL Server SUSER_SNAME Windows Domain Account Enumeration
+auxiliary/dos/windows/smb/ms06_035_mailslot                             Microsoft SRV.SYS Mailslot Write Corruption
+auxiliary/dos/windows/smb/ms06_063_trans                                Microsoft SRV.SYS Pipe Transaction No Null
+auxiliary/dos/windows/smb/ms09_001_write                                Microsoft SRV.SYS WriteAndX Invalid DataOffset
+auxiliary/dos/windows/smb/ms09_050_smb2_negotiate_pidhigh               Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference
+auxiliary/dos/windows/smb/ms09_050_smb2_session_logoff                  Microsoft SRV2.SYS SMB2 Logoff Remote Kernel NULL Pointer Dereference
+auxiliary/dos/windows/smb/vista_negotiate_stop                          Microsoft Vista SP0 SMB Negotiate Protocol DoS
+auxiliary/dos/windows/smb/ms10_006_negotiate_response_loop              Microsoft Windows 7 / Server 2008 R2 SMB Client Infinite Loop
+auxiliary/scanner/smb/psexec_loggedin_users                             Microsoft Windows Authenticated Logged In Users Enumeration
+auxiliary/dos/windows/smb/ms11_019_electbowser                          Microsoft Windows Browser Pool DoS
+auxiliary/dos/windows/llmnr/ms11_030_dnsapi                             Microsoft Windows DNSAPI.dll LLMNR Buffer Underrun DoS
+auxiliary/gather/windows_deployment_services_shares                     Microsoft Windows Deployment Services Unattend Gatherer
+auxiliary/scanner/dcerpc/windows_deployment_services                    Microsoft Windows Deployment Services Unattend Retrieval
+auxiliary/dos/windows/browser/ms09_065_eot_integer                      Microsoft Windows EOT Font Table Directory Integer Overflow
+auxiliary/dos/windows/nat/nat_helper                                    Microsoft Windows NAT Helper Denial of Service
+auxiliary/dos/windows/smb/ms10_054_queryfs_pool_overflow                Microsoft Windows SRV.SYS SrvSmbQueryFsInformation Pool Overflow DoS
+auxiliary/docx/word_unc_injector                                        Microsoft Word UNC Path Injector
+auxiliary/gather/microweber_lfi                                         Microweber CMS v1.2.10 Local File Inclusion (Authenticated)
+auxiliary/admin/networking/mikrotik_config                              Mikrotik Configuration Importer
+auxiliary/gather/mikrotik_winbox_fileread                               Mikrotik Winbox Arbitrary File Read
+auxiliary/dos/upnp/miniupnpd_dos                                        MiniUPnPd 1.4 Denial of Service (DoS) Exploit
+auxiliary/dos/mirageos/qubes_mirage_firewall_dos                        Mirage firewall for QubesOS 0.8.0-0.8.3 Denial of Service (DoS) Exploit
+auxiliary/gather/ldap_esc_vulnerable_cert_finder                        Misconfigured Certificate Template Finder
+auxiliary/scanner/scada/modbus_banner_grabbing                          Modbus Banner Grabbing
+auxiliary/scanner/scada/modbusclient                                    Modbus Client Utility
+auxiliary/scanner/scada/modbus_findunitid                               Modbus Unit ID and Station ID Enumerator
+auxiliary/scanner/scada/modbusdetect                                    Modbus Version Scanner
+auxiliary/scanner/mongodb/mongodb_login                                 MongoDB Login Utility
+auxiliary/gather/mongodb_js_inject_collection_enum                      MongoDB NoSQL Collection Enumeration Via Injection
+auxiliary/dos/http/monkey_headers                                       Monkey HTTPD Header Parsing Denial of Service (DoS)
+auxiliary/scanner/motorola/timbuktu_udp                                 Motorola Timbuktu Service Detection
+auxiliary/admin/motorola/wr850g_cred                                    Motorola WR850G v4.03 Credentials
+auxiliary/admin/scada/moxa_credentials_recovery                         Moxa Device Credential Retrieval
+auxiliary/scanner/scada/moxa_discover                                   Moxa UDP Device Discovery
+auxiliary/scanner/misc/dvr_config_disclosure                            Multiple DVR Manufacturers Configuration Disclosure
+auxiliary/admin/http/mutiny_frontend_read_delete                        Mutiny 5 Arbitrary File Read and Delete
+auxiliary/gather/mybb_db_fingerprint                                    MyBB Database Fingerprint
+auxiliary/scanner/mysql/mysql_authbypass_hashdump                       MySQL Authentication Bypass Password Dump
+auxiliary/admin/mysql/mysql_enum                                        MySQL Enumeration Module
+auxiliary/scanner/mysql/mysql_login                                     MySQL Login Utility
+auxiliary/admin/mysql/mysql_sql                                         MySQL SQL Generic Query
+auxiliary/scanner/mysql/mysql_version                                   MySQL Server Version Enumeration
+auxiliary/gather/natpmp_external_address                                NAT-PMP External Address Scanner
+auxiliary/scanner/natpmp/natpmp_portscan                                NAT-PMP External Port Scanner
+auxiliary/admin/natpmp/natpmp_map                                       NAT-PMP Port Mapper
+auxiliary/gather/netgear_password_disclosure                            NETGEAR Administrator Password Disclosure
+auxiliary/admin/http/netgear_auth_download                              NETGEAR ProSafe Network Management System 300 Authenticated File Download
+auxiliary/admin/http/netgear_wnr2000_pass_recovery                      NETGEAR WNR2000v5 Administrator Password Recovery
+auxiliary/scanner/http/novell_file_reporter_fsfui_fileaccess            NFR Agent FSFUI Record Arbitrary Remote File Access
+auxiliary/dos/http/novell_file_reporter_heap_bof                        NFR Agent Heap Overflow Vulnerability
+auxiliary/scanner/http/novell_file_reporter_srs_fileaccess              NFR Agent SRS Record Arbitrary Remote File Access
+auxiliary/scanner/nfs/nfsmount                                          NFS Mount Scanner
+auxiliary/gather/nis_bootparamd_domain                                  NIS bootparamd Domain Name Disclosure
+auxiliary/gather/nis_ypserv_map                                         NIS ypserv Map Dumper
+auxiliary/scanner/nntp/nntp_login                                       NNTP Login Utility
+auxiliary/scanner/ntp/ntp_nak_to_the_future                             NTP "NAK to the Future"
+auxiliary/scanner/ntp/ntp_readvar                                       NTP Clock Variables Disclosure
+auxiliary/scanner/ntp/ntp_req_nonce_dos                                 NTP Mode 6 REQ_NONCE DRDoS Scanner
+auxiliary/scanner/ntp/ntp_unsettrap_dos                                 NTP Mode 6 UNSETTRAP DRDoS Scanner
+auxiliary/scanner/ntp/ntp_reslist_dos                                   NTP Mode 7 GET_RESTRICT DRDoS Scanner
+auxiliary/scanner/ntp/ntp_peer_list_dos                                 NTP Mode 7 PEER_LIST DoS Scanner
+auxiliary/scanner/ntp/ntp_peer_list_sum_dos                             NTP Mode 7 PEER_LIST_SUM DoS Scanner
+auxiliary/scanner/ntp/ntp_monlist                                       NTP Monitor List Scanner
+auxiliary/fuzzers/ntp/ntp_protocol_fuzzer                               NTP Protocol Fuzzer
+auxiliary/dos/ntp/ntpd_reserved_dos                                     NTP.org ntpd Reserved Mode Denial of Service
+auxiliary/admin/http/nuuo_nvrmini_reset                                 NUUO NVRmini 2 / NETGEAR ReadyNAS Surveillance Default Configuration Load and Administrator Password Reset
+auxiliary/scanner/http/nagios_xi_scanner                                Nagios XI Scanner
+auxiliary/server/dns/native_server                                      Native DNS Server (Example)
+auxiliary/spoof/dns/native_spoofer                                      Native DNS Spoofer (Example)
+auxiliary/server/ldap                                                   Native LDAP Server (Example)
+auxiliary/scanner/nexpose/nexpose_api_login                             NeXpose API Interface Login Utility
+auxiliary/scanner/nessus/nessus_ntp_login                               Nessus NTP Login Utility
+auxiliary/scanner/nessus/nessus_rest_login                              Nessus RPC Interface Login Utility
+auxiliary/scanner/nessus/nessus_xmlrpc_login                            Nessus XMLRPC Interface Login Utility
+auxiliary/scanner/nessus/nessus_xmlrpc_ping                             Nessus XMLRPC Interface Ping Utility
+auxiliary/scanner/netbios/nbname                                        NetBIOS Information Discovery
+auxiliary/spoof/nbns/nbns_response                                      NetBIOS Name Service Spoofer
+auxiliary/server/netbios_spoof_nat                                      NetBIOS Response "BadTunnel" Brute Force Spoof (NAT Tunnel)
+auxiliary/admin/netbios/netbios_spoof                                   NetBIOS Response Brute Force Spoof (Direct)
+auxiliary/scanner/tftp/netdecision_tftp                                 NetDecision 4.2 TFTP Directory Traversal
+auxiliary/scanner/http/netdecision_traversal                            NetDecision NOCVision Server Directory Traversal
+auxiliary/admin/http/netgear_pnpx_getsharefolderlist_auth_bypass        Netgear PNPX_GetShareFolderList Authentication Bypass
+auxiliary/admin/http/netgear_r6700_pass_reset                           Netgear R6700v3 Unauthenticated LAN Admin Password Reset
+auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce         Netgear R7000 backup.cgi Heap Overflow RCE
+auxiliary/scanner/http/netgear_sph200d_traversal                        Netgear SPH200D Directory Traversal Vulnerability
+auxiliary/admin/http/netgear_soap_password_extractor                    Netgear Unauthenticated SOAP Password Extractor
+auxiliary/admin/dcerpc/cve_2020_1472_zerologon                          Netlogon Weak Cryptographic Authentication
+auxiliary/scanner/snmp/netopia_enum                                     Netopia 3347 Cable Modem Wifi Enumeration
+auxiliary/gather/eaton_nsm_creds                                        Network Shutdown Module sort_values Credential Dumper
+auxiliary/admin/http/nexpose_xxe_file_read                              Nexpose XXE Arbitrary File Read
+auxiliary/scanner/http/nginx_source_disclosure                          Nginx Source Code Disclosure/Download
+auxiliary/dos/http/nodejs_pipelining                                    Node.js HTTP Pipelining Denial of Service
+auxiliary/admin/http/novell_file_reporter_filedelete                    Novell File Reporter Agent Arbitrary File Delete
+auxiliary/scanner/http/groupwise_agents_http_traversal                  Novell Groupwise Agents HTTP Directory Traversal
+auxiliary/scanner/http/zenworks_assetmanagement_getconfig               Novell ZENworks Asset Management 7.5 Configuration Access
+auxiliary/scanner/http/zenworks_assetmanagement_fileaccess              Novell ZENworks Asset Management 7.5 Remote File Access
+auxiliary/scanner/misc/zenworks_preboot_fileaccess                      Novell ZENworks Configuration Management Preboot Service Remote File Access
+auxiliary/scanner/http/novell_mdm_creds                                 Novell Zenworks Mobile Device Managment Admin Credentials
+auxiliary/admin/edirectory/edirectory_dhost_cookie                      Novell eDirectory DHOST Predictable Session Cookie
+auxiliary/admin/edirectory/edirectory_edirutil                          Novell eDirectory eMBox Unauthenticated File Access
+exploit/windows/nuuo/nuuo_cms_sqli                                      Nuuo Central Management Authenticated SQL Server SQLi
+auxiliary/gather/nuuo_cms_file_download                                 Nuuo Central Management Server Authenticated Arbitrary File Download
+exploit/windows/nuuo/nuuo_cms_fu                                        Nuuo Central Management Server Authenticated Arbitrary File Upload
+auxiliary/gather/nuuo_cms_bruteforce                                    Nuuo Central Management Server User Session Token Bruteforce
+auxiliary/scanner/misc/oki_scanner                                      OKI Printer Default Login Credential Scanner
+auxiliary/scanner/http/owa_ews_login                                    OWA Exchange Web Services (EWS) Login Scanner
+auxiliary/scanner/http/octopusdeploy_login                              Octopus Deploy Login Utility
+auxiliary/gather/office365userenum                                      Office 365 User Enumeration
+auxiliary/scanner/msmail/onprem_enum                                    On premise user enumeration
+auxiliary/scanner/http/onion_omega2_login                               Onion Omega2 Login Brute-Force
+auxiliary/scanner/wproxy/att_open_proxy                                 Open WAN-to-LAN proxy on AT&T routers
+auxiliary/sqli/openemr/openemr_sqli_dump                                OpenEMR 5.0.1 Patch 6 SQLi Dump
+auxiliary/scanner/http/openmind_messageos_login                         OpenMind Message-OS Portal Login Brute Force Utility
+auxiliary/gather/opennms_xxe                                            OpenNMS Authenticated XXE
+auxiliary/server/openssl_altchainsforgery_mitm_proxy                    OpenSSL Alternative Chains Certificate Forgery MITM Proxy
+auxiliary/dos/ssl/dtls_changecipherspec                                 OpenSSL DTLS ChangeCipherSpec Remote DoS
+auxiliary/dos/ssl/dtls_fragment_overflow                                OpenSSL DTLS Fragment Buffer Overflow DoS
+auxiliary/server/openssl_heartbeat_client_memory                        OpenSSL Heartbeat (Heartbleed) Client Memory Exposure
+auxiliary/scanner/ssl/openssl_heartbleed                                OpenSSL Heartbeat (Heartbleed) Information Leak
+auxiliary/scanner/ssl/openssl_ccs                                       OpenSSL Server-Side ChangeCipherSpec Injection Scanner
+auxiliary/dos/ssl/openssl_aesni                                         OpenSSL TLS 1.1 and 1.2 AES-NI DoS
+auxiliary/scanner/openvas/openvas_omp_login                             OpenVAS OMP Login Utility
+auxiliary/scanner/openvas/openvas_otp_login                             OpenVAS OTP Login Utility
+auxiliary/scanner/openvas/openvas_gsad_login                            OpenVAS gsad Web Interface Login Utility
+auxiliary/admin/http/openbravo_xxe                                      Openbravo ERP XXE Arbitrary File Read
+auxiliary/admin/oracle/oracle_login                                     Oracle Account Discovery
+auxiliary/scanner/oracle/spy_sid                                        Oracle Application Server Spy Servlet SID Enumeration
+auxiliary/gather/oats_downloadservlet_traversal                         Oracle Application Testing Suite Post-Auth DownloadServlet Directory Traversal
+auxiliary/sqli/oracle/jvm_os_code_10g                                   Oracle DB 10gR2, 11gR1/R2 DBMS_JVM_EXP_PERMS OS Command Execution
+auxiliary/sqli/oracle/jvm_os_code_11g                                   Oracle DB 11g R1/R2 DBMS_JVM_EXP_PERMS OS Code Execution
+auxiliary/admin/oracle/oracle_index_privesc                             Oracle DB Privilege Escalation via Function-Based Index
+auxiliary/sqli/oracle/droptable_trigger                                 Oracle DB SQL Injection in MDSYS.SDO_TOPO_DROP_FTBL Trigger
+auxiliary/sqli/oracle/dbms_export_extension                             Oracle DB SQL Injection via DBMS_EXPORT_EXTENSION
+auxiliary/sqli/oracle/dbms_cdc_ipublish                                 Oracle DB SQL Injection via SYS.DBMS_CDC_IPUBLISH.ALTER_HOTLOG_INTERNAL_CSOURCE
+auxiliary/sqli/oracle/dbms_cdc_publish                                  Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.ALTER_AUTOLOG_CHANGE_SOURCE
+auxiliary/sqli/oracle/dbms_cdc_publish3                                 Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.CREATE_CHANGE_SET
+auxiliary/sqli/oracle/dbms_cdc_publish2                                 Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.DROP_CHANGE_SOURCE
+auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription          Oracle DB SQL Injection via SYS.DBMS_CDC_SUBSCRIBE.ACTIVATE_SUBSCRIPTION
+auxiliary/sqli/oracle/dbms_metadata_get_granted_xml                     Oracle DB SQL Injection via SYS.DBMS_METADATA.GET_GRANTED_XML
+auxiliary/sqli/oracle/dbms_metadata_get_xml                             Oracle DB SQL Injection via SYS.DBMS_METADATA.GET_XML
+auxiliary/sqli/oracle/dbms_metadata_open                                Oracle DB SQL Injection via SYS.DBMS_METADATA.OPEN
+auxiliary/sqli/oracle/lt_compressworkspace                              Oracle DB SQL Injection via SYS.LT.COMPRESSWORKSPACE
+auxiliary/sqli/oracle/lt_findricset_cursor                              Oracle DB SQL Injection via SYS.LT.FINDRICSET Evil Cursor Method
+auxiliary/sqli/oracle/lt_mergeworkspace                                 Oracle DB SQL Injection via SYS.LT.MERGEWORKSPACE
+auxiliary/sqli/oracle/lt_removeworkspace                                Oracle DB SQL Injection via SYS.LT.REMOVEWORKSPACE
+auxiliary/sqli/oracle/lt_rollbackworkspace                              Oracle DB SQL Injection via SYS.LT.ROLLBACKWORKSPACE
+auxiliary/admin/oracle/oraenum                                          Oracle Database Enumeration
+auxiliary/scanner/http/oracle_demantra_file_retrieval                   Oracle Demantra Arbitrary File Retrieval with Authentication Bypass
+auxiliary/scanner/http/oracle_demantra_database_credentials_leak        Oracle Demantra Database Credentials Leak
+auxiliary/scanner/oracle/emc_sid                                        Oracle Enterprise Manager Control SID Discovery
+auxiliary/scanner/http/oracle_ilom_login                                Oracle ILO Manager Login Brute Force Utility
+auxiliary/admin/oracle/post_exploitation/win32exec                      Oracle Java execCommand (Win32)
+auxiliary/scanner/oracle/oracle_hashdump                                Oracle Password Hashdump
+auxiliary/scanner/oracle/oracle_login                                   Oracle RDBMS Login Utility
+auxiliary/admin/oracle/ora_ntlm_stealer                                 Oracle SMB Relay Code Execution
+auxiliary/admin/oracle/oracle_sql                                       Oracle SQL Generic Query
+auxiliary/admin/oracle/osb_execqr2                                      Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+auxiliary/admin/oracle/osb_execqr3                                      Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+auxiliary/admin/oracle/osb_execqr                                       Oracle Secure Backup exec_qr() Command Injection Vulnerability
+auxiliary/scanner/oracle/tnspoison_checker                              Oracle TNS Listener Checker
+auxiliary/admin/oracle/tnscmd                                           Oracle TNS Listener Command Issuer
+auxiliary/admin/oracle/sid_brute                                        Oracle TNS Listener SID Brute Forcer
+auxiliary/scanner/oracle/sid_brute                                      Oracle TNS Listener SID Bruteforce
+auxiliary/scanner/oracle/sid_enum                                       Oracle TNS Listener SID Enumeration
+auxiliary/scanner/oracle/tnslsnr_version                                Oracle TNS Listener Service Version Query
+auxiliary/admin/oracle/post_exploitation/win32upload                    Oracle URL Download
+auxiliary/scanner/oracle/xdb_sid                                        Oracle XML DB SID Discovery
+auxiliary/scanner/oracle/xdb_sid_brute                                  Oracle XML DB SID Discovery via Brute Force
+auxiliary/scanner/oracle/isqlplus_login                                 Oracle iSQL*Plus Login Utility
+auxiliary/scanner/oracle/isqlplus_sidbrute                              Oracle iSQLPlus SID Check
+auxiliary/scanner/http/owa_iis_internal_ip                              Outlook Web App (OWA) / Client Access Server (CAS) IIS HTTP Internal IP Disclosure
+auxiliary/scanner/http/owa_login                                        Outlook Web App (OWA) Brute Force Utility
+auxiliary/scanner/ftp/pcman_ftp_traversal                               PCMan FTP Server 2.0.7 Directory Traversal Information Disclosure
+auxiliary/scanner/pop3/pop3_version                                     POP3 Banner Grabber
+auxiliary/scanner/pop3/pop3_login                                       POP3 Login Utility
+auxiliary/server/pxeexploit                                             PXE Boot Exploit Server
+auxiliary/dos/windows/tftp/pt360_write                                  PacketTrap TFTP Server 2.2.5459.0 DoS
+auxiliary/analyze/crack_aix                                             Password Cracker: AIX
+auxiliary/analyze/crack_databases                                       Password Cracker: Databases
+auxiliary/analyze/crack_linux                                           Password Cracker: Linux
+auxiliary/analyze/crack_mobile                                          Password Cracker: Mobile
+auxiliary/analyze/crack_osx                                             Password Cracker: OSX
+auxiliary/analyze/crack_webapps                                         Password Cracker: Webapps
+auxiliary/analyze/crack_windows                                         Password Cracker: Windows
+auxiliary/scanner/http/glassfish_traversal                              Path Traversal in Oracle GlassFish Server Open Source Edition
+auxiliary/scanner/pcanywhere/pcanywhere_login                           PcAnywhere Login Scanner
+auxiliary/scanner/pcanywhere/pcanywhere_tcp                             PcAnywhere TCP Service Discovery
+auxiliary/scanner/pcanywhere/pcanywhere_udp                             PcAnywhere UDP Service Discovery
+auxiliary/spoof/replay/pcap_replay                                      Pcap Replay Utility
+auxiliary/gather/peplink_bauth_sqli                                     Peplink Balance routers SQLi
+auxiliary/scanner/dcerpc/petitpotam                                     PetitPotam
+auxiliary/admin/scada/phoenix_command                                   PhoenixContact PLC Remote START/STOP Command
+auxiliary/scanner/http/phpmyadmin_login                                 PhpMyAdmin Login Scanner
+auxiliary/admin/http/pihole_domains_api_exec                            Pi-Hole Top Domains API Authenticated Exec
+auxiliary/dos/windows/http/pi3web_isapi                                 Pi3Web ISAPI DoS
+auxiliary/gather/pimcore_creds_sqli                                     Pimcore Gather Credentials via SQL Injection
+auxiliary/admin/http/scrutinizer_add_user                               Plixer Scrutinizer NetFlow and sFlow Analyzer HTTP Authentication Bypass
+auxiliary/scanner/http/pocketpad_login                                  PocketPAD Login Bruteforce Force Utility
+auxiliary/scanner/misc/poisonivy_control_scanner                        Poison Ivy Command and Control Scanner
+auxiliary/scanner/portmap/portmap_amp                                   Portmapper Amplification Scanner
+auxiliary/admin/http/pfadmin_set_protected_alias                        Postfixadmin Protected Alias Deletion Vulnerability
+auxiliary/scanner/postgres/postgres_dbname_flag_injection               PostgreSQL Database Name Command Line Flag Injection
+auxiliary/scanner/postgres/postgres_login                               PostgreSQL Login Utility
+auxiliary/admin/postgres/postgres_readfile                              PostgreSQL Server Generic Query
+auxiliary/admin/postgres/postgres_sql                                   PostgreSQL Server Generic Query
+auxiliary/scanner/postgres/postgres_version                             PostgreSQL Version Probe
+auxiliary/scanner/postgres/postgres_hashdump                            Postgres Password Hashdump
+auxiliary/scanner/postgres/postgres_schemadump                          Postgres Schema Dump
+auxiliary/scanner/printer/printer_list_dir                              Printer Directory Listing Scanner
+auxiliary/scanner/printer/printer_env_vars                              Printer Environment Variables Scanner
+auxiliary/scanner/printer/printer_delete_file                           Printer File Deletion Scanner
+auxiliary/scanner/printer/printer_download_file                         Printer File Download Scanner
+auxiliary/scanner/printer/printer_upload_file                           Printer File Upload Scanner
+auxiliary/scanner/printer/printer_ready_message                         Printer Ready Message Scanner
+auxiliary/scanner/printer/printer_version_info                          Printer Version Information Scanner
+auxiliary/scanner/printer/printer_list_volumes                          Printer Volume Listing Scanner
+auxiliary/server/capture/printjob_capture                               Printjob Capture Service
+auxiliary/admin/smb/psexec_ntdsgrab                                     PsExec NTDS.dit And SYSTEM Hive Download Utility
+exploit/linux/http/pulse_secure_cmd_exec                                Pulse Secure VPN Arbitrary Command Execution
+auxiliary/gather/pulse_secure_file_disclosure                           Pulse Secure VPN Arbitrary File Disclosure
+auxiliary/gather/qnap_backtrace_admin_hash                              QNAP NAS/NVR Administrator Hash Disclosure
+auxiliary/gather/qnap_lfi                                               QNAP QTS and Photo Station Local File Inclusion
+auxiliary/scanner/http/rfcode_reader_enum                               RFCode Reader Web Interface Login / Bruteforce Utility
+auxiliary/scanner/http/rips_traversal                                   RIPS Scanner Directory Traversal
+auxiliary/dos/rpc/rpcbomb                                               RPC DoS targeting *nix rpcbind/libtirpc
+auxiliary/scanner/http/radware_appdirector_enum                         Radware AppDirector Bruteforce Login Utility
+auxiliary/scanner/misc/raysharp_dvr_passwords                           Ray Sharp DVR Password Retriever
+auxiliary/admin/vnc/realvnc_41_bypass                                   RealVNC NULL Authentication Mode Bypass
+auxiliary/admin/http/cfme_manageiq_evm_pass_reset                       Red Hat CloudForms Management Engine 5.1 miq_policy/explorer SQL Injection
+auxiliary/scanner/redis/redis_server                                    Redis Command Execute Scanner
+auxiliary/gather/redis_extractor                                        Redis Extractor
+auxiliary/scanner/redis/file_upload                                     Redis File Upload
+auxiliary/scanner/redis/redis_login                                     Redis Login Utility
+auxiliary/server/regsvr32_command_delivery_server                       Regsvr32.exe (.sct) Command Delivery Server
+auxiliary/scanner/dcerpc/management                                     Remote Management Interface Discovery
+auxiliary/scanner/http/riverbed_steelhead_vcx_file_read                 Riverbed SteelHead VCX File Read
+auxiliary/scanner/rogue/rogue_recv                                      Rogue Gateway Detection: Receiver
+auxiliary/scanner/rogue/rogue_send                                      Rogue Gateway Detection: Sender
+auxiliary/admin/ldap/rbcd                                               Role Base Constrained Delegation
+auxiliary/scanner/misc/rosewill_rxs3211_passwords                       Rosewill RXS-3211 IP Camera Password Retriever
+auxiliary/scanner/http/rails_mass_assignment                            Ruby On Rails Attributes Mass Assignment Scanner
+auxiliary/gather/rails_doubletap_file_read                              Ruby On Rails File Content Disclosure ('doubletap')
+auxiliary/dos/http/webrick_regex                                        Ruby WEBrick::HTTP::DefaultFileHandler DoS
+auxiliary/dos/http/rails_action_view                                    Ruby on Rails Action View MIME Memory Exhaustion
+auxiliary/admin/http/rails_devise_pass_reset                            Ruby on Rails Devise Authentication Password Reset
+auxiliary/dos/http/rails_json_float_dos                                 Ruby on Rails JSON Processor Floating Point Heap Overflow DoS
+auxiliary/scanner/http/rails_json_yaml_scanner                          Ruby on Rails JSON Processor YAML Deserialization Scanner
+auxiliary/scanner/http/rails_xml_yaml_scanner                           Ruby on Rails XML Processor YAML Deserialization Scanner
+auxiliary/scanner/telnet/telnet_ruggedcom                               RuggedCom Telnet Password Generator
+auxiliary/scanner/http/s40_traversal                                    S40 0.4.2 CMS Directory Traversal Vulnerability
+auxiliary/admin/dcerpc/samr_computer                                    SAMR Computer Management
+auxiliary/scanner/sap/sap_soap_bapi_user_create1                        SAP /sap/bc/soap/rfc SOAP Service BAPI_USER_CREATE1 Function User Creation
+auxiliary/scanner/sap/sap_soap_rfc_ping                                 SAP /sap/bc/soap/rfc SOAP Service RFC_PING Function Service Discovery
+auxiliary/scanner/sap/sap_soap_rfc_read_table                           SAP /sap/bc/soap/rfc SOAP Service RFC_READ_TABLE Function Dump Data
+auxiliary/scanner/sap/sap_soap_rfc_system_info                          SAP /sap/bc/soap/rfc SOAP Service RFC_SYSTEM_INFO Function Sensitive Information Gathering
+auxiliary/scanner/sap/sap_soap_rfc_susr_rfc_user_interface              SAP /sap/bc/soap/rfc SOAP Service SUSR_RFC_USER_INTERFACE Function User Creation
+auxiliary/scanner/sap/sap_soap_rfc_sxpg_call_system_exec                SAP /sap/bc/soap/rfc SOAP Service SXPG_CALL_SYSTEM Function Command Execution
+auxiliary/scanner/sap/sap_soap_rfc_dbmcli_sxpg_call_system_command_exec SAP /sap/bc/soap/rfc SOAP Service SXPG_CALL_SYSTEM Function Command Injection
+auxiliary/scanner/sap/sap_soap_rfc_dbmcli_sxpg_command_exec             SAP /sap/bc/soap/rfc SOAP Service SXPG_COMMAND_EXEC Function Command Injection
+auxiliary/scanner/sap/sap_soap_th_saprel_disclosure                     SAP /sap/bc/soap/rfc SOAP Service TH_SAPREL Function Information Disclosure
+auxiliary/scanner/http/sap_businessobjects_user_brute                   SAP BusinessObjects User Bruteforcer
+auxiliary/scanner/http/sap_businessobjects_user_enum                    SAP BusinessObjects User Enumeration
+auxiliary/scanner/http/sap_businessobjects_version_enum                 SAP BusinessObjects Version Detection
+auxiliary/scanner/http/sap_businessobjects_user_brute_web               SAP BusinessObjects Web User Bruteforcer
+auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt                  SAP CTC Service Verb Tampering User Management
+auxiliary/admin/sap/sap_configservlet_exec_noauth                       SAP ConfigServlet OS Command Execution
+auxiliary/scanner/sap/sap_hostctrl_getcomputersystem                    SAP Host Agent Information Disclosure
+auxiliary/scanner/sap/sap_icf_public_info                               SAP ICF /sap/public/info Service Sensitive Information Gathering
+auxiliary/admin/sap/sap_igs_xmlchart_xxe                                SAP Internet Graphics Server (IGS) XMLCHART XXE
+auxiliary/scanner/sap/sap_mgmt_con_abaplog                              SAP Management Console ABAP Syslog Disclosure
+auxiliary/scanner/sap/sap_mgmt_con_brute_login                          SAP Management Console Brute Force
+auxiliary/scanner/sap/sap_mgmt_con_extractusers                         SAP Management Console Extract Users
+auxiliary/scanner/sap/sap_mgmt_con_getaccesspoints                      SAP Management Console Get Access Points
+auxiliary/scanner/sap/sap_mgmt_con_getlogfiles                          SAP Management Console Get Logfile
+auxiliary/scanner/sap/sap_mgmt_con_getprocessparameter                  SAP Management Console Get Process Parameters
+auxiliary/scanner/sap/sap_mgmt_con_getprocesslist                       SAP Management Console GetProcessList
+auxiliary/scanner/sap/sap_mgmt_con_instanceproperties                   SAP Management Console Instance Properties
+auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles                      SAP Management Console List Config Files
+auxiliary/scanner/sap/sap_mgmt_con_listlogfiles                         SAP Management Console List Logfiles
+auxiliary/admin/sap/sap_mgmt_con_osexec                                 SAP Management Console OSExecute
+auxiliary/scanner/sap/sap_mgmt_con_version                              SAP Management Console Version Detection
+auxiliary/scanner/sap/sap_mgmt_con_getenv                               SAP Management Console getEnvironment
+auxiliary/scanner/sap/sap_mgmt_con_startprofile                         SAP Management Console getStartProfile
+auxiliary/admin/maxdb/maxdb_cons_exec                                   SAP MaxDB cons.exe Remote Command Injection
+auxiliary/scanner/sap/sap_smb_relay                                     SAP SMB Relay Abuse
+auxiliary/dos/sap/sap_soap_rfc_eps_delete_file                          SAP SOAP EPS_DELETE_FILE File Deletion
+auxiliary/scanner/sap/sap_soap_rfc_eps_get_directory_listing            SAP SOAP RFC EPS_GET_DIRECTORY_LISTING Directories Information Disclosure
+auxiliary/scanner/sap/sap_soap_rfc_pfl_check_os_file_existence          SAP SOAP RFC PFL_CHECK_OS_FILE_EXISTENCE File Existence Check
+auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir                         SAP SOAP RFC RZL_READ_DIR_LOCAL Directory Contents Listing
+auxiliary/scanner/sap/sap_soap_rfc_sxpg_command_exec                    SAP SOAP RFC SXPG_COMMAND_EXECUTE
+auxiliary/scanner/sap/sap_soap_rfc_brute_login                          SAP SOAP Service RFC_PING Login Brute Forcer
+auxiliary/scanner/sap/sap_service_discovery                             SAP Service Discovery
+auxiliary/admin/sap/cve_2020_6207_solman_rce                            SAP Solution Manager remote unauthorized OS commands execution
+auxiliary/scanner/sap/sap_icm_urlscan                                   SAP URL Scanner
+auxiliary/admin/sap/cve_2020_6287_ws_add_user                           SAP Unauthenticated WebService User Creation
+auxiliary/scanner/sap/sap_web_gui_brute_login                           SAP Web GUI Login Brute Forcer
+auxiliary/scanner/sap/sap_router_info_request                           SAPRouter Admin Request
+auxiliary/scanner/sap/sap_router_portscanner                            SAPRouter Port Scanner
+auxiliary/voip/sip_deregister                                           SIP Deregister Extension
+auxiliary/scanner/sip/options_tcp                                       SIP Endpoint Scanner (TCP)
+auxiliary/scanner/sip/options                                           SIP Endpoint Scanner (UDP)
+auxiliary/voip/sip_invite_spoof                                         SIP Invite Spoof
+auxiliary/scanner/sip/enumerator_tcp                                    SIP Username Enumerator (TCP)
+auxiliary/scanner/sip/enumerator                                        SIP Username Enumerator (UDP)
+auxiliary/scanner/sip/sipdroid_ext_enum                                 SIPDroid Extension Grabber
+auxiliary/fuzzers/smb/smb_create_pipe_corrupt                           SMB Create Pipe Request Corruption
+auxiliary/fuzzers/smb/smb_create_pipe                                   SMB Create Pipe Request Fuzzer
+auxiliary/admin/smb/list_directory                                      SMB Directory Listing Utility
+auxiliary/scanner/smb/smb_enumusers_domain                              SMB Domain User Enumeration
+auxiliary/admin/smb/delete_file                                         SMB File Delete Utility
+auxiliary/admin/smb/download_file                                       SMB File Download Utility
+auxiliary/admin/smb/upload_file                                         SMB File Upload Utility
+auxiliary/scanner/smb/smb_enum_gpp                                      SMB Group Policy Preference Saved Passwords Enumeration
+auxiliary/scanner/smb/smb_login                                         SMB Login Check Scanner
+auxiliary/fuzzers/smb/smb_ntlm1_login_corrupt                           SMB NTLMv1 Login Request Corruption
+auxiliary/fuzzers/smb/smb_negotiate_corrupt                             SMB Negotiate Dialect Corruption
+auxiliary/fuzzers/smb/smb2_negotiate_corrupt                            SMB Negotiate SMB2 Dialect Corruption
+auxiliary/scanner/smb/smb_lookupsid                                     SMB SID User Enumeration (LookupSid)
+auxiliary/admin/smb/check_dir_file                                      SMB Scanner Check File/Directory Utility
+auxiliary/scanner/smb/pipe_auditor                                      SMB Session Pipe Auditor
+auxiliary/scanner/smb/pipe_dcerpc_auditor                               SMB Session Pipe DCERPC Auditor
+auxiliary/scanner/smb/smb_enumshares                                    SMB Share Enumeration
+auxiliary/fuzzers/smb/smb_tree_connect_corrupt                          SMB Tree Connect Request Corruption
+auxiliary/fuzzers/smb/smb_tree_connect                                  SMB Tree Connect Request Fuzzer
+auxiliary/scanner/smb/smb_enumusers                                     SMB User Enumeration (SAM EnumUsers)
+auxiliary/scanner/smb/smb_version                                       SMB Version Detection
+auxiliary/dos/smb/smb_loris                                             SMBLoris NBSS Denial of Service
+auxiliary/client/sms/send_text                                          SMS Client
+auxiliary/scanner/smtp/smtp_version                                     SMTP Banner Grabber
+auxiliary/scanner/smtp/smtp_ntlm_domain                                 SMTP NTLM Domain Extraction
+auxiliary/scanner/smtp/smtp_relay                                       SMTP Open Relay Detection
+auxiliary/fuzzers/smtp/smtp_fuzzer                                      SMTP Simple Fuzzer
+auxiliary/scanner/smtp/smtp_enum                                        SMTP User Enumeration Utility
+auxiliary/scanner/snmp/snmp_login                                       SNMP Community Login Scanner
+auxiliary/scanner/snmp/snmp_enum                                        SNMP Enumeration Module
+auxiliary/scanner/snmp/snmp_set                                         SNMP Set Module
+auxiliary/scanner/snmp/snmp_enumshares                                  SNMP Windows SMB Share Enumeration
+auxiliary/scanner/snmp/snmp_enumusers                                   SNMP Windows Username Enumeration
+auxiliary/server/socks_proxy                                            SOCKS Proxy Server
+auxiliary/server/socks_unc                                              SOCKS Proxy UNC Path Redirection
+auxiliary/scanner/upnp/ssdp_amp                                         SSDP ssdp:all M-SEARCH Amplification Scanner
+auxiliary/fuzzers/ssh/ssh_version_15                                    SSH 1.5 Version Fuzzer
+auxiliary/fuzzers/ssh/ssh_version_2                                     SSH 2.0 Version Fuzzer
+auxiliary/fuzzers/ssh/ssh_kexinit_corrupt                               SSH Key Exchange Init Corruption
+auxiliary/scanner/ssh/ssh_login                                         SSH Login Check Scanner
+auxiliary/scanner/ssh/ssh_identify_pubkeys                              SSH Public Key Acceptance Scanner
+auxiliary/scanner/ssh/ssh_login_pubkey                                  SSH Public Key Login Scanner
+auxiliary/scanner/ssh/ssh_enumusers                                     SSH Username Enumeration
+auxiliary/fuzzers/ssh/ssh_version_corrupt                               SSH Version Corruption
+auxiliary/scanner/ssh/ssh_version                                       SSH Version Scanner
+auxiliary/gather/ssllabs_scan                                           SSL Labs API Client
+auxiliary/scanner/ssl/ssl_version                                       SSL/TLS Version Detection
+auxiliary/scanner/http/svn_wcdb_scanner                                 SVN wc.db Scanner
+auxiliary/scanner/sage/x3_adxsrv_login                                  Sage X3 AdxAdmin Login Scanner
+auxiliary/gather/saltstack_salt_root_key                                SaltStack Salt Master Server Root Key Disclosure
+auxiliary/admin/smb/samba_symlink_traversal                             Samba Symlink Directory Traversal
+auxiliary/scanner/smb/smb_uninit_cred                                   Samba _netr_ServerPasswordSet Uninitialized Credential State
+auxiliary/dos/samba/lsa_addprivs_heap                                   Samba lsa_io_privilege_set Heap Overflow
+auxiliary/dos/samba/lsa_transnames_heap                                 Samba lsa_io_trans_names Heap Overflow
+auxiliary/dos/samba/read_nttrans_ea_list                                Samba read_nttrans_ea_list Integer Overflow
+auxiliary/gather/samsung_browser_sop_bypass                             Samsung Internet Browser SOP Bypass
+auxiliary/scanner/telnet/satel_cmd_exec                                 Satel Iberia SenNet Data Logger and Electricity Meters Command Injection Vulnerability
+auxiliary/admin/http/scadabr_credential_dump                            ScadaBR Credentials Dumper
+auxiliary/scanner/ssl/bleichenbacher_oracle                             Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5
+auxiliary/admin/scada/modicon_stux_transfer                             Schneider Modicon Ladder Logic Upload/Download
+auxiliary/admin/scada/modicon_password_recovery                         Schneider Modicon Quantum Password Recovery
+auxiliary/admin/scada/modicon_command                                   Schneider Modicon Remote START/STOP Command
+auxiliary/gather/search_email_collector                                 Search Engine Domain Email Address Collector
+auxiliary/gather/searchengine_subdomains_collector                      Search Engine Subdomains Collector
+auxiliary/spoof/cisco/cdp                                               Send Cisco Discovery Protocol (CDP) Packets
+auxiliary/dos/smtp/sendmail_prescan                                     Sendmail SMTP Address prescan Memory Corruption
+auxiliary/scanner/http/sentry_cdu_enum                                  Sentry Switched CDU Bruteforce Login Utility
+auxiliary/admin/misc/sercomm_dump_config                                SerComm Device Configuration Dump
+auxiliary/scanner/misc/sercomm_backdoor_scanner                         SerComm Network Device Backdoor Detection
+auxiliary/scanner/http/sevone_enum                                      SevOne Network Performance Management Application Brute Force Login Utility
+auxiliary/gather/shodan_honeyscore                                      Shodan Honeyscore Client
+auxiliary/gather/shodan_host                                            Shodan Host Port
+auxiliary/gather/shodan_search                                          Shodan Search
+auxiliary/scanner/scada/sielco_winlog_fileaccess                        Sielco Sistemi Winlog Remote File Access
+auxiliary/scanner/scada/profinet_siemens                                Siemens Profinet Scanner
+auxiliary/dos/scada/siemens_siprotec4                                   Siemens SIPROTEC 4 and SIPROTEC Compact EN100 Ethernet Module - Denial of Service
+auxiliary/fuzzers/ftp/client_ftp                                        Simple FTP Client Fuzzer
+auxiliary/fuzzers/ftp/ftp_pre_post                                      Simple FTP Fuzzer
+auxiliary/scanner/http/simple_webserver_traversal                       Simple Web Server 2.3-RC1 Directory Traversal
+auxiliary/dos/http/slowloris                                            Slowloris Denial of Service Attack
+auxiliary/gather/snare_registry                                         Snare Lite for Windows Registry Access
+auxiliary/scanner/http/sockso_traversal                                 Sockso Music Host Server 1.5 Directory Traversal
+auxiliary/dos/windows/ftp/solarftp_user                                 Solar FTP Server Malformed USER Denial of Service
+auxiliary/dos/windows/tftp/solarwinds                                   SolarWinds TFTP Server 10.4.0.10 Denial of Service
+auxiliary/admin/sunrpc/solaris_kcms_readfile                            Solaris KCMS + TTDB Arbitrary File Read
+auxiliary/dos/solaris/lpd/cascade_delete                                Solaris LPD Arbitrary File Delete
+auxiliary/gather/solarwinds_orion_sqli                                  Solarwinds Orion AccountManagement.asmx GetAccounts Admin Creation
+auxiliary/dos/http/sonicwall_ssl_format                                 SonicWALL SSL-VPN Format String Vulnerability
+auxiliary/admin/http/sophos_wpa_traversal                               Sophos Web Protection Appliance patience.cgi Directory Traversal
+auxiliary/scanner/http/splunk_web_login                                 Splunk Web Interface Login Utility
+auxiliary/scanner/http/springcloud_traversal                            Spring Cloud Config Server Directory Traversal
+auxiliary/scanner/http/squid_pivot_scanning                             Squid Proxy Port Scanner
+auxiliary/dos/http/squid_range_dos                                      Squid Proxy Range Header DoS
+auxiliary/scanner/http/squiz_matrix_user_enum                           Squiz Matrix User Enumeration Scanner
+auxiliary/gather/suite_crm_export_sqli                                  SuiteCRM authenticated SQL injection in export functionality
+auxiliary/scanner/misc/sunrpc_portmapper                                SunRPC Portmap Program Enumerator
+auxiliary/scanner/http/smt_ipmi_cgi_scanner                             Supermicro Onboard IPMI CGI Vulnerability Scanner
+auxiliary/scanner/http/smt_ipmi_49152_exposure                          Supermicro Onboard IPMI Port 49152 Sensitive File Exposure
+auxiliary/scanner/http/smt_ipmi_static_cert_scanner                     Supermicro Onboard IPMI Static SSL Certificate Scanner
+auxiliary/scanner/http/smt_ipmi_url_redirect_traversal                  Supermicro Onboard IPMI url_redirect.cgi Authenticated Directory Traversal
+auxiliary/admin/http/supra_smart_cloud_tv_rfi                           Supra Smart Cloud TV Remote File Inclusion
+auxiliary/scanner/http/surgenews_user_creds                             SurgeNews User Credentials
+auxiliary/scanner/http/sybase_easerver_traversal                        Sybase Easerver 6.3 Directory Traversal
+auxiliary/scanner/http/symantec_brightmail_ldapcreds                    Symantec Messaging Gateway 10 Exposure of Stored AD Password Vulnerability
+auxiliary/scanner/http/symantec_brightmail_logfile                      Symantec Messaging Gateway 9.5 Log File Download Vulnerability
+auxiliary/scanner/http/symantec_web_gateway_login                       Symantec Web Gateway Login Utility
+auxiliary/scanner/http/syncovery_linux_login                            Syncovery For Linux Web-GUI Login Utility
+auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536             Syncovery For Linux Web-GUI Session Token Brute-Forcer
+auxiliary/scanner/http/synology_forget_passwd_user_enum                 Synology Forget Password User Enumeration Scanner
+auxiliary/admin/http/sysaid_admin_acct                                  SysAid Help Desk Administrator Account Creation
+exploit/multi/http/sysaid_auth_file_upload                              SysAid Help Desk Administrator Portal Arbitrary File Upload
+auxiliary/admin/http/sysaid_file_download                               SysAid Help Desk Arbitrary File Download
+auxiliary/admin/http/sysaid_sql_creds                                   SysAid Help Desk Database Credentials Disclosure
+auxiliary/dos/windows/ssh/sysax_sshd_kexchange                          Sysax Multi-Server 6.10 SSHD Key Exchange Denial of Service
+auxiliary/scanner/portscan/xmas                                         TCP "XMas" Port Scanner
+auxiliary/scanner/portscan/ack                                          TCP ACK Firewall Scanner
+auxiliary/scanner/portscan/tcp                                          TCP Port Scanner
+auxiliary/dos/tcp/synflood                                              TCP SYN Flooder
+auxiliary/scanner/portscan/syn                                          TCP SYN Port Scanner
+auxiliary/fuzzers/tds/tds_login_corrupt                                 TDS Protocol Login Request Corruption Fuzzer
+auxiliary/fuzzers/tds/tds_login_username                                TDS Protocol Login Request Username Fuzzer
+auxiliary/scanner/tftp/tftpbrute                                        TFTP Brute Forcer
+auxiliary/server/tftp                                                   TFTP File Server
+auxiliary/admin/tftp/tftp_transfer_util                                 TFTP File Transfer Utility
+auxiliary/scanner/http/tplink_traversal_noauth                          TP-Link Wireless Lite N Access Point Directory Traversal Vulnerability
+auxiliary/scanner/http/tvt_nvms_traversal                               TVT NVMS-1000 Directory Traversal
+auxiliary/admin/http/typo3_news_module_sqli                             TYPO3 News Module SQL Injection
+auxiliary/admin/http/typo3_winstaller_default_enc_keys                  TYPO3 Winstaller Default Encryption Keys
+auxiliary/admin/http/typo3_sa_2009_001                                  TYPO3 sa-2009-001 Weak Encryption Key File Disclosure
+auxiliary/admin/http/typo3_sa_2010_020                                  TYPO3 sa-2010-020 Remote File Disclosure
+auxiliary/dos/http/tautulli_shutdown_exec                               Tautulli v2.1.9 - Shutdown Denial of Service
+auxiliary/gather/teamtalk_creds                                         TeamTalk Gather Credentials
+auxiliary/server/teamviewer_uri_smb_redirect                            TeamViewer Unquoted URI Handler SMB Redirect
+auxiliary/client/telegram/send_message                                  Telegram Message Client
+auxiliary/scanner/voice/recorder                                        Telephone Line Voice Scanner
+auxiliary/voip/telisca_ips_lock_control                                 Telisca IPS Lock Cisco IP Phone Control
+auxiliary/scanner/telnet/telnet_login                                   Telnet Login Check Scanner
+auxiliary/scanner/telnet/telnet_version                                 Telnet Service Banner Detection
+auxiliary/scanner/telnet/telnet_encrypt_overflow                        Telnet Service Encryption Key ID Overflow Detection
+auxiliary/admin/http/telpho10_credential_dump                           Telpho10 Backup Credentials Dumper
+auxiliary/scanner/teradata/teradata_odbc_login                          Teradata ODBC Login Scanner Module
+auxiliary/admin/teradata/teradata_odbc_sql                              Teradata ODBC SQL Query Module
+auxiliary/scanner/ssh/ssh_enum_git_keys                                 Test SSH Github Access
+auxiliary/scanner/http/thinvnc_traversal                                ThinVNC Directory Traversal
+auxiliary/admin/tikiwiki/tikidblib                                      TikiWiki Information Disclosure
+auxiliary/scanner/http/titan_ftp_admin_pwd                              Titan FTP Administrative Password Disclosure
+auxiliary/dos/windows/ftp/titan626_site                                 Titan FTP Server 6.26.630 SITE WHO DoS
+auxiliary/scanner/ftp/titanftp_xcrc_traversal                           Titan FTP XCRC Directory Traversal Information Disclosure
+auxiliary/admin/http/tomcat_administration                              Tomcat Administration Tool Default Access
+auxiliary/scanner/http/tomcat_mgr_login                                 Tomcat Application Manager Login Utility
+auxiliary/admin/http/tomcat_utf8_traversal                              Tomcat UTF-8 Directory Traversal Vulnerability
+auxiliary/scanner/http/totaljs_traversal                                Total.js prior to 3.2.4 Directory Traversal
+auxiliary/admin/http/trendmicro_dlp_traversal                           TrendMicro Data Loss Prevention 5.5 Directory Traversal
+auxiliary/admin/officescan/tmlisten_traversal                           TrendMicro OfficeScanNT Listener Traversal Arbitrary File Access
+auxiliary/admin/serverprotect/file                                      TrendMicro ServerProtect File Access
+auxiliary/scanner/http/typo3_bruteforce                                 Typo3 Login Bruteforcer
+auxiliary/admin/http/typo3_sa_2009_002                                  Typo3 sa-2009-002 File Disclosure
+auxiliary/scanner/udp/udp_amplification                                 UDP Amplification Scanner
+auxiliary/scanner/discovery/empty_udp                                   UDP Empty Prober
+auxiliary/scanner/discovery/udp_probe                                   UDP Service Prober
+auxiliary/scanner/discovery/udp_sweep                                   UDP Service Sweeper
+auxiliary/admin/misc/wol                                                UDP Wake-On-Lan (WOL)
+auxiliary/admin/upnp/soap_portmapping                                   UPnP IGD SOAP Port Mapping Utility
+auxiliary/scanner/upnp/ssdp_msearch                                     UPnP SSDP M-SEARCH Information Discovery
+auxiliary/scanner/vxworks/urgent11_check                                URGENT/11 Scanner, Based on Detection Tool by Armis
+auxiliary/scanner/snmp/ubee_ddw3611                                     Ubee DDW3611b Cable Modem Wifi Enumeration
+auxiliary/admin/networking/ubiquiti_config                              Ubiquiti Configuration Importer
+auxiliary/scanner/ubiquiti/ubiquiti_discover                            Ubiquiti Discovery Scanner
+auxiliary/admin/http/ulterius_file_download                             Ulterius Server File Download Vulnerability
+auxiliary/gather/hikvision_info_disclosure_cve_2017_7921                Unauthenticated information disclosure such as configuration, credentials and camera snapshots of a vulnerable Hikvision IP Camera
+auxiliary/scanner/scada/pcomclient                                      Unitronics PCOM Client
+auxiliary/admin/scada/pcom_command                                      Unitronics PCOM remote START/STOP/RESET command
+auxiliary/admin/pop2/uw_fileretrieval                                   UoW pop2d Remote File Retrieval Vulnerability
+auxiliary/scanner/http/vcms_login                                       V-CMS Login Utility
+auxiliary/scanner/http/vicidial_multiple_sqli                           VICIdial Multiple Authenticated SQLi
+auxiliary/scanner/vmware/vmauthd_login                                  VMWare Authentication Daemon Login Scanner
+auxiliary/scanner/vmware/vmauthd_version                                VMWare Authentication Daemon Version Scanner
+auxiliary/scanner/vmware/esx_fingerprint                                VMWare ESX/ESXi Fingerprint Scanner
+auxiliary/scanner/vmware/vmware_enum_sessions                           VMWare Enumerate Active Sessions
+auxiliary/scanner/vmware/vmware_host_details                            VMWare Enumerate Host Details
+auxiliary/scanner/vmware/vmware_enum_permissions                        VMWare Enumerate Permissions
+auxiliary/scanner/vmware/vmware_enum_users                              VMWare Enumerate User Accounts
+auxiliary/scanner/vmware/vmware_enum_vms                                VMWare Enumerate Virtual Machines
+auxiliary/admin/vmware/poweroff_vm                                      VMWare Power Off Virtual Machine
+auxiliary/admin/vmware/poweron_vm                                       VMWare Power On Virtual Machine
+auxiliary/scanner/vmware/vmware_screenshot_stealer                      VMWare Screenshot Stealer
+auxiliary/admin/vmware/tag_vm                                           VMWare Tag Virtual Machine
+auxiliary/admin/vmware/terminate_esx_sessions                           VMWare Terminate ESX Login Sessions
+auxiliary/scanner/vmware/vmware_update_manager_traversal                VMWare Update Manager 4 Directory Traversal
+auxiliary/scanner/vmware/vmware_http_login                              VMWare Web Login Scanner
+auxiliary/scanner/vmware/vmware_server_dir_trav                         VMware Server Directory Traversal Vulnerability
+auxiliary/admin/vmware/vcenter_offline_mdb_extract                      VMware vCenter Extract Secrets from vmdir / vmafd DB File
+auxiliary/admin/vmware/vcenter_forge_saml_token                         VMware vCenter Forge SAML Authentication Credentials
+auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass                   VMware vCenter Server vmdir Authentication Bypass
+auxiliary/gather/vmware_vcenter_vmdir_ldap                              VMware vCenter Server vmdir Information Disclosure
+auxiliary/scanner/vnc/vnc_none_auth                                     VNC Authentication None Detection
+auxiliary/scanner/vnc/vnc_login                                         VNC Authentication Scanner
+auxiliary/vsploit/malware/dns/dns_query                                 VSploit DNS Beaconing Emulation
+auxiliary/vsploit/pii/email_pii                                         VSploit Email PII
+auxiliary/vsploit/malware/dns/dns_mariposa                              VSploit Mariposa DNS Query Module
+auxiliary/vsploit/pii/web_pii                                           VSploit Web PII
+auxiliary/vsploit/malware/dns/dns_zeus                                  VSploit Zeus DNS Query Module
+auxiliary/scanner/varnish/varnish_cli_file_read                         Varnish Cache CLI File Read
+auxiliary/scanner/varnish/varnish_cli_login                             Varnish Cache CLI Login Utility
+auxiliary/admin/atg/atg_client                                          Veeder-Root Automatic Tank Gauge (ATG) Administrative Client
+auxiliary/admin/backupexec/registry                                     Veritas Backup Exec Server Registry Access
+auxiliary/admin/backupexec/dump                                         Veritas Backup Exec Windows Remote File Access
+auxiliary/dos/windows/ftp/vicftps50_list                                Victory FTP Server 5.0 LIST DoS
+auxiliary/voip/cisco_cucdm_call_forward                                 Viproy CUCDM IP Phone XML Services - Call Forwarding Tool
+auxiliary/voip/cisco_cucdm_speed_dials                                  Viproy CUCDM IP Phone XML Services - Speed Dial Attack Tool
+auxiliary/scanner/msmail/host_id                                        Vulnerable domain identification
+auxiliary/scanner/vxworks/wdbrpc_bootline                               VxWorks WDB Agent Boot Parameter Scanner
+auxiliary/admin/vxworks/wdbrpc_memory_dump                              VxWorks WDB Agent Remote Memory Dump
+auxiliary/admin/vxworks/wdbrpc_reboot                                   VxWorks WDB Agent Remote Reboot
+auxiliary/scanner/vxworks/wdbrpc_version                                VxWorks WDB Agent Version Scanner
+auxiliary/admin/networking/vyos_config                                  VyOS Configuration Importer
+auxiliary/scanner/http/wangkongbao_traversal                            WANGKONGBAO CNS-1000 and 1100 UTM Directory Traversal
+auxiliary/scanner/smb/impacket/wmiexec                                  WMI Exec
+auxiliary/server/wpad                                                   WPAD.dat File Server
+auxiliary/scanner/wsdd/wsdd_query                                       WS-Discovery Information Discovery
+auxiliary/scanner/telephony/wardial                                     Wardialer
+auxiliary/scanner/http/crawler                                          Web Site Crawler
+auxiliary/scanner/http/joomla_ecommercewd_sqli_scanner                  Web-Dorado ECommerce WD for Joomla! search_category_id SQL Injection Scanner
+auxiliary/admin/smb/webexec_command                                     WebEx Remote Command Execution Utility
+auxiliary/dos/http/webkitplus                                           WebKitGTK+ WebKitFaviconDatabase DoS
+auxiliary/admin/http/webnms_file_download                               WebNMS Framework Server Arbitrary Text File Download
+auxiliary/admin/http/webnms_cred_disclosure                             WebNMS Framework Server Credential Disclosure
+auxiliary/scanner/http/webpagetest_traversal                            WebPageTest Directory Traversal
+auxiliary/admin/webmin/file_disclosure                                  Webmin File Disclosure
+auxiliary/admin/webmin/edit_html_fileaccess                             Webmin edit_html.cgi file Parameter Traversal Arbitrary File Access
+auxiliary/scanner/http/mybook_live_login                                Western Digital MyBook Live Login Utility
+auxiliary/scanner/http/wildfly_traversal                                WildFly Directory Traversal
+auxiliary/dos/windows/ftp/winftp230_nlst                                WinFTP 2.3.0 NLST Denial of Service
+auxiliary/scanner/winrm/winrm_auth_methods                              WinRM Authentication Method Detection
+auxiliary/scanner/winrm/winrm_cmd                                       WinRM Command Runner
+auxiliary/scanner/winrm/winrm_login                                     WinRM Login Utility
+auxiliary/scanner/winrm/winrm_wql                                       WinRM WQL Query Runner
+post/windows/gather/word_unc_injector                                   Windows Gather Microsoft Office Word UNC Path Injector
+auxiliary/dos/windows/http/http_sys_accept_encoding_dos_cve_2021_31166  Windows IIS HTTP Protocol Stack DOS
+auxiliary/fileformat/multidrop                                          Windows SMB Multi Dropper
+auxiliary/gather/windows_secrets_dump                                   Windows Secrets Dump
+auxiliary/dos/wireshark/capwap                                          Wireshark CAPWAP Dissector DoS
+auxiliary/dos/wireshark/cldap                                           Wireshark CLDAP Dissector DOS
+auxiliary/dos/wireshark/ldap                                            Wireshark LDAP Dissector DOS
+auxiliary/dos/wireshark/chunked                                         Wireshark chunked_encoding_dissector Function DOS
+auxiliary/gather/wp_all_in_one_migration_export                         WordPress All-in-One Migration Export
+auxiliary/scanner/http/wordpress_login_enum                             WordPress Brute Force and User Enumeration Utility
+auxiliary/scanner/http/wordpress_cp_calendar_sqli                       WordPress CP Multi-View Calendar Unauthenticated SQL Injection Scanner
+auxiliary/scanner/http/wp_chopslider_id_sqli                            WordPress ChopSlider3 id SQLi Scanner
+auxiliary/scanner/http/wp_contus_video_gallery_sqli                     WordPress Contus Video Gallery Unauthenticated SQL Injection Scanner
+auxiliary/scanner/http/wp_dukapress_file_read                           WordPress DukaPress Plugin File Read Vulnerability
+auxiliary/scanner/http/wp_duplicator_file_read                          WordPress Duplicator File Read Vulnerability
+auxiliary/scanner/http/wp_easy_wp_smtp                                  WordPress Easy WP SMTP Password Reset
+auxiliary/scanner/http/wp_email_sub_news_sqli                           WordPress Email Subscribers and Newsletter Hash SQLi Scanner
+auxiliary/scanner/http/wp_gimedia_library_file_read                     WordPress GI-Media Library Plugin Directory Traversal Vulnerability
+auxiliary/admin/http/wp_google_maps_sqli                                WordPress Google Maps Plugin SQL Injection
+auxiliary/scanner/http/wp_loginizer_log_sqli                            WordPress Loginizer log SQLi Scanner
+auxiliary/dos/http/wordpress_long_password_dos                          WordPress Long Password DoS
+auxiliary/scanner/http/wp_mobileedition_file_read                       WordPress Mobile Edition File Read Vulnerability
+auxiliary/scanner/http/wp_mobile_pack_info_disclosure                   WordPress Mobile Pack Information Disclosure Vulnerability
+auxiliary/scanner/http/wp_modern_events_calendar_sqli                   WordPress Modern Events Calendar SQLi Scanner
+auxiliary/scanner/http/wp_nextgen_galley_file_read                      WordPress NextGEN Gallery Directory Read Vulnerability
+auxiliary/admin/http/wp_automatic_plugin_privesc                        WordPress Plugin Automatic Config Change to RCE
+auxiliary/scanner/http/wordpress_content_injection                      WordPress REST API Content Injection
+auxiliary/scanner/http/wp_simple_backup_file_read                       WordPress Simple Backup File Read Vulnerability
+auxiliary/scanner/http/wp_subscribe_comments_file_read                  WordPress Subscribe Comments File Read Vulnerability
+auxiliary/admin/http/wp_symposium_sql_injection                         WordPress Symposium Plugin SQL Injection
+auxiliary/scanner/http/wp_total_upkeep_downloader                       WordPress Total Upkeep Unauthenticated Backup Downloader
+auxiliary/dos/http/wordpress_directory_traversal_dos                    WordPress Traversal Directory DoS
+auxiliary/gather/wp_ultimate_csv_importer_user_extract                  WordPress Ultimate CSV Importer User Table Extract
+auxiliary/gather/wp_w3_total_cache_hash_extract                         WordPress W3-Total-Cache Plugin 0.9.2.4 (or before) Username and Hash Extract
+auxiliary/admin/http/wp_easycart_privilege_escalation                   WordPress WP EasyCart Plugin Privilege Escalation
+auxiliary/admin/http/wp_gdpr_compliance_privesc                         WordPress WP GDPR Compliance Plugin Privilege Escalation
+auxiliary/admin/http/wp_wplms_privilege_escalation                      WordPress WPLMS Theme Privilege Escalation
+auxiliary/scanner/http/wp_wps_hide_login_revealer                       WordPress WPS Hide Login Login Page Revealer
+auxiliary/scanner/http/wordpress_ghost_scanner                          WordPress XMLRPC GHOST Vulnerability Scanner
+auxiliary/admin/http/wp_custom_contact_forms                            WordPress custom-contact-forms Plugin SQL Upload
+auxiliary/scanner/http/wp_arbitrary_file_deletion                       Wordpress Arbitrary File Deletion
+auxiliary/gather/wp_bookingpress_category_services_sqli                 Wordpress BookingPress bookingpress_front_get_category_services SQLi
+auxiliary/scanner/http/wp_bulletproofsecurity_backups                   Wordpress BulletProof Security Backup Disclosure
+auxiliary/scanner/http/wp_learnpress_sqli                               Wordpress LearnPress current_items Authenticated SQLi
+auxiliary/admin/http/wp_masterstudy_privesc                             Wordpress MasterStudy Admin Account Creation
+auxiliary/scanner/http/wp_paid_membership_pro_code_sqli                 Wordpress Paid Membership Pro code Unauthenticated SQLi
+auxiliary/scanner/http/wordpress_pingback_access                        Wordpress Pingback Locator
+auxiliary/scanner/http/wp_registrationmagic_sqli                        Wordpress RegistrationMagic task_ids Authenticated SQLi
+auxiliary/scanner/http/wordpress_scanner                                Wordpress Scanner
+auxiliary/scanner/http/wp_secure_copy_content_protection_sqli           Wordpress Secure Copy Content Protection and Content Locking sccp_id Unauthenticated SQLi
+auxiliary/scanner/http/wordpress_xmlrpc_login                           Wordpress XML-RPC Username/Password Login Scanner
+auxiliary/scanner/http/wordpress_multicall_creds                        Wordpress XML-RPC system.multicall Credential Collector
+auxiliary/dos/http/wordpress_xmlrpc_dos                                 Wordpress XMLRPC DoS
+auxiliary/scanner/x11/open_x11                                          X11 No-Auth Scanner
+auxiliary/gather/xbmc_traversal                                         XBMC Web Server Directory Traversal
+auxiliary/dos/windows/ftp/xmeasy560_nlst                                XM Easy Personal FTP Server 5.6.0 NLST DoS
+auxiliary/dos/windows/ftp/xmeasy570_nlst                                XM Easy Personal FTP Server 5.7.0 NLST DoS
+auxiliary/gather/xerox_pwd_extract                                      Xerox Administrator Console Password Extractor
+auxiliary/scanner/snmp/xerox_workcentre_enumusers                       Xerox WorkCentre User Enumeration (SNMP)
+auxiliary/gather/xerox_workcentre_5xxx_ldap                             Xerox Workcentre 5735 LDAP Service Redential Extractor
+auxiliary/gather/xymon_info                                             Xymon Daemon Gather Information
+auxiliary/scanner/http/yaws_traversal                                   Yaws Web Server Directory Traversal
+auxiliary/admin/scada/yokogawa_bkbcopyd_client                          Yokogawa BKBCopyD.exe Client
+auxiliary/dos/scada/yokogawa_logsvr                                     Yokogawa CENTUM CS 3000 BKCLogSvr.exe Heap Buffer Overflow
+auxiliary/scanner/http/zabbix_login                                     Zabbix Server Brute Force Utility
+auxiliary/gather/zabbix_toggleids_sqli                                  Zabbix toggle_ids SQL Injection
+auxiliary/scanner/http/zenload_balancer_traversal                       Zen Load Balancer Directory Traversal
+auxiliary/admin/zend/java_bridge                                        Zend Server Java Bridge Design Flaw Remote Code Execution
+auxiliary/gather/zoomeye_search                                         ZoomEye Search
+auxiliary/admin/http/zyxel_admin_password_extractor                     ZyXEL GS1510-16 Password Extractor
+auxiliary/scanner/http/cgit_traversal                                   cgit Directory Traversal
+auxiliary/dos/apple_ios/webkit_backdrop_filter_blur                     iOS Safari Denial of Service with CSS
+auxiliary/scanner/ssh/libssh_auth_bypass                                libssh Authentication Bypass Scanner
+auxiliary/scanner/mdns/query                                            mDNS Query
+auxiliary/spoof/mdns/mdns_response                                      mDNS Spoofer
+auxiliary/dos/http/marked_redos                                         marked npm module "heading" ReDoS
+auxiliary/sniffer/psnuffle                                              pSnuffle Packet Sniffer
+auxiliary/scanner/rservices/rexec_login                                 rexec Authentication Scanner
+auxiliary/scanner/rservices/rlogin_login                                rlogin Authentication Scanner
+auxiliary/scanner/rservices/rsh_login                                   rsh Authentication Scanner
+auxiliary/dos/syslog/rsyslog_long_tag                                   rsyslog Long Tag Off-By-Two DoS
+auxiliary/dos/http/ua_parser_js_redos                                   ua-parser-js npm module ReDoS
+auxiliary/gather/vbulletin_getindexablecontent_sqli                     vBulletin /ajax/api/content_infraction/getIndexableContent nodeid Parameter SQL Injection
+auxiliary/admin/http/vbulletin_upgrade_admin                            vBulletin Administrator Account Creation
+auxiliary/gather/vbulletin_vote_sqli                                    vBulletin Password Collector via nodeid SQL Injection
+auxiliary/dos/http/ws_dos                                               Denial of Service

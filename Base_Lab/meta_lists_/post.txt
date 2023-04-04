@@ -1,0 +1,409 @@
+post/aix/hashdump                                           AIX Gather Dump Password Hashes
+post/android/capture/screen                                 Android Screen Capture
+post/android/gather/hashdump                                Android Gather Dump Password Hashes for Android Systems
+post/android/gather/sub_info                                extracts subscriber info from target device
+post/android/gather/wireless_ap                             Displays wireless SSIDs and PSKs
+post/android/local/koffee                                   KOFFEE - Kia OFFensivE Exploit
+post/android/manage/remove_lock                             Android Settings Remove Device Locks (4.0-4.3)
+post/android/manage/remove_lock_root                        Android Root Remove Device Locks (root)
+post/apple_ios/gather/ios_image_gather                      iOS Image Gatherer
+post/apple_ios/gather/ios_text_gather                       iOS Text Gatherer
+post/bsd/gather/hashdump                                    BSD Dump Password Hashes
+post/firefox/gather/cookies                                 Firefox Gather Cookies from Privileged Javascript Shell
+post/firefox/gather/history                                 Firefox Gather History from Privileged Javascript Shell
+post/firefox/gather/passwords                               Firefox Gather Passwords from Privileged Javascript Shell
+post/firefox/gather/xss                                     Firefox XSS
+post/firefox/manage/webcam_chat                             Firefox Webcam Chat on Privileged Javascript Shell
+post/hardware/automotive/can_flood                          CAN Flood
+post/hardware/automotive/canprobe                           Module to Probe Different Data Points in a CAN Packet
+post/hardware/automotive/diagnostic_state                   Diagnostic State
+post/hardware/automotive/ecu_hard_reset                     ECU Hard Reset
+post/hardware/automotive/getvinfo                           Get the Vehicle Information Such as the VIN from the Target Module
+post/hardware/automotive/identifymodules                    Scan CAN Bus for Diagnostic Modules
+post/hardware/automotive/malibu_overheat                    Sample Module to Flood Temp Gauge on 2006 Malibu
+post/hardware/automotive/mazda_ic_mover                     Mazda 2 Instrument Cluster Accelorometer Mover
+post/hardware/automotive/pdt                                Check For and Prep the Pyrotechnic Devices (Airbags, Battery Clamps, etc.)
+post/hardware/rftransceiver/rfpwnon                         Brute Force AM/OOK (ie: Garage Doors)
+post/hardware/rftransceiver/transmitter                     RF Transceiver Transmitter
+post/hardware/zigbee/zstumbler                              Sends Beacons to Scan for Active ZigBee Networks
+post/linux/busybox/enum_connections                         BusyBox Enumerate Connections
+post/linux/busybox/enum_hosts                               BusyBox Enumerate Host Names
+post/linux/busybox/jailbreak                                BusyBox Jailbreak
+post/linux/busybox/ping_net                                 BusyBox Ping Network Enumeration
+post/linux/busybox/set_dmz                                  BusyBox DMZ Configuration
+post/linux/busybox/set_dns                                  BusyBox DNS Configuration
+post/linux/busybox/smb_share_root                           BusyBox SMB Sharing
+post/linux/busybox/wget_exec                                BusyBox Download and Execute
+post/linux/dos/xen_420_dos                                  Linux DoS Xen 4.2.0 2012-5525
+post/linux/gather/checkcontainer                            Linux Gather Container Detection
+post/linux/gather/checkvm                                   Linux Gather Virtual Environment Detection
+post/linux/gather/ecryptfs_creds                            Gather eCryptfs Metadata
+post/linux/gather/enum_commands                             Gather Available Shell Commands
+post/linux/gather/enum_configs                              Linux Gather Configurations
+post/linux/gather/enum_containers                           Linux Container Enumeration
+post/linux/gather/enum_nagios_xi                            Nagios XI Enumeration
+post/linux/gather/enum_network                              Linux Gather Network Information
+post/linux/gather/enum_protections                          Linux Gather Protection Enumeration
+post/linux/gather/enum_psk                                  Linux Gather NetworkManager 802-11-Wireless-Security Credentials
+post/linux/gather/enum_system                               Linux Gather System and User Information
+post/linux/gather/enum_users_history                        Linux Gather User History
+post/linux/gather/f5_loot_mcp                               F5 Big-IP Gather Information from MCP Datastore
+post/linux/gather/gnome_commander_creds                     Linux Gather Gnome-Commander Creds
+post/linux/gather/gnome_keyring_dump                        Gnome-Keyring Dump
+post/linux/gather/haserl_read                               Haserl Arbitrary File Reader
+post/linux/gather/hashdump                                  Linux Gather Dump Password Hashes for Linux Systems
+post/linux/gather/manageengine_password_manager_creds       Linux Gather ManageEngine Password Manager Pro Password Extractor
+post/linux/gather/mimipenguin                               MimiPenguin
+post/linux/gather/mount_cifs_creds                          Linux Gather Saved mount.cifs/mount.smbfs Credentials
+post/linux/gather/openvpn_credentials                       OpenVPN Gather Credentials
+post/linux/gather/phpmyadmin_credsteal                      Phpmyadmin credentials stealer
+post/linux/gather/pptpd_chap_secrets                        Linux Gather PPTP VPN chap-secrets Credentials
+post/linux/gather/tor_hiddenservices                        Linux Gather TOR Hidden Services
+post/linux/gather/vcenter_secrets_dump                      VMware vCenter Secrets Dump
+post/linux/manage/dns_spoofing                              Native DNS Spoofing module
+post/linux/manage/download_exec                             Linux Manage Download and Execute
+post/linux/manage/geutebruck_post_exp                       Geutebruck Camera Deface
+post/linux/manage/iptables_removal                          IPTABLES rules removal
+post/linux/manage/pseudo_shell                              Pseudo-Shell Post-Exploitation Module
+post/linux/manage/sshkey_persistence                        SSH Key Persistence
+post/multi/escalate/aws_create_iam_user                     Create an AWS IAM User
+post/multi/escalate/cups_root_file_read                     CUPS 1.6.1 Root File Read
+post/multi/escalate/metasploit_pcaplog                      Multi Escalate Metasploit pcap_log Local Privilege Escalation
+post/multi/gather/apple_ios_backup                          Windows Gather Apple iOS MobileSync Backup File Collection
+post/multi/gather/aws_ec2_instance_metadata                 Gather AWS EC2 Instance Metadata
+post/multi/gather/aws_keys                                  UNIX Gather AWS Keys
+post/multi/gather/check_malware                             Multi Gather Malware Verifier
+post/multi/gather/chrome_cookies                            Chrome Gather Cookies
+post/multi/gather/dbeaver                                   Gather Dbeaver Passwords
+post/multi/gather/dbvis_enum                                Multi Gather DbVisualizer Connections Settings
+post/multi/gather/dns_bruteforce                            Multi Gather DNS Forward Lookup Bruteforce
+post/multi/gather/dns_reverse_lookup                        Multi Gather DNS Reverse Lookup Scan
+post/multi/gather/dns_srv_lookup                            Multi Gather DNS Service Record Lookup Scan
+post/multi/gather/docker_creds                              Multi Gather Docker Credentials Collection
+post/multi/gather/enum_hexchat                              Linux Gather HexChat/XChat Enumeration
+post/multi/gather/enum_software_versions                    Multiplatform Installed Software Version Enumerator
+post/multi/gather/enum_vbox                                 Multi Gather VirtualBox VM Enumeration
+post/multi/gather/env                                       Multi Gather Generic Operating System Environment Settings
+post/multi/gather/fetchmailrc_creds                         UNIX Gather .fetchmailrc Credentials
+post/multi/gather/filezilla_client_cred                     Multi Gather FileZilla FTP Client Credential Collection
+post/multi/gather/find_vmx                                  Multi Gather VMWare VM Identification
+post/multi/gather/firefox_creds                             Multi Gather Firefox Signon Credential Collection
+post/multi/gather/gpg_creds                                 Multi Gather GnuPG Credentials Collection
+post/multi/gather/grub_creds                                Gather GRUB Password
+post/multi/gather/irssi_creds                               Multi Gather IRSSI IRC Password(s)
+post/multi/gather/jboss_gather                              Jboss Credential Collector
+post/multi/gather/jenkins_gather                            Jenkins Credential Collector
+post/multi/gather/lastpass_creds                            LastPass Vault Decryptor
+post/multi/gather/maven_creds                               Multi Gather Maven Credentials Collection
+post/multi/gather/minio_client                              Gather MinIO Client Key
+post/multi/gather/multi_command                             Multi Gather Run Shell Command Resource File
+post/multi/gather/netrc_creds                               UNIX Gather .netrc Credentials
+post/multi/gather/pgpass_creds                              Multi Gather pgpass Credentials
+post/multi/gather/pidgin_cred                               Multi Gather Pidgin Instant Messenger Credential Collection
+post/multi/gather/ping_sweep                                Multi Gather Ping Sweep
+post/multi/gather/remmina_creds                             UNIX Gather Remmina Credentials
+post/multi/gather/resolve_hosts                             Multi Gather Resolve Hosts
+post/multi/gather/rsyncd_creds                              UNIX Gather RSYNC Credentials
+post/multi/gather/rubygems_api_key                          Multi Gather RubyGems API Key
+post/multi/gather/run_console_rc_file                       Multi Gather Run Console Resource File
+post/multi/gather/saltstack_salt                            SaltStack Salt Information Gatherer
+post/multi/gather/skype_enum                                Multi Gather Skype User Data Enumeration
+post/multi/gather/ssh_creds                                 Multi Gather OpenSSH PKI Credentials Collection
+post/multi/gather/thunderbird_creds                         Multi Gather Mozilla Thunderbird Signon Credential Collection
+post/multi/gather/tomcat_gather                             Gather Tomcat Credentials
+post/multi/gather/ubiquiti_unifi_backup                     Multi Gather Ubiquiti UniFi Controller Backup
+post/multi/gather/unix_cached_ad_hashes                     UNIX Gather Cached AD Hashes
+post/multi/gather/unix_kerberos_tickets                     UNIX Gather Kerberos Tickets
+post/multi/gather/wlan_geolocate                            Multiplatform WLAN Enumeration and Geolocation
+post/multi/general/close                                    Multi Generic Operating System Session Close
+post/multi/general/execute                                  Multi Generic Operating System Session Command Execution
+post/multi/general/wall                                     Write Messages to Users
+post/multi/manage/autoroute                                 Multi Manage Network Route via Meterpreter Session
+post/multi/manage/dbvis_add_db_admin                        Multi Manage DbVisualizer Add Db Admin
+post/multi/manage/dbvis_query                               Multi Manage DbVisualizer Query
+post/multi/manage/fileshare                                 Browse the session filesystem in a Web Browser
+post/multi/manage/hsts_eraser                               Web browsers HSTS entries eraser
+post/multi/manage/multi_post                                Multi Manage Post Module Macro Execution
+post/multi/manage/open                                      Open a file or URL on the target computer
+post/multi/manage/play_youtube                              Multi Manage YouTube Broadcast
+post/multi/manage/record_mic                                Multi Manage Record Microphone
+post/multi/manage/screensaver                               Multi Manage the screensaver of the target computer
+post/multi/manage/screenshare                               Multi Manage the screen of the target meterpreter session
+post/multi/manage/set_wallpaper                             Multi Manage Set Wallpaper
+post/multi/manage/shell_to_meterpreter                      Shell to Meterpreter Upgrade
+post/multi/manage/sudo                                      Multiple Linux / Unix Post Sudo Upgrade Shell
+post/multi/manage/system_session                            Multi Manage System Remote TCP Shell Session
+post/multi/manage/upload_exec                               Upload and Execute
+post/multi/manage/zip                                       Multi Manage File Compressor
+post/multi/recon/local_exploit_suggester                    Multi Recon Local Exploit Suggester
+post/multi/recon/multiport_egress_traffic                   Generate TCP/UDP Outbound Traffic On Multiple Ports
+post/multi/recon/reverse_lookup                             Reverse Lookup IP Addresses
+post/multi/recon/sudo_commands                              Sudo Commands
+post/multi/sap/smdagent_get_properties                      Diagnostics Agent in Solution Manager, stores unencrypted credentials for Solution Manager server
+post/networking/gather/enum_brocade                         Brocade Gather Device General Information
+post/networking/gather/enum_cisco                           Cisco Gather Device General Information
+post/networking/gather/enum_f5                              F5 Gather Device General Information
+post/networking/gather/enum_juniper                         Juniper Gather Device General Information
+post/networking/gather/enum_mikrotik                        Mikrotik Gather Device General Information
+post/networking/gather/enum_vyos                            VyOS Gather Device General Information
+post/osx/admin/say                                          OS X Text to Speech Utility
+post/osx/capture/keylog_recorder                            OSX Capture Userspace Keylogger
+post/osx/capture/screen                                     OSX Screen Capture
+post/osx/escalate/tccbypass                                 Bypass the macOS TCC Framework
+post/osx/gather/apfs_encrypted_volume_passwd                Mac OS X APFS Encrypted Volume Password Disclosure
+post/osx/gather/autologin_password                          OSX Gather Autologin Password as Root
+post/osx/gather/enum_adium                                  OS X Gather Adium Enumeration
+post/osx/gather/enum_airport                                OS X Gather Airport Wireless Preferences
+post/osx/gather/enum_chicken_vnc_profile                    OS X Gather Chicken of the VNC Profile
+post/osx/gather/enum_colloquy                               OS X Gather Colloquy Enumeration
+post/osx/gather/enum_keychain                               OS X Gather Keychain Enumeration
+post/osx/gather/enum_messages                               OS X Gather Messages
+post/osx/gather/enum_osx                                    OS X Gather Mac OS X System Information Enumeration
+post/osx/gather/gitignore                                   Git Ignore Retriever
+post/osx/gather/hashdump                                    OS X Gather Mac OS X Password Hash Collector
+post/osx/gather/password_prompt_spoof                       OSX Password Prompt Spoof
+post/osx/gather/safari_lastsession                          OSX Gather Safari LastSession.plist
+post/osx/gather/vnc_password_osx                            OS X Display Apple VNC Password
+post/osx/manage/mount_share                                 OSX Network Share Mounter
+post/osx/manage/record_mic                                  OSX Manage Record Microphone
+post/osx/manage/sonic_pi                                    OS X Manage Sonic Pi
+post/osx/manage/vpn                                         OSX VPN Manager
+post/osx/manage/webcam                                      OSX Manage Webcam
+post/solaris/escalate/pfexec                                Solaris pfexec Upgrade Shell
+post/solaris/escalate/srsexec_readline                      Solaris srsexec Arbitrary File Reader
+post/solaris/gather/checkvm                                 Solaris Gather Virtual Environment Detection
+post/solaris/gather/enum_packages                           Solaris Gather Installed Packages
+post/solaris/gather/enum_services                           Solaris Gather Configured Services
+post/solaris/gather/hashdump                                Solaris Gather Dump Password Hashes for Solaris Systems
+post/windows/capture/keylog_recorder                        Windows Capture Keystroke Recorder
+post/windows/capture/lockout_keylogger                      Windows Capture Winlogon Lockout Credential Keylogger
+post/windows/escalate/droplnk                               Windows Escalate SMB Icon LNK Dropper
+post/windows/escalate/getsystem                             Windows Escalation
+post/windows/escalate/golden_ticket                         Windows Escalate Golden Ticket
+post/windows/escalate/ms10_073_kbdlayout                    Windows Escalate NtUserLoadKeyboardLayoutEx Privilege Escalation
+post/windows/escalate/screen_unlock                         Windows Escalate Locked Desktop Unlocker
+post/windows/escalate/unmarshal_cmd_exec                    Windows unmarshal post exploitation
+post/windows/gather/ad_to_sqlite                            AD Computer, Group and Recursive User Membership to Local SQLite DB
+post/windows/gather/arp_scanner                             Windows Gather ARP Scanner
+post/windows/gather/avast_memory_dump                       Avast AV Memory Dumping Utility
+post/windows/gather/bitcoin_jacker                          Windows Gather Bitcoin Wallet
+post/windows/gather/bitlocker_fvek                          Bitlocker Master Key (FVEK) Extraction
+post/windows/gather/bloodhound                              BloodHound Ingestor
+post/windows/gather/cachedump                               Windows Gather Credential Cache Dump
+post/windows/gather/checkvm                                 Windows Gather Virtual Environment Detection
+post/windows/gather/credentials/aim                         Aim credential gatherer
+post/windows/gather/credentials/avira_password              Windows Gather Avira Password Extraction
+post/windows/gather/credentials/bulletproof_ftp             Windows Gather BulletProof FTP Client Saved Password Extraction
+post/windows/gather/credentials/chrome                      Chrome credential gatherer
+post/windows/gather/credentials/comodo                      Comodo credential gatherer
+post/windows/gather/credentials/coolnovo                    Coolnovo credential gatherer
+post/windows/gather/credentials/coreftp                     Windows Gather CoreFTP Saved Password Extraction
+post/windows/gather/credentials/credential_collector        Windows Gather Credential Collector
+post/windows/gather/credentials/digsby                      Digsby credential gatherer
+post/windows/gather/credentials/domain_hashdump             Windows Domain Controller Hashdump
+post/windows/gather/credentials/dynazip_log                 Windows Gather DynaZIP Saved Password Extraction
+post/windows/gather/credentials/dyndns                      Windows Gather DynDNS Client Password Extractor
+post/windows/gather/credentials/enum_cred_store             Windows Gather Credential Store Enumeration and Decryption Module
+post/windows/gather/credentials/enum_laps                   Windows Gather Credentials Local Administrator Password Solution
+post/windows/gather/credentials/enum_picasa_pwds            Windows Gather Google Picasa Password Extractor
+post/windows/gather/credentials/epo_sql                     Windows Gather McAfee ePO 4.6 Config SQL Credentials
+post/windows/gather/credentials/filezilla_server            Windows Gather FileZilla FTP Server Credential Collection
+post/windows/gather/credentials/flashfxp                    Windows Gather FlashFXP Saved Password Extraction
+post/windows/gather/credentials/flock                       Flock credential gatherer
+post/windows/gather/credentials/ftpnavigator                Windows Gather FTP Navigator Saved Password Extraction
+post/windows/gather/credentials/ftpx                        Windows Gather FTP Explorer (FTPX) Credential Extraction
+post/windows/gather/credentials/gadugadu                    Gadugadu credential gatherer
+post/windows/gather/credentials/gpp                         Windows Gather Group Policy Preference Saved Passwords
+post/windows/gather/credentials/heidisql                    Windows Gather HeidiSQL Saved Password Extraction
+post/windows/gather/credentials/icq                         ICQ credential gatherer
+post/windows/gather/credentials/idm                         Windows Gather Internet Download Manager (IDM) Password Extractor
+post/windows/gather/credentials/ie                          Ie credential gatherer
+post/windows/gather/credentials/imail                       Windows Gather IPSwitch iMail User Data Enumeration
+post/windows/gather/credentials/imvu                        Windows Gather Credentials IMVU Game Client
+post/windows/gather/credentials/incredimail                 Incredimail credential gatherer
+post/windows/gather/credentials/kakaotalk                   KakaoTalk credential gatherer
+post/windows/gather/credentials/kmeleon                     Kmeleon credential gatherer
+post/windows/gather/credentials/line                        LINE credential gatherer
+post/windows/gather/credentials/maxthon                     Maxthon credential gatherer
+post/windows/gather/credentials/mcafee_vse_hashdump         McAfee Virus Scan Enterprise Password Hashes Dump
+post/windows/gather/credentials/mdaemon_cred_collector      Windows Gather MDaemonEmailServer Credential Cracking
+post/windows/gather/credentials/meebo                       Windows Gather Meebo Password Extractor
+post/windows/gather/credentials/miranda                     Miranda credential gatherer
+post/windows/gather/credentials/moba_xterm                  Windows Gather MobaXterm Passwords
+post/windows/gather/credentials/mremote                     Windows Gather mRemote Saved Password Extraction
+post/windows/gather/credentials/mssql_local_hashdump        Windows Gather Local SQL Server Hash Dump
+post/windows/gather/credentials/navicat                     Windows Gather Navicat Passwords
+post/windows/gather/credentials/nimbuzz                     Windows Gather Nimbuzz Instant Messenger Password Extractor
+post/windows/gather/credentials/opera                       Opera credential gatherer
+post/windows/gather/credentials/operamail                   Operamail credential gatherer
+post/windows/gather/credentials/outlook                     Windows Gather Microsoft Outlook Saved Password Extraction
+post/windows/gather/credentials/postbox                     Postbox credential gatherer
+post/windows/gather/credentials/pulse_secure                Windows Pulse Secure Connect Client Saved Password Extractor
+post/windows/gather/credentials/purevpn_cred_collector      Windows Gather PureVPN Client Credential Collector
+post/windows/gather/credentials/qq                          QQ credential gatherer
+post/windows/gather/credentials/razer_synapse               Windows Gather Razer Synapse Password Extraction
+post/windows/gather/credentials/razorsql                    Windows Gather RazorSQL Credentials
+post/windows/gather/credentials/rdc_manager_creds           Windows Gather Remote Desktop Connection Manager Saved Password Extraction
+post/windows/gather/credentials/redis_desktop_manager       RedisDesktopManager credential gatherer
+post/windows/gather/credentials/safari                      Safari credential gatherer
+post/windows/gather/credentials/seamonkey                   Seamonkey credential gatherer
+post/windows/gather/credentials/securecrt                   Windows SecureCRT Session Information Enumeration
+post/windows/gather/credentials/skype                       Windows Gather Skype Saved Password Hash Extraction
+post/windows/gather/credentials/smartermail                 Windows Gather SmarterMail Password Extraction
+post/windows/gather/credentials/smartftp                    Windows Gather SmartFTP Saved Password Extraction
+post/windows/gather/credentials/solarwinds_orion_dump       SolarWinds Orion Secrets Dump
+post/windows/gather/credentials/spark_im                    Windows Gather Spark IM Password Extraction
+post/windows/gather/credentials/srware                      Srware credential gatherer
+post/windows/gather/credentials/sso                         Windows Single Sign On Credential Collector (Mimikatz)
+post/windows/gather/credentials/steam                       Windows Gather Steam Client Session Collector.
+post/windows/gather/credentials/tango                       Tango credential gatherer
+post/windows/gather/credentials/teamviewer_passwords        Windows Gather TeamViewer Passwords
+post/windows/gather/credentials/thunderbird                 Thunderbird credential gatherer
+post/windows/gather/credentials/thycotic_secretserver_dump  Delinea Thycotic Secret Server Dump
+post/windows/gather/credentials/tlen                        Tlen credential gatherer
+post/windows/gather/credentials/tortoisesvn                 Windows Gather TortoiseSVN Saved Password Extraction
+post/windows/gather/credentials/total_commander             Windows Gather Total Commander Saved Password Extraction
+post/windows/gather/credentials/trillian                    Windows Gather Trillian Password Extractor
+post/windows/gather/credentials/veeam_credential_dump       Veeam Backup and Replication Credentials Dump
+post/windows/gather/credentials/viber                       Viber credential gatherer
+post/windows/gather/credentials/vnc                         Windows Gather VNC Password Extraction
+post/windows/gather/credentials/windows_autologin           Windows Gather AutoLogin User Credential Extractor
+post/windows/gather/credentials/windows_sam_hivenightmare   Windows SAM secrets leak - HiveNightmare
+post/windows/gather/credentials/windowslivemail             Windows Live Mail credential gatherer
+post/windows/gather/credentials/winscp                      Windows Gather WinSCP Saved Password Extraction
+post/windows/gather/credentials/wsftp_client                Windows Gather WS_FTP Saved Password Extraction
+post/windows/gather/credentials/xchat                       Xchat credential gatherer
+post/windows/gather/credentials/xshell_xftp_password        Windows Gather Xshell and Xftp Passwords
+post/windows/gather/dnscache_dump                           Windows Gather DNS Cache
+post/windows/gather/dumplinks                               Windows Gather Dump Recent Files lnk Info
+post/windows/gather/enum_ad_bitlocker                       Windows Gather Active Directory BitLocker Recovery
+post/windows/gather/enum_ad_computers                       Windows Gather Active Directory Computers
+post/windows/gather/enum_ad_groups                          Windows Gather Active Directory Groups
+post/windows/gather/enum_ad_managedby_groups                Windows Gather Active Directory Managed Groups
+post/windows/gather/enum_ad_service_principal_names         Windows Gather Active Directory Service Principal Names
+post/windows/gather/enum_ad_to_wordlist                     Windows Active Directory Wordlist Builder
+post/windows/gather/enum_ad_user_comments                   Windows Gather Active Directory User Comments
+post/windows/gather/enum_ad_users                           Windows Gather Active Directory Users
+post/windows/gather/enum_applications                       Windows Gather Installed Application Enumeration
+post/windows/gather/enum_artifacts                          Windows Gather File and Registry Artifacts Enumeration
+post/windows/gather/enum_av                                 Windows Installed AntiVirus Enumeration
+post/windows/gather/enum_av_excluded                        Windows Antivirus Exclusions Enumeration
+post/windows/gather/enum_chocolatey_applications            Windows Gather Installed Application Within Chocolatey Enumeration
+post/windows/gather/enum_chrome                             Windows Gather Google Chrome User Data Enumeration
+post/windows/gather/enum_computers                          Windows Gather Enumerate Computers
+post/windows/gather/enum_db                                 Windows Gather Database Instance Enumeration
+post/windows/gather/enum_devices                            Windows Gather Hardware Enumeration
+post/windows/gather/enum_dirperms                           Windows Gather Directory Permissions Enumeration
+post/windows/gather/enum_domain                             Windows Gather Enumerate Domain
+post/windows/gather/enum_domain_group_users                 Windows Gather Enumerate Domain Group
+post/windows/gather/enum_domain_tokens                      Windows Gather Enumerate Domain Tokens
+post/windows/gather/enum_domain_users                       Windows Gather Enumerate Active Domain Users
+post/windows/gather/enum_domains                            Windows Gather Domain Enumeration
+post/windows/gather/enum_emet                               Windows Gather EMET Protected Paths
+post/windows/gather/enum_files                              Windows Gather Generic File Collection
+post/windows/gather/enum_hostfile                           Windows Gather Windows Host File Enumeration
+post/windows/gather/enum_hyperv_vms                         Windows Hyper-V VM Enumeration
+post/windows/gather/enum_ie                                 Windows Gather Internet Explorer User Data Enumeration
+post/windows/gather/enum_logged_on_users                    Windows Gather Logged On User Enumeration (Registry)
+post/windows/gather/enum_ms_product_keys                    Windows Gather Product Key
+post/windows/gather/enum_muicache                           Windows Gather Enum User MUICache
+post/windows/gather/enum_onedrive                           OneDrive Sync Provider Enumeration Module
+post/windows/gather/enum_patches                            Windows Gather Applied Patches
+post/windows/gather/enum_powershell_env                     Windows Gather PowerShell Environment Setting Enumeration
+post/windows/gather/enum_prefetch                           Windows Gather Prefetch File Information
+post/windows/gather/enum_proxy                              Windows Gather Proxy Setting
+post/windows/gather/enum_putty_saved_sessions               PuTTY Saved Sessions Enumeration Module
+post/windows/gather/enum_services                           Windows Gather Service Info Enumeration
+post/windows/gather/enum_shares                             Windows Gather SMB Share Enumeration via Registry
+post/windows/gather/enum_snmp                               Windows Gather SNMP Settings
+post/windows/gather/enum_termserv                           Windows Gather Terminal Server Client Connection Information Dumper
+post/windows/gather/enum_tokens                             Windows Gather Enumerate Domain Admin Tokens (Token Hunter)
+post/windows/gather/enum_tomcat                             Windows Gather Apache Tomcat Enumeration
+post/windows/gather/enum_trusted_locations                  Windows Gather Microsoft Office Trusted Locations
+post/windows/gather/enum_unattend                           Windows Gather Unattended Answer File Enumeration
+post/windows/gather/exchange                                Windows Gather Exchange Server Mailboxes
+post/windows/gather/file_from_raw_ntfs                      Windows File Gather File from Raw NTFS
+post/windows/gather/forensics/browser_history               Windows Gather Skype, Firefox, and Chrome Artifacts
+post/windows/gather/forensics/duqu_check                    Windows Gather Forensics Duqu Registry Check
+post/windows/gather/forensics/enum_drives                   Windows Gather Physical Drives and Logical Volumes
+post/windows/gather/forensics/fanny_bmp_check               FannyBMP or DementiaWheel Detection Registry Check
+post/windows/gather/forensics/imager                        Windows Gather Forensic Imaging
+post/windows/gather/forensics/nbd_server                    Windows Gather Local NBD Server
+post/windows/gather/forensics/recovery_files                Windows Gather Deleted Files Enumeration and Recovering
+post/windows/gather/get_bookmarks                           Bookmarked Sites Retriever
+post/windows/gather/hashdump                                Windows Gather Local User Account Password Hashes (Registry)
+post/windows/gather/local_admin_search_enum                 Windows Gather Local Admin Search
+post/windows/gather/lsa_secrets                             Windows Enumerate LSA Secrets
+post/windows/gather/make_csv_orgchart                       Generate CSV Organizational Chart Data Using Manager Information
+post/windows/gather/memory_dump                             Windows Process Memory Dump
+post/windows/gather/memory_grep                             Windows Gather Process Memory Grep
+post/windows/gather/netlm_downgrade                         Windows NetLM Downgrade Attack
+post/windows/gather/ntds_grabber                            NTDS Grabber
+post/windows/gather/ntds_location                           Post Windows Gather NTDS.DIT Location
+post/windows/gather/outlook                                 Windows Gather Outlook Email Messages
+post/windows/gather/phish_windows_credentials               Windows Gather User Credentials (phishing)
+post/windows/gather/psreadline_history                      Windows Gather PSReadline History
+post/windows/gather/resolve_sid                             Windows Gather Local User Account SID Lookup
+post/windows/gather/screen_spy                              Windows Gather Screen Spy
+post/windows/gather/smart_hashdump                          Windows Gather Local and Domain Controller Account Password Hashes
+post/windows/gather/tcpnetstat                              Windows Gather TCP Netstat
+post/windows/gather/usb_history                             Windows Gather USB Drive History
+post/windows/gather/win_privs                               Windows Gather Privileges Enumeration
+post/windows/gather/wmic_command                            Windows Gather Run WMIC Commands
+post/windows/gather/word_unc_injector                       Windows Gather Microsoft Office Word UNC Path Injector
+post/windows/manage/add_user                                Windows Manage Add User to the Domain and/or to a Domain Group
+post/windows/manage/archmigrate                             Architecture Migrate
+post/windows/manage/change_password                         Windows Manage Change Password
+post/windows/manage/clone_proxy_settings                    Windows Manage Proxy Setting Cloner
+post/windows/manage/delete_user                             Windows Manage Local User Account Deletion
+post/windows/manage/dell_memory_protect                     Dell DBUtilDrv2.sys Memory Protection Modifier
+post/windows/manage/download_exec                           Windows Manage Download and/or Execute
+post/windows/manage/driver_loader                           Windows Manage Driver Loader
+post/windows/manage/enable_rdp                              Windows Manage Enable Remote Desktop
+post/windows/manage/enable_support_account                  Windows Manage Trojanize Support Account
+post/windows/manage/exec_powershell                         Windows Powershell Execution Post Module
+post/windows/manage/execute_dotnet_assembly                 Execute .net Assembly (x64 only)
+post/windows/manage/forward_pageant                         Forward SSH Agent Requests To Remote Pageant
+post/windows/manage/hashcarve                               Windows Local User Account Hash Carver
+post/windows/manage/ie_proxypac                             Windows Manage Proxy PAC File
+post/windows/manage/inject_ca                               Windows Manage Certificate Authority Injection
+post/windows/manage/inject_host                             Windows Manage Hosts File Injection
+post/windows/manage/install_python                          Install Python for Windows
+post/windows/manage/install_ssh                             Install OpenSSH for Windows
+post/windows/manage/killav                                  Windows Post Kill Antivirus and Hips
+post/windows/manage/migrate                                 Windows Manage Process Migration
+post/windows/manage/mssql_local_auth_bypass                 Windows Manage Local Microsoft SQL Server Authorization Bypass
+post/windows/manage/multi_meterpreter_inject                Windows Manage Inject in Memory Multiple Payloads
+post/windows/manage/nbd_server                              Windows Manage Local NBD Server for Remote Disks
+post/windows/manage/peinjector                              Peinjector
+post/windows/manage/persistence_exe                         Windows Manage Persistent EXE Payload Installer
+post/windows/manage/portproxy                               Windows Manage Set Port Forwarding With PortProxy
+post/windows/manage/powershell/build_net_code               Powershell .NET Compiler
+post/windows/manage/powershell/exec_powershell              Windows Manage PowerShell Download and/or Execute
+post/windows/manage/powershell/load_script                  Load Scripts Into PowerShell Session
+post/windows/manage/pptp_tunnel                             Windows Manage Remote Point-to-Point Tunneling Protocol
+post/windows/manage/priv_migrate                            Windows Manage Privilege Based Process Migration
+post/windows/manage/pxeexploit                              Windows Manage PXE Exploit Server
+post/windows/manage/reflective_dll_inject                   Windows Manage Reflective DLL Injection Module
+post/windows/manage/remove_ca                               Windows Manage Certificate Authority Removal
+post/windows/manage/remove_host                             Windows Manage Host File Entry Removal
+post/windows/manage/rid_hijack                              Windows Manage RID Hijacking
+post/windows/manage/rollback_defender_signatures            Disable Windows Defender Signatures
+post/windows/manage/rpcapd_start                            Windows Manage Remote Packet Capture Service Starter
+post/windows/manage/run_as                                  Windows Manage Run Command As User
+post/windows/manage/run_as_psh                              Windows 'Run As' Using Powershell
+post/windows/manage/sdel                                    Windows Manage Safe Delete
+post/windows/manage/shellcode_inject                        Windows Manage Memory Shellcode Injection Module
+post/windows/manage/sshkey_persistence                      SSH Key Persistence
+post/windows/manage/sticky_keys                             Sticky Keys Persistance Module
+post/windows/manage/vmdk_mount                              Windows Manage VMDK Mount Drive
+post/windows/manage/vss                                     Windows Manage Volume Shadow Copies
+post/windows/manage/wdigest_caching                         Windows Post Manage WDigest Credential Caching
+post/windows/manage/webcam                                  Windows Manage Webcam
+post/windows/recon/computer_browser_discovery               Windows Recon Computer Browser Discovery
+post/windows/recon/outbound_ports                           Windows Outbound-Filtering Rules
+post/windows/wlan/wlan_bss_list                             Windows Gather Wireless BSS Info
+post/windows/wlan/wlan_current_connection                   Windows Gather Wireless Current Connection Info
+post/windows/wlan/wlan_disconnect                           Windows Disconnect Wireless Connection
+post/windows/wlan/wlan_probe_request                        Windows Send Probe Request Packets
+post/windows/wlan/wlan_profile                              Windows Gather Wireless Profile
