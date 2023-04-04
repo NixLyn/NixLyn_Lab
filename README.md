@@ -1,30 +1,39 @@
+#######################################################################################
+#######################################################################################
+###      _______   ____ _____ ____  _____      _____ ____   ____    _______   ____  ###
+###      %N_.N|    /N/   %I/   \X\   /X%       /L%    \Y\   %Y/     %N_.N|    /N%   ###
+###     %N/ |N|   /N/   %I/     \X\V/X%       /L%      \Y\_%Y/     %N/ |N|   /N%    ###
+###    %N/  |N|  /N/   %I/       >|X|<       /L%        \YVY/     %N/  |N|  /N%     ###
+###   %N/   |N|_/N/   %I/       /X%^\X\     /L%____.     \Y/     %N/   |N|_/N%      ###
+###  %N/    |N  N/   %I/       /X%   \X\   /L_L_L_L]     |Y|    %N/    |N  N%       ###
+### ~~~~   ~~~~~~~~ ~~~~~    ~~~~~~ ~~~~~ ~~~~~~~~~~    ~~~~~ ~~~~~   ~~~~~~~~      ###
+#######################################################################################
+#######################################################################################
+
+
 <section>
------------------------------------------------------------
-<div
-	style="
-		background-image: url(static/logo_.jpg); 
-		color: white;
-		">
-# NixLyn_Lab
------------------------------------------------------------
+<div>
+#NixLyn Lab:
 	A Fun, an educational way to learn about the basics of
 Ethical hacking and the automation there of..
------------------------------------------------------------
 	Currently: the project only has the fundamentals of 
 scanning and enumeration.
------------------------------------------------------------
 
 </div>
-</section>
-<section>
------------------------------------------------------------
+<div>
+##Team Members:
+	~> Dillon
+	~> Frankie
+	~> Joshua
+</div>
 
-<div
-	style="
-		background-image: url(static/global_.jpg); 
-		color: white;
-		">
-# MAIN:
+</section>
+
+<section>
+<div>
+
+_
+##MAIN:
     ~> List Profiles 			- {selector broken}
     ~> Create Profile 			- {extra options needed}
     ~> Open Profile  			- {in working order}
@@ -33,10 +42,10 @@ scanning and enumeration.
     ~> Rename Profile			- {to be continued}
     ~> Display Profile			- {to be continued}
 </div>
------------------------------------------------------------
------------------------------------------------------------
+_
+<div>
 
-# DaLab (Lobby):
+###Da Lab (Lobby):
     ~> Check Profile Status 	- {/}
     ~> Choose Room:
         ->ReconRoom(active)		- {ToDo: Funcs For IPs}
@@ -44,88 +53,64 @@ scanning and enumeration.
         ->BruteBench			- {ToDo: BenchOpts}
         ->ExploitBench			- {ToDo: Bench, McBreta, SQL_i,..}
         ->FiringRange(VM Clone)	- {ToDo: Research VMs}
------------------------------------------------------------
------------------------------------------------------------
+</div>
 
-
-# # ReconRoom(active):
+<div>
+### ReconRoom(active):
     ~> NetMap					- {DONE}
     ~> SubFinder				- {DONE}
-        *Probe each SubDomain	- {DONE}
+        ->Probe each SubDomain	- {DONE}
     ~> GoBuster					- {DONE}
------------------------------------------------------------
------------------------------------------------------------
+</div>
 
-
-# # ReconRoom(passive):
+<div>
+### ReconRoom(passive):
 	~> NxSniff'N				- {DONE}
 	~> DeCryptor				- {DONE}
------------------------------------------------------------
------------------------------------------------------------
+</div>
 
-
-# # BruteBench(obsolete):
+<div>
+### BruteBench(obsolete):
 	~> ToolSelector				- {ToDo: Alt Terminal+tqdm_Bars}
 	~> WordLister				- {ToDo: ask Frankie..}
------------------------------------------------------------
------------------------------------------------------------
+</div>
 
-# # ExploitBench(ever evolving):
+<div>
+### ExploitBench(ever evolving):
 	~> NxSquelli				- {ToDo: Research}
 	~> McBreta					- {ToDo: Research}
------------------------------------------------------------
------------------------------------------------------------
+
+
+</div>
 
 </section>
 
 
-
 <section>
------------------------------------------------------------
------------------------------------------------------------
-<div
-	style="
-		background-image: url(static/kali_wood.jpg); 
-		color: white;
-		">
------------------------------------------------------------
-# USAGE:
------------------------------------------------------------
+## USAGE:
+<div>
+
 	`git clone https://github.com/NixLyn/NixLyn_Lab.git`
------------------------------------------------------------
+
 	`cd NixLyn_Lab/`
------------------------------------------------------------
+
 	`chmod +x *`
------------------------------------------------------------
+
 	`python3 main.py`
------------------------------------------------------------
+
 	Follow the prompts
------------------------------------------------------------
 </div>
 </section>
 
-
-
 <section>
------------------------------------------------------------
------------------------------------------------------------
-<div
-	style="
-		color: white;
-		">
------------------------------------------------------------
-# USAGE:
------------------------------------------------------------
-	
+### Please note:
+<div>
 
 	If you are struggling, feel free to make an issue.
 	~ the project is still very new, and will be evolving
 	~ with the times 
+	This project was built on Kali for Kali,
+	hence if it doesn't work on another OS: NotMyProblem
 
------------------------------------------------------------
-	Please note this project was built on Kali for Kali,
-	hence if it doesn't work on another os: NotMyProblem
------------------------------------------------------------
 </div>
 </section>
-
