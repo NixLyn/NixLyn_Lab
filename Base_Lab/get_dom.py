@@ -198,7 +198,7 @@ class The_Doms_():
                 subs_list = da_subs.split("\n")
                 clean_subs = self.check_sub_act(subs_list)
                 print(f"[NOW LET'S SAVE THEM TO THE PROFILE]")
-                fi_name = prof_dir+"/subs_.csv"
+                fi_name = prof_dir+"/subs_.txt"
                 self.FM.write_file(fi_name, clean_subs, ",", "w+")
                 print("[GREAT]\n[NOW WE CAN RUN 'GOBUSTER' ON EACH ONE :D ]\n[(cause i'm crazy like that)]")
                 print("[To make things easier, we will run this process in a seperate terminal]")
