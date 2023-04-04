@@ -1,8 +1,8 @@
 # NixLyn Lab:
 ```
-	A Fun, an educational way to learn about the basics of
+  A Fun, an educational way to learn about the basics of
 Ethical hacking and the automation there of..
-	Currently: the project only has the fundamentals of 
+Currently: the project only has the fundamentals of 
 scanning and enumeration.
 ```
 ## Team Members:
