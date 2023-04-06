@@ -1,13 +1,17 @@
 import os
 
 print("[1]:[update && upgrade]")
-os.system('sudo apt update && apt upgrade -y')
+os.system('sudo apt update && sudo apt upgrade -y')
 
 # ? ENV
-print("[1.1]:[CREATING virtualenv]")
-os.system('virtualenv venv')
-print("[1.2]:[CREATING virtualenv lab_env]")
-os.system('source lab_env/bin/activate')
+print("[Before You continue..]")
+print("[1.1]:[Best would be to create a virtualenv for this first]")
+print("[1.2]:[exit and this copy and paste these lines]")
+print("\n\nvirtualenv lab_env\n\n")
+print("\n\nsource lab_env/bin/activate\n\n")
+if "Y" not in input("[Continue with install]:[y/N]:"):
+    return
+
 
 
 
@@ -32,7 +36,7 @@ print("[go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@lat
 
 
 print("[5]:[update && upgrade]")
-os.system('sudo apt update && apt upgrade -y')
+os.system('sudo apt update && sudo apt upgrade -y')
 
 
 print("[!]:[ALL DONE]\n[(if anything doesn't work from lack of import.. just install it.. )]")

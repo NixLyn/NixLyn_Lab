@@ -12,15 +12,40 @@ scanning and enumeration.
 > Joshua
 ```
 
+
+# GETTING STARTED
+```
+git clone https://github.com/NixLyn/NixLyn_Lab.git
+
+
+
+cd NixLyn_Lab/
+
+chmod +x *
+
+python3 install.py
+
+~this will prompt sudo~
+
+cd Lab_Base/
+
+python3 main.py
+
+Follow the prompts:
+The cli will guide you :D
+
+```
+
+
 ## MAIN:
 ```
 > List Profiles
 > Create Profile
 > Open Profile
-> Delete Profile
-> Clone Profile
-> Rename Profile
-> Display Profile
+>> Delete Profile
+>> Clone Profile
+>> Rename Profile
+>> Display Profile
 ```
 
 ### Da Lab (Lobby):
@@ -56,24 +81,12 @@ scanning and enumeration.
 > NxSquelli
 > McBreta
 ```
-## USAGE:
-
-	`git clone https://github.com/NixLyn/NixLyn_Lab.git`
-
-	`cd NixLyn_Lab/`
-
-	`chmod +x *`
-
-	`python3 main.py`
-
-	`Follow the prompts`
-
 
 ### Please note:
 ```
-	If you are struggling, feel free to make an issue.
-	~ the project is still very new, and will be evolving
-	~ with the times 
-	This project was built on Kali for Kali,
-	hence if it doesn't work on another OS: NotMyProblem
+If you are struggling, feel free to make an issue.
+~ the project is still very new, and will be evolving
+~ with the times 
+This project was built on Kali for Kali,
+hence if it doesn't work on another OS: NotMyProblem
 ```
