@@ -115,19 +115,18 @@ def clean_bust(prof_dir, local_):
 
 # ? TEST FOR 404 ERRORs
 def test_live(url_):
-    to_req = "https://"+str(url_)
+    to_req = "nslookup "+str(url_)
     print(f"\n~[TESTING]:[{to_req}]")
     # ? DO A GET REQUEST TO TEST ACTIVITY
     try:
-        r = requests.get(to_req, timeout=5)
-        print(f"~~~[IS_LIVE]:[?]:[{str(r)}]")
-        if r:
-            if "404" not in str(r):
-                print(f"[+]:[{url_}]")
-                return True
-            else:
-                print(f"[-]:[{url_}]")
-                return False
+        r = subprocess.getoutput(to_req)
+        print(str(r))
+        if "NXDOMAIN" not in str(r):
+            print(f"[+]:[{url_}]")
+            return True
+        else:
+            print(f"[-]:[{url_}]")
+            return False
     except Exception as e:
         print(f"[-]:[REQUEST_FAILED]:[FOR]:[{str(url_)}]")
         return False
@@ -140,15 +139,19 @@ def buster_uri(uri_, prof_dir):
         is_live = test_live(uri_)
         if is_live == False:
             return 
+        else:
+            print("[URL_LIVE]")
     except Exception as e:
         print(f"[FIRE_LIVE_TEST]:[{str(e)}]")
+        return
 
     print("[URL_DIR_BUSTER]")
     try:
-
         try:
             loc_a = prof_dir+f"/busts_/"
-            os.mkdir(loc_a)
+            is_dir_ = os.path.isdir(loc_a)
+            if is_dir_ == False:
+                os.mkdir(loc_a)
         except Exception as e:
             print(f"[DIR READY]:[{loc_a}]:[{str(e)}]")
             pass
@@ -156,36 +159,44 @@ def buster_uri(uri_, prof_dir):
 
         try:
             loc_b = prof_dir+f"/busts_/{uri_}/"
-            os.mkdir(loc_b)
+            is_dir_ = os.path.isdir(loc_b)
+            if is_dir_ == False:
+                os.mkdir(loc_b)
         except Exception as e:
             print(f"[DIR READY]:[{loc_b}]:[{str(e)}]")
             pass
         try:
             local_ = prof_dir+f"/busts_/{uri_}/sub_bust.txt"
-            os.mknod(local_)
-
+            path_to_file = local_
+            path = Path(path_to_file)
+            if path.is_file():
+                pass
+            else:
+                os.mknod(local_)
         except Exception as e:
             print(f"[DIR READY]:[{local_}]:[{str(e)}]")
             pass
 
 
 
-        if "https" not in uri_:
-            # ! GO_BUSTER            
-            to_run = f"gobuster dir -u https://{uri_} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > {local_}"
-        else:
-            # ! GO_BUSTER            
-            to_run = f"gobuster dir -u {uri_} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > {local_}"
+        #if "https" not in uri_:
+        #    # ! GO_BUSTER            
+        #    to_run = f"gobuster dir -u {uri_} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > {local_}"
+        #else:
+        #    # ! GO_BUSTER            
+        #    to_run = f"gobuster dir -u {uri_} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > {local_}"
 
+        to_run = f"gobuster dir -u {uri_} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > {local_}"
 
-        #print(f"[TO_BUST]:[{uri_}]\n[RUNNING]:[{to_run}]")
+        print(f"[TO_BUST]:[{uri_}]\n[RUNNING]:[{to_run}]")
         try:
             bust_ = subprocess.getoutput(to_run)
+            print('\n\n',str(bust_))
             if "Error" in bust_:
                 pass
             else:
                 print(f"[{str(i)}]:[{str(bust_)}]")
-                write_file(local_, bust_, "", "w+")
+                #write_file(local_, bust_, "", "w+")
             print("[PROCESS_COMPLETE]")
         except Exception as e:
                 print("\n[DIR_FIRE]\n",str(e))
