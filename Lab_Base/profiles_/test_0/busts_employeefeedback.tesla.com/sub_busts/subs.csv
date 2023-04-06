@@ -1,0 +1,66 @@
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://employeefeedback.tesla.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.5
+[+] Timeout:                 10s
+===============================================================
+2023/04/03 17:01:32 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/login                (Status: 200) [Size: 4964]
+[2K/overview             (Status: 301) [Size: 45] [--> /overview/]
+[2K/catalog              (Status: 301) [Size: 44] [--> /catalog/]
+[2K/admin                (Status: 302) [Size: 67] [--> /login?path=/admin]
+[2K/reports              (Status: 302) [Size: 57] [--> /ControlPanel]
+[2K/results              (Status: 302) [Size: 35] [--> /ControlPanel]
+[2K/360                  (Status: 301) [Size: 40] [--> /360/]
+[2K/administration       (Status: 302) [Size: 85] [--> /login?path=/administration]
+[2K/Q                    (Status: 302) [Size: 29] [--> /login]
+[2K/ee                   (Status: 301) [Size: 39] [--> /ee/]
+[2K/CP                   (Status: 302) [Size: 29] [--> /login]
+[2K/Reports              (Status: 302) [Size: 57] [--> /ControlPanel]
+[2K/Contacts             (Status: 301) [Size: 45] [--> /Contacts/]
+[2K/rpc                  (Status: 301) [Size: 40] [--> /rpc/]
+[2K/siemens              (Status: 403) [Size: 285]
+[2K/billing              (Status: 301) [Size: 181] [--> /billing/]
+[2K/administrator        (Status: 302) [Size: 83] [--> /login?path=/administrator]
+[2K/Admin                (Status: 302) [Size: 67] [--> /login?path=/Admin]
+[2K/Results              (Status: 302) [Size: 35] [--> /ControlPanel]
+[2K/phpmyadmin           (Status: 403) [Size: 286]
+[2K/SE                   (Status: 301) [Size: 39] [--> /SE/]
+[2K/rcsr                 (Status: 403) [Size: 67]
+[2K/administr8           (Status: 302) [Size: 77] [--> /login?path=/administr8]
+[2K/rcs                  (Status: 403) [Size: 67]
+[2K/Administration       (Status: 302) [Size: 85] [--> /login?path=/Administration]
+[2K/administrative       (Status: 302) [Size: 85] [--> /login?path=/administrative]
+[2K/administratie        (Status: 302) [Size: 83] [--> /login?path=/administratie]
+[2K/siegel               (Status: 403) [Size: 284]
+[2K/Siemens              (Status: 403) [Size: 285]
+[2K/SI                   (Status: 301) [Size: 39] [--> /SI/]
+[2K/admins               (Status: 302) [Size: 69] [--> /login?path=/admins]
+[2K/responses            (Status: 302) [Size: 38] [--> /responses/login]
+[2K/SD                   (Status: 301) [Size: 39] [--> /SD/]
+[2K/stash                (Status: 503) [Size: 19]
+[2K/sieve                (Status: 403) [Size: 283]
+[2K/AdminTips            (Status: 302) [Size: 75] [--> /login?path=/AdminTips]
+[2K/admin_images         (Status: 302) [Size: 81] [--> /login?path=/admin_images]
+[2K/administrivia        (Status: 302) [Size: 83] [--> /login?path=/administrivia]
+[2K/triggers             (Status: 302) [Size: 35] [--> /ControlPanel]
+[2K/siebel               (Status: 403) [Size: 284]
+[2K/sierra               (Status: 403) [Size: 284]
+[2K/journeys             (Status: 403) [Size: 178]
+[2K/21141                (Status: 403) [Size: 281]
+[2K/distinguished        (Status: 403) [Size: 289]
+[2K/rcsPublic            (Status: 403) [Size: 67]
+[2K/siege                (Status: 403) [Size: 283]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+2023/04/03 17:54:01 Finished
+===============================================================

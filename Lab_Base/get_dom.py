@@ -154,6 +154,12 @@ class The_Doms_():
             print(f"[E]:[THE_DOMS]:[DA_MASS]:[{str(e)}]")
             return "ERROR"
 
+
+    #  ? ? ? 
+    def get_sub(self, to_run_):
+        return subprocess.getoutput(to_run_)
+
+
     # ? Amass or SubFinder - URL_
     def da_mass(self, prof_dir, tar_, typ_):
         try:
@@ -184,14 +190,13 @@ class The_Doms_():
             print("[(once again, reading the docs is always best practice)]")
             print("[(but since this is on github.. goodluck)]")
             print(">> subfinder -d <url> -silent")
-            to_run_ = f"subfinder -d {tar_} -silent"
+            to_run_ = f"subfinder -d {tar_} -o {prof_dir}/subs_.txt -silent"
             print(f"[RUNNING]:[>{to_run_}<]")
             print("[THIS MIGHT TAKE A MINUTE OR 2...]")
             t_1 = time.time()
             try:
                 with alive_bar(1000) as bar:
-                    da_subs = ""
-                    da_subs = subprocess.getoutput(to_run_)
+                    da_subs = self.get_sub(to_run_)  # subprocess.getoutput(to_run_)
                     bar()
             except Exception as e:
                 print(f"[E]:[SUBFINDER]:[SUB_PROCESS]:[>{str(e)}<]")
@@ -207,12 +212,16 @@ class The_Doms_():
                 clean_subs = self.check_sub_act(subs_list)
                 print(f"[NOW LET'S SAVE THEM TO THE PROFILE]")
                 fi_name = prof_dir+"/subs_.txt"
-                self.FM.write_file(fi_name, clean_subs, ",", "w+")
+                #self.FM.write_file(fi_name, clean_subs, "\n", "w+")
                 print("[GREAT]\n[NOW WE CAN RUN 'GOBUSTER' ON EACH ONE :D ]\n[(cause i'm crazy like that)]")
                 print("[To make things easier, we will run this process in a seperate terminal]")
                 print("[Then we can continue to work on other things while we wait for that process..]")
                 print("[(The terminal will NOT close by itself... but the code will terminate once completed)]")
-                print("[(ToDo: add loading bar using alive-progress)]")
+                print("[(ToDo: add loading bar using alive-progress)]\n\n\n")
+                print("[!][!][!][!][!][!][!][!][!][!][!][!][!]")
+                print("[!]:[THE FOLLOW MIGHT REQUIRE SUDO]:[!]")
+                print("[!][!][!][!][!][!][!][!][!][!][!][!][!]\n")
+
                 cont_ = input("[CONTINUE..?]")
                 try:
                     to_term = f"gnome-terminal -- bash -c 'python3 da_bust.py {prof_dir}; exec bash'"
@@ -223,7 +232,15 @@ class The_Doms_():
                     print(f"[E]:[THE_DOMS]:[DA_MASS]:[{str(e)}]")
 
 
-                return "DONE"
+                opt_ = int(input("[1]:[CONTINUE_BACK]\n[2]:[FIRST_CHECK_SUBS_FILE]\n[OPT_]: "))
+                if opt_ == 1:
+                    print("[CLOSING]")
+                    time.sleep(1)
+                    return "DONE"
+                if opt_ == 2:
+                    print(self.FM.read_file(prof_dir+"subs_.txt", "\n"))
+                    cont_ = input("[CONTINUE..?]")
+
             else:
                 print("** [LAB_FIRE]:[NO SUBS FOUND] **")
                 print("[(the next step might cause problems.. i think, :~| )]")

@@ -41,6 +41,17 @@ class Active_Recon_():
         self.MS         = MicroScans()
         self.TD         = The_Doms_()
 
+    # ! GET DIRECTORIES OF IP:80 
+    def IP_enum(self, target_, port_, file_dir):
+        IP_ = ""
+        try:
+            print(f"[IP_ENUM_TOOL]:[PORT]:[{port_}]\n\nToDo:.....\n\n")
+        except Exception as e:
+            print(f"[E]:[IP_ENUM_BURNT]:[>{str(e)}<]")
+
+
+
+
 
     # ? MicroScans
     def micro_scans(self, type_, target_, port_, file_dir):
@@ -76,6 +87,7 @@ class Active_Recon_():
     # ? STEP_ONE_A : BASIC NMAP
     def step_one_a(self, target_, typ_, prof_dir):
         try:
+            web_port = False
             port_list = []
             da_ports_ = []
             ports_ = ""
@@ -108,8 +120,11 @@ class Active_Recon_():
                 print("[THIS MIGHT TAKE SOME TIME, PATIENCE IS KEY..]")
                 t_1 = time.time()
                 ports_ = ""
+
                 with alive_bar(1000) as bar:
                     ports_ = self.NM.og_scan(typ_, target_, prof_dir, flags_, "params_")
+                    for i in ports_:
+                        bar()
                 t_2 = time.time()
                 tot_ = t_2 - t_1
                 tot_i = int(tot_)
@@ -121,6 +136,18 @@ class Active_Recon_():
                         if p_:
                             port_list.append(str(p_))
                             print(f"[{str(i)}]:[{str(p_)}]")
+                            if '80' in str(p_):
+                                web_port = True
+                    if web_port == True:
+                        print("~[!]:[Looks like we have a webport]\n")
+                        print("~[!]:[Since we also have an IP addr, let's enumerate]\n")
+                        enum_ip = input("[?]:[Would you like to open the IP enum tool]:[y/N]: ")
+                        if "Y" in enum_ip.upper():
+                            try:
+                                self.IP_enum(target_, typ_, prof_dir)
+                            except Exception as e:
+                                print(f"[E]:[LAB_FIRE]:[IP_ENUM_BURNT]:[{str(e)}]")
+                                pass
                 else:
                     print("[CHECK THE PROFILE DIR TO SEE IF THERE'S ANY CLUE AS TO WHAT WENT WRONG]")
                 

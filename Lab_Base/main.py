@@ -78,10 +78,7 @@ class TestCase_0():
     def start_target_creation(self, f_name):
         try:
             set_tar_type = "_"
-            print("\n\
-                --------------------------------------------\n\
-                [Let's Get Some Basic Details on Your Target]\n\
-                --------------------------------------------\n")
+            print("\n--------------------------------------------\n[Let's Get Some Basic Details on Your Target]\n--------------------------------------------\n")
             while True:
                 #f_name  = input("[FOLDER_NAME]: ")
                 print(">> First, We need to know if your target is a URL or an IPv4.. \n (This will help with the order of operations)\n[.     ]")
@@ -107,20 +104,20 @@ class TestCase_0():
                     print("[.  ]")
                     time.sleep(1)
                     return self.main()
-                print("[YOU CAN REMOVE PORTS FOR BEING INVOLVED]")
-                port_  = input("[Re_PORT]: ")
-                print("[BUT WE PROBABLY WON'T, LoL]\n")
-                print("[NOW WE NEED TO PRE_SET SOME THINGS FOR MetaSploit]\n[(If you skip these they will have defaults...)]\n[...   ]")
-                l_host = input("[L_HOST]: ")
+                #print("[YOU CAN REMOVE PORTS FOR BEING INVOLVED]")
+                port_  = "" #input("[Re_PORT]: ")
+                #print("[BUT WE PROBABLY WON'T, LoL]\n")
+                #print("[NOW WE NEED TO PRE_SET SOME THINGS FOR MetaSploit]\n[(If you skip these they will have defaults...)]\n[...   ]")
+                l_host =  ""#input("[L_HOST]: ")
                 if not l_host:
                     l_host = "127.0.0.1"
-                l_port = input("[....  ]\n[L_PORT]: ")
+                l_port = "" #input("[....  ]\n[L_PORT]: ")
                 if not l_port:
                     l_port = "23"
                 print("\n[....  ]")
                 print("\n[SETTING_TAGRET]\n")
-                print("\n[..... ]")
                 prof_dir, IP_ = self.make_profile(type_, target_, port_, l_host, l_port, f_name)
+                print("\n[..... ]")
                 print("[TAR_DIR]:",str(prof_dir))
                 time.sleep(1.5)
                 print("[A QUICK 'nslookup <url>' TO GET AN IP ADDR :) ]")
@@ -197,9 +194,6 @@ class TestCase_0():
                     else:
                         print("[NO PORTS EXCLUDE]")
 
-
-
-
             # @ @ SCAN TARGET -> ENUMERATE THE BASICS
             print("[LET'S SEE WHAT WE CAN DO WITH OUR TARGET]")
             if "URL" in typ_:
@@ -222,7 +216,7 @@ class TestCase_0():
                 time.sleep(0.5)
 
 
-            print("[ALRIGHTY]\n~[LOOKS LIKE WE'RE READY FOR SOME ACTION]")
+            print("[OPENING LAB LOBBY]")
             time.sleep(1)
             print("[.  ]")
             time.sleep(0.2)
@@ -230,12 +224,12 @@ class TestCase_0():
             time.sleep(0.4)
             print("[...]")
             time.sleep(0.6)
-            print("[OPENING_LAB]")
-            time.sleep(0.8)
+            enter_ = input("[LAB OPEN]")
 
             # ! OFF TO THE LAB_OPTS ! #
             try:
                 self.DL.open_lab(tar_val, typ_, prof_dir)
+                return
             except Exception as e:
                 print(f"[OH_SHIT]:[LAB IS ON FIRE]:\n >> [{str(e)}]")
 
@@ -260,7 +254,7 @@ class TestCase_0():
                     print("[DUDE. ]  ^ (INT_ONLY)")
                     return
                 else:
-                    prof_name = str(prof_list[selected_prof])
+                    prof_name = str(prof_list[selected_prof-1])
                     print(f"[SELECTED TARGET PROFILE]:[>{str(prof_name)}<]")
                     print(f"[OPTIONS]:\
                             \n~[1]:[VIEW PROFILE]\
@@ -313,6 +307,7 @@ class TestCase_0():
                         if opt_ == 2:
                             print("[OPENING PROFILE]")
                             self.open_prof("profiles_/"+prof_name)
+                            return
 
                         # ? VIEW 
                         if opt_ == 1:
@@ -351,13 +346,27 @@ class TestCase_0():
                 try:
                     f_data = self.FM.read_file_str(prof_dir+f"/{f_name}", "\n")
                     for i, d_ in enumerate(f_data):
-                        print(f"[{str(i)}]:[{str(d_)}]")
+                        print(f"~> [{str(i)}]:[{str(d_)}]")
+                    show_ = input("[DISPLAY PROFILE_PAGE]:[y/N]: ")
+                    if "Y" not in str(show_):
+                        pass
+                    else:
+                        try:
+                            da_prof_ = self.FM.read_file(prof_dir+f"/{f_name}/profile_.csv", "\n")
+                            for i, p_d in enumerate(da_prof_):
+                                print(f"{str(p_d)}")
+                        except Exception as e:
+                            print(f"[E]:[SHOWING PROFILE]:[{str(e)}]")
+
                 except Exception as e:
                     print(f"[E]:[COLLECTING FILE DATA]:[{str(e)}]")
             if opt_ == 2:
                 self.open_prof(prof_dir)
+                return
             if opt_ == 3:
                 return
+            if not opt_:
+                self.display_prof(prof_dir)
         except Exception as e:
             print(f"[E]:[CLI]:[DISPLAY_PROF]:[>{str(e)}<]")
             return False
@@ -390,8 +399,12 @@ class TestCase_0():
         time.sleep(0.2)
         print("[WARNING]:[WEIRD GUY HUMOUR]\n")
         print("[(please keep in mind the tools used in this educational cli are really *LOUD*)]")
-        print("[(is it *NOT* recommended to use this for real world purpose)]")
-        print("[(even with VPN, tors, or whatever...)]\n")
+        print("[(is it *NOT* recommended to use this for real world purpose! Even with VPN, tors, or whatever...)]")
+        print("[(as the purpose of these this project is to learn, and also start automating for BugBounties.. :P)]")
+        print("[(fyi, we do know how to use licensing :P, so it's all at your own risk)]")
+        print("~[(For more info go to https://NixLyn.github.io)]")
+        print("~[(If you wish to contact us: Look for NixLyn on LinkedIn )]")
+        print("~[(We Are Looking For More Crazy People To Join The ShitShow :'D )]\n")
 
         try:
             while True:
@@ -416,12 +429,12 @@ class TestCase_0():
                 if opt_ == 3:
                     prof_name = input("[TARGET PROFILE NAME TO SEARCH]: ")
                     print("[SEARCHING...]")
-                    is_there = self.FM.check_dir("profiles_"+prof_dir)
+                    is_there = self.FM.check_dir("profiles_/"+prof_name)
                     if is_there == False:
                         print("[THAT TARGET PROFILE DOES NOT EXISTS]")
                     if is_there == True:
-                        print(f"[FOUND]:[{str(prof_dir)}]")
-                        self.display_prof("profiles_"+prof_dir)
+                        print(f"[FOUND]:[{str(prof_name)}]")
+                        self.display_prof("profiles_/"+prof_name)
 
 
         except Exception as e:

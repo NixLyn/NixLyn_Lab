@@ -96,12 +96,12 @@ class File_Man():
                 with open(file_name, "x") as wf:
                     wf.write(text)
                     wf.close()
-
                 print(f"[FILE_MADE]\n    [>{str(file_name)}<]")
         except Exception as e:
             print(f'[E]:[CREATING_NEW_FILE]:[{str(e)}]')
             pass
         if file_name:
+            # ? CHECK DATA TYPE
             if type(data) == str:
                 text = data
             elif type(data) == list:
@@ -109,6 +109,7 @@ class File_Man():
                     text += str(_) + str(delim)
             elif type(data) == str and len(data) == 0:
                 text = ""
+            # ? WRITE AS STR
             with open(file_name, rwm) as wf:
                 wf.write(text)
                 wf.close()

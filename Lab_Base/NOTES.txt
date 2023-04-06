@@ -1,0 +1,31 @@
+
+
+# MAIN:
+    ~List Profiles
+    ~Create Profile
+    ~Open Profile
+    ~Delete Profile
+    ~Clone Profile
+    ~Rename Profile
+
+
+# DaLab (Lobby):
+    ~Check Profile Status
+    ~Choose Room:
+        ->ReconRoom(active)
+        ->ReconRoom(pasive)
+        ->BruteBench
+        ->ExploitBench
+        ->FiringRange(VM Clone)
+
+
+# # ReconRoom(active):
+    ~> NetMap
+    ~> SubFinder
+        *Probe each SubDomain
+    ~> GoBuster
+    ~> 
+
+
+
+
